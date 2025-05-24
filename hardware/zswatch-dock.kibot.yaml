@@ -20,10 +20,10 @@ global:
   date_format: "%Y-%m-%d"
 
 outputs:
-  - name: "Naviagation results"
+  - name: "Navigation results"
     comment: "Create navigation results page"
     type: navigate_results
-    dir: "overview"
+    dir: overview
 
   - name: "Download datasheets"
     comment: "Download component datasheets"
@@ -36,6 +36,8 @@ outputs:
     type: ibom
     dir: docs
     category: "documentation"
+    options:
+      show_fabrication: true
 
   - name: "Print Schematics"
     comment: "Print schematic (PDF)"
@@ -98,7 +100,7 @@ outputs:
       use_aux_axis_as_origin: false
       subtract_mask_from_silk: true
       use_protel_extensions: false
-      gerber_precision: 4.5
+      gerber_precision: 4.6
       create_gerber_job_file: true
       use_gerber_x2_attributes: true
       use_gerber_net_attributes: false
@@ -107,6 +109,12 @@ outputs:
       - layer: F.Cu
         suffix: F_Cu
         description: Front copper
+      - layer: Inner1
+        suffix: Inner1
+        description: 'Inner cooper layer'
+      - layer: Inner2
+        suffix: Inner2
+        description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu
         description: Bottom copper
@@ -168,6 +176,7 @@ outputs:
       - layers:
         - layer: Edge.Cuts
         - layer: User.1
+        - layer: User.Drawings
         sheet: "PCB Specifications"
         monochrome: true
 
@@ -219,9 +228,9 @@ outputs:
           name: Ref Des
         - field: Build Quantity
           name: Quantity
-        - field: Mfr.
+        - field: manf
           name: Manufacturer
-        - field: Mfr. No.
+        - field: manf#
           name: Mfg Part#
         - field: Value
           name: Description / Value
@@ -231,10 +240,51 @@ outputs:
           name: Type
         - field: Footprint Side
           name: Side
+      distributors:
+        - Mouser
       xlsx:
+        kicost: true
+        specs: true
+        kicost_config: kicost_config.yaml
+        kicost_api_disable:
+          # Don't use KitSpace, we have keys
+          - KitSpace
         title: "%f BOM"
         hide_stats_info: false
         quote_all: true
+        logo_scale: 0.5
+
+  - name: "BOM for Mouser"
+    comment: "BOM for the Mouser BOM-Tool"
+    type: bom
+    dir: docs
+    category: "purchasing"
+    options:
+      format: XLSX
+      count_smd_tht: true
+      output: "BOM_Mouser.%x"
+      ref_separator: ','
+      columns:
+        - field: manf#
+          name: Manufacturer Part Number
+        - field: mouser#
+          name: Mouser Part Number
+        - field: manf#
+          name: Manufacturer Name
+        - field: Value
+          name: Description
+        - field: Build Quantity
+          name: Quantity
+      xlsx:
+        kicost: false
+        specs: false
+        title: "%f BOM"
+        hide_stats_info: true
+        hide_pcb_info: true
+        logo: false
+        col_colors: false
+        style: "classic"
+        title: ""
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
