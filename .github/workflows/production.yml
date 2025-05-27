@@ -1,6 +1,7 @@
 name: Production
 
 on:
+  pull_request:
   workflow_dispatch:
   pull_request_target:
     types:
@@ -10,18 +11,15 @@ jobs:
   generate:
     name: Generate production data
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
 
     env:
       MOUSER_KEY: ${{ secrets.MOUSER_KEY }}
-      KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/library
-
-    permissions:
-      contents: write
+      KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/Kicad-Lib
 
     strategy:
       matrix:
-        device_type: [Full, Reduced, Minimum]
+        device_type: [Full]
         include:
           - device_type: Full
             NewImage: 1
@@ -41,7 +39,7 @@ jobs:
 
       - name: Dependencies
         run: |
-          git clone https://github.com/Kampi/KiCad.git library
+          git clone https://github.com/Kampi/KiCad.git Kicad-Lib
 
       - name: Extract branch name
         shell: bash
@@ -56,7 +54,7 @@ jobs:
 
       - name: Generate files
         run: |
-          cd project
+          cd hardware
           kibot -vvvv -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }} 2> ../log/kibot.log
           mkdir ../production/${{ matrix.device_type }}/ordering
           mv ../production/PCBWay ../production/${{ matrix.device_type }}/ordering/PCBWay
