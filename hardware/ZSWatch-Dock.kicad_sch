@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ZSWatch Dock v2")
-		(date "2025-05-24")
-		(rev "0")
+		(date "2025-07-11")
+		(rev "1")
 		(company "github.com/ZSWatch/Dock-HW")
 	)
 	(lib_symbols
@@ -6109,7 +6109,7 @@
 		)
 		(uuid "54de0513-3a78-4be0-8813-7933d4d9e3ca")
 	)
-	(text "USB (To Client/ZSWatch)"
+	(text "USB (To Host/Computer)"
 		(exclude_from_sim no)
 		(at 138.43 19.05 0)
 		(effects
@@ -6162,7 +6162,7 @@
 		)
 		(uuid "9d854a2d-1d36-492c-b06c-979f2df72fe3")
 	)
-	(text "USB (To Host/Computer)"
+	(text "USB (To Client/ZSWatch)"
 		(exclude_from_sim no)
 		(at 222.25 19.05 0)
 		(effects
@@ -10776,6 +10776,28 @@
 			)
 		)
 	)
+	(global_label "V_{BUS}"
+		(shape input)
+		(at 81.28 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21ab253d-806f-4182-8ef7-40a2ef5e8cf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.7616 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESETn"
 		(shape output)
 		(at 35.56 147.32 0)
@@ -10996,6 +11018,28 @@
 			)
 		)
 	)
+	(global_label "V_{BUS}"
+		(shape input)
+		(at 24.13 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63756679-ee21-4ae5-a14c-9c0f68a4d68d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6116 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-1-D+"
 		(shape bidirectional)
 		(at 321.31 179.07 0)
@@ -11014,28 +11058,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_{Watch}"
-		(shape input)
-		(at 81.28 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d156ad7-66ad-4c41-a08a-c49cc9ee46d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3586 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11344,28 +11366,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_{Watch}"
-		(shape input)
-		(at 24.13 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbce61cb-bff4-440a-a92e-38c8baca2157")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2086 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21043,7 +21043,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0d651b-3763-462b-8932-7e31f9f4acba")
 		(property "Reference" "R104"
@@ -22006,7 +22006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9341b73-7b37-4ba5-9f30-fca183e81bce")
 		(property "Reference" "R103"
