@@ -2190,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3639,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14185,7 +14185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16020,7 +16020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19326,7 +19326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/62101021021.pdf"
 			(at -0.018 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19376,7 +19376,7 @@
 				)
 			)
 		)
-		(property "manf#" "623310235521"
+		(property "manf#" "62101021021"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19389,7 +19389,7 @@
 				)
 			)
 		)
-		(property "mouser#" "710-623310235521"
+		(property "mouser#" "710-62101021021"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19870,7 +19870,7 @@
 			(uuid "6f10e52e-c9d3-4b5c-88dd-1d10197fe967")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/623310235521.stp"
+		(model "${KICAD_LIBRARY}/3D/Wuerth Elektronik/62101021021.stp"
 			(offset
 				(xyz 0 0 1.5)
 			)
