@@ -14965,7 +14965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/62101021021.pdf"
 			(at 25.4 124.46 90)
 			(effects
 				(font
@@ -15001,7 +15001,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "623310235521"
+		(property "manf#" "62101021021"
 			(at 34.29 92.71 0)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "710-623310235521"
+		(property "mouser#" "710-62101021021"
 			(at 34.29 92.71 0)
 			(effects
 				(font
