@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ZSWatch Dock v2")
-		(date "2025-07-11")
-		(rev "1")
+		(date "2025-07-24")
+		(rev "2")
 		(company "github.com/ZSWatch/Dock-HW")
 	)
 	(lib_symbols
@@ -5498,7 +5498,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5507,7 +5510,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5515,8 +5518,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5524,7 +5527,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5532,8 +5535,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5541,7 +5544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5559,42 +5562,9 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -5606,7 +5576,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -5617,7 +5587,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -5629,7 +5599,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -5640,7 +5610,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -5658,7 +5628,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5668,42 +5638,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6339,12 +6273,6 @@
 		(uuid "348ab62e-5958-45bb-a320-9dbb32c261d6")
 	)
 	(junction
-		(at 33.02 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b3742bd-b9e0-43ab-b8a1-93195c5bb3b3")
-	)
-	(junction
 		(at 321.31 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6385,12 +6313,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51625d54-91b8-490e-8bbd-f04f6ffedc7b")
-	)
-	(junction
-		(at 31.75 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59865429-613d-43ed-84f0-9d8d71064fe3")
 	)
 	(junction
 		(at 218.44 201.93)
@@ -6702,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 147.32) (xy 31.75 147.32)
+			(xy 19.05 147.32) (xy 34.29 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6862,7 +6784,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 163.83) (xy 33.02 165.1)
+			(xy 34.29 162.56) (xy 34.29 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7399,16 +7321,6 @@
 			(type dash_dot)
 		)
 		(uuid "30a69994-aa99-4903-a694-5352989ef55d")
-	)
-	(wire
-		(pts
-			(xy 31.75 163.83) (xy 33.02 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30be5272-0a07-4aab-b4bf-78257146c5df")
 	)
 	(wire
 		(pts
@@ -8142,16 +8054,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 162.56) (xy 34.29 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f2e91a-a8dc-468b-b987-a6f94ce16ff5")
-	)
-	(wire
-		(pts
 			(xy 106.68 31.75) (xy 106.68 34.29)
 		)
 		(stroke
@@ -8259,16 +8161,6 @@
 			(type default)
 		)
 		(uuid "6998c1b9-2d57-443f-8cda-84427db0d3a3")
-	)
-	(wire
-		(pts
-			(xy 31.75 162.56) (xy 31.75 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a072208-b018-4fc0-b294-48cb925754db")
 	)
 	(polyline
 		(pts
@@ -8889,16 +8781,6 @@
 			(type default)
 		)
 		(uuid "91c91bad-dea7-4542-82de-d120a2d55020")
-	)
-	(wire
-		(pts
-			(xy 33.02 163.83) (xy 34.29 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9247b345-72e4-4901-af3a-7657586ae5c2")
 	)
 	(wire
 		(pts
@@ -9572,16 +9454,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 147.32) (xy 34.29 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89232b2-ec51-42f4-be66-2f98a446e87b")
-	)
-	(wire
-		(pts
 			(xy 320.04 200.66) (xy 341.63 200.66)
 		)
 		(stroke
@@ -9799,16 +9671,6 @@
 			(type default)
 		)
 		(uuid "ca195ffe-7dc3-4776-8f65-12337a4609ab")
-	)
-	(wire
-		(pts
-			(xy 31.75 147.32) (xy 31.75 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca21ccfa-7a0e-4e8e-8619-b2242e87c2f2")
 	)
 	(wire
 		(pts
@@ -11932,7 +11794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09434551-16fc-4a21-b17a-81388674a74b")
-		(property "Reference" "R109"
+		(property "Reference" "R110"
 			(at 245.11 146.0499 0)
 			(effects
 				(font
@@ -12022,7 +11884,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "R109")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -12464,7 +12326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c200b8c-3ebe-4081-95f6-00ee1128cd41")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0144"
 			(at 241.3 219.71 0)
 			(effects
 				(font
@@ -12514,7 +12376,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0146")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -12529,7 +12391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c20c719-cf43-4ee7-8865-dde6facce1be")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0141"
 			(at 227.33 102.87 0)
 			(effects
 				(font
@@ -12579,7 +12441,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0143")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -12595,7 +12457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12833754-409d-4665-953b-98fd0dcb1e02")
-		(property "Reference" "R110"
+		(property "Reference" "R109"
 			(at 228.6 182.8799 0)
 			(effects
 				(font
@@ -12685,7 +12547,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "R110")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -13939,7 +13801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cdd72ad-a89a-4fd5-8fab-f4e48681d39f")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0146"
 			(at 247.65 167.64 0)
 			(effects
 				(font
@@ -13989,7 +13851,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0141")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -14253,7 +14115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36a05e16-bb71-4f28-9a8c-6bba64d21975")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0142"
 			(at 228.6 219.71 0)
 			(effects
 				(font
@@ -14303,7 +14165,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0144")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -14320,7 +14182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36bed794-6e40-4e47-9740-f7cae821eab4")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -14370,7 +14232,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -14564,7 +14426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b575d01-9270-4f04-87c1-55b21790ffea")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0145"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -14614,7 +14476,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0140")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -15468,7 +15330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581af18d-981e-457f-a786-ab5c6d2a7a6a")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0140"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -15518,7 +15380,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0142")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -19102,6 +18964,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 157.48 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a8868f-d5e8-46f6-a3fb-15655b890134")
+		(property "Reference" "S101"
+			(at 35.56 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Reset"
+			(at 35.56 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Wuerth:WS-TASV-6x6"
+			(at 29.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/430182050816.pdf"
+			(at 29.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Wurth Elektronik"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "430182050816"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-430182050816"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0464ed5e-296c-43d2-a4e8-2a2a15b26dd4")
+		)
+		(pin "2"
+			(uuid "d8c9f5b8-1619-4ce2-835a-ab676e4f9e9d")
+		)
+		(instances
+			(project "ZSWatch-Dock"
+				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
+					(reference "S101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 341.63 59.69 270)
 		(mirror x)
@@ -19112,7 +19081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d2b7ff-8fc3-420a-bc41-761ca0b93fc9")
-		(property "Reference" "SW102"
+		(property "Reference" "SW101"
 			(at 345.44 58.4199 90)
 			(effects
 				(font
@@ -19214,7 +19183,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "SW102")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -19296,7 +19265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a93909ea-b06f-4fed-b871-a7fa8848f4d0")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0143"
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -19346,7 +19315,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0145")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -20056,7 +20025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b98378d5-a627-49c4-9d9c-9169be3c4a9d")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0104"
 			(at 34.29 115.57 0)
 			(effects
 				(font
@@ -20106,7 +20075,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0105")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -21486,15 +21455,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 165.1 0)
+		(at 34.29 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e7d5a8c7-450b-4f5c-bfb7-45f5dbf83dae")
-		(property "Reference" "#PWR0103"
-			(at 33.02 171.45 0)
+		(property "Reference" "#PWR0105"
+			(at 34.29 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21503,7 +21472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 170.18 0)
+			(at 34.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21511,7 +21480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 165.1 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21520,7 +21489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 165.1 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21529,7 +21498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 165.1 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21543,119 +21512,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 34.29 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e829f9c9-986e-4478-9b45-e54fe10eb9fe")
-		(property "Reference" "SW101"
-			(at 35.56 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Reset"
-			(at 35.56 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Wuerth:WS-TASV-6x6"
-			(at 26.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ckswitches.com/media/1424/pcm.pdf"
-			(at 26.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 34.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Wurth Elektronik"
-			(at 34.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "430182095816"
-			(at 34.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "710-430182095816"
-			(at 34.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 34.29 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "405ed2e3-c75e-409d-ba46-1af9be604e5a")
-		)
-		(pin "1"
-			(uuid "affe77b3-a93f-491b-955f-e4a84a08d47e")
-		)
-		(pin "3"
-			(uuid "056634bd-0237-4fb0-8d89-1e4a7a114af3")
-		)
-		(pin "4"
-			(uuid "734e06f8-523f-480b-ac6f-c67ab072a88f")
-		)
-		(instances
-			(project ""
-				(path "/74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e"
-					(reference "SW101")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
