@@ -11796,7 +11796,7 @@
 				)
 			)
 		)
-		(property "Value" "NTS0104PW,118"
+		(property "Value" "NL3V4T244MU2TAG-Q"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11808,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nl3v4t244-d.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/NL3V4T244_D-3579604.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11845,7 +11845,7 @@
 				)
 			)
 		)
-		(property "manf" "NXP Semiconductors"
+		(property "manf" "onsemi"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11858,7 +11858,7 @@
 				)
 			)
 		)
-		(property "manf#" "NTS0104PW,118"
+		(property "manf#" "NL3V4T244MU2TAG-Q"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11871,7 +11871,7 @@
 				)
 			)
 		)
-		(property "mouser#" "771-NTS0104PW118"
+		(property "mouser#" "863-NL3V4T244MU2TAG-Q"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
