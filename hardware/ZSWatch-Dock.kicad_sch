@@ -12627,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "3k3"
 			(at 186.69 190.5 90)
 			(effects
 				(font
@@ -12680,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW06031K00FKEA"
+		(property "manf#" "CRCW06033K300FKEA"
 			(at 186.69 193.04 0)
 			(effects
 				(font
@@ -12689,7 +12689,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW06031K00FKEA"
+		(property "mouser#" "71-CRCW06033K300FKEA"
 			(at 186.69 193.04 0)
 			(effects
 				(font
@@ -19071,7 +19071,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d2b7ff-8fc3-420a-bc41-761ca0b93fc9")
 		(property "Reference" "SW101"
-			(at 345.44 58.4199 90)
+			(at 346.71 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19080,7 @@
 			)
 		)
 		(property "Value" "Charge"
-			(at 345.44 60.9599 90)
+			(at 346.71 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ckswitches.com/media/1424/pcm.pdf"
 			(at 341.63 59.69 0)
 			(effects
 				(font
