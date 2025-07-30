@@ -37,9 +37,9 @@
         "other_text_thickness": 0.12,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.25,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,6 @@
         "silk_text_thickness": 0.12,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
           "min_clearance": 0.125
         }
       },
@@ -114,7 +113,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "error",
+        "track_dangling": "warning",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -123,11 +122,7 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": true,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.125,
         "min_connection": 0.0,
@@ -145,11 +140,7 @@
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.1016,
         "solder_mask_to_copper_clearance": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -198,7 +189,6 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
         0.2,
         0.3,
         0.4
@@ -243,8 +233,7 @@
           "drill": 0.4
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -455,7 +444,7 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -514,14 +503,64 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Display",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 72, 72)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "QSPI",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 58, 6)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SWD",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -532,14 +571,13 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgb(184, 9, 255)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -550,16 +588,32 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.17,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgb(255, 160, 73)",
         "track_width": 0.17,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Vibration-Motor",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(128, 77, 0)",
+        "track_width": 0.2,
         "via_diameter": 0.45,
         "via_drill": 0.25,
         "wire_width": 6
@@ -572,6 +626,10 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "QSPI",
+        "pattern": "QSPI-*"
+      },
+      {
         "netclass": "USB",
         "pattern": "*USB-*"
       },
@@ -580,20 +638,36 @@
         "pattern": "SWD*"
       },
       {
+        "netclass": "Display",
+        "pattern": "TOUCH*"
+      },
+      {
+        "netclass": "Display",
+        "pattern": "DISPLAY*"
+      },
+      {
         "netclass": "UART",
         "pattern": "*xD"
       },
       {
-        "netclass": "USB",
-        "pattern": "*D_{2}*"
+        "netclass": "I2C",
+        "pattern": "*SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL"
+      },
+      {
+        "netclass": "Vibration-Motor",
+        "pattern": "*VIB*"
       },
       {
         "netclass": "USB",
-        "pattern": "/D+"
+        "pattern": "/MCU/D+"
       },
       {
         "netclass": "USB",
-        "pattern": "/D-"
+        "pattern": "/MCU/D-"
       }
     ]
   },
@@ -602,14 +676,14 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../production/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ZSWatch-Dock.step",
+      "step": "../cad/PCB.stp",
       "svg": "",
-      "vrml": ""
+      "vrml": "../cad/ZSWatch.wrl"
     },
-    "page_layout_descr_file": "kicad-embed://default.kicad_wks"
+    "page_layout_descr_file": "KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -642,27 +716,27 @@
         },
         {
           "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Beschreibung",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": false
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         },
         {
           "group_by": false,
@@ -674,7 +748,7 @@
           "group_by": false,
           "label": "CONFIG",
           "name": "CONFIG",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -690,14 +764,20 @@
         },
         {
           "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "mouser#",
           "name": "mouser#",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "digikey#",
+          "name": "digikey#",
           "show": false
         }
       ],
@@ -706,7 +786,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "mouser#"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -721,14 +801,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -736,19 +816,9 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
-    "page_layout_descr_file": "default.kicad_wks",
-    "plot_directory": "../docs/With J-Link/",
+    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_GIT.kicad_wks",
+    "plot_directory": "",
     "space_save_all_events": true,
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -760,9 +830,85 @@
   },
   "sheets": [
     [
-      "74a2d9cd-6788-49ca-9d1d-a5e7b3102f3e",
+      "d5742f03-3b1a-42e5-a384-018bd4b919aa",
       "Root"
+    ],
+    [
+      "82da9dbf-ba38-4d08-ba35-a220fa2963b1",
+      "Block Diagram"
+    ],
+    [
+      "c5103ceb-5325-4a84-a025-9638a412984e",
+      "Project Architecture"
+    ],
+    [
+      "82af773f-8c39-43b9-baa2-3658da6c8bb2",
+      "Main"
+    ],
+    [
+      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
+      "Power - Sequencing"
+    ],
+    [
+      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
+      "Revision History"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "ASSEMBLY_NOTES": "",
+    "BOARD_NAME": "Watch-DK",
+    "COMPANY": "null",
+    "DESIGNER": "Daniel Kampert",
+    "FABRICATION_NOTES": "",
+    "GIT_HASH_PCB": "",
+    "GIT_HASH_SCH": "",
+    "GIT_URL": "",
+    "PROJECT_NAME": "Watch-DK",
+    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_DATE": "06-Jun-2025",
+    "RELEASE_DATE_NUM": "2025-06-06",
+    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "REVISION": "(Unreleased)",
+    "SHEET_NAME_1": "Cover Page",
+    "SHEET_NAME_10": "......................................",
+    "SHEET_NAME_11": "......................................",
+    "SHEET_NAME_12": "......................................",
+    "SHEET_NAME_13": "......................................",
+    "SHEET_NAME_14": "......................................",
+    "SHEET_NAME_15": "......................................",
+    "SHEET_NAME_16": "......................................",
+    "SHEET_NAME_17": "......................................",
+    "SHEET_NAME_18": "......................................",
+    "SHEET_NAME_19": "......................................",
+    "SHEET_NAME_2": "Block Diagram",
+    "SHEET_NAME_20": "......................................",
+    "SHEET_NAME_21": "......................................",
+    "SHEET_NAME_22": "......................................",
+    "SHEET_NAME_23": "......................................",
+    "SHEET_NAME_24": "......................................",
+    "SHEET_NAME_25": "......................................",
+    "SHEET_NAME_26": "......................................",
+    "SHEET_NAME_27": "......................................",
+    "SHEET_NAME_28": "......................................",
+    "SHEET_NAME_29": "......................................",
+    "SHEET_NAME_3": "Project Architecture",
+    "SHEET_NAME_30": "......................................",
+    "SHEET_NAME_31": "......................................",
+    "SHEET_NAME_32": "......................................",
+    "SHEET_NAME_33": "......................................",
+    "SHEET_NAME_34": "......................................",
+    "SHEET_NAME_35": "......................................",
+    "SHEET_NAME_36": "......................................",
+    "SHEET_NAME_37": "......................................",
+    "SHEET_NAME_38": "......................................",
+    "SHEET_NAME_39": "......................................",
+    "SHEET_NAME_4": "Main",
+    "SHEET_NAME_40": "......................................",
+    "SHEET_NAME_5": "Power - Sequencing",
+    "SHEET_NAME_6": "Revision History",
+    "SHEET_NAME_7": "......................................",
+    "SHEET_NAME_8": "......................................",
+    "SHEET_NAME_9": "......................................",
+    "VARIANT": "PRELIMINARY"
+  }
 }
