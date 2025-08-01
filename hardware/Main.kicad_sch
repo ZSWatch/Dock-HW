@@ -3833,24 +3833,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr." "Nexperia"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. No." "BSH205G2AR"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
@@ -6381,6 +6363,12 @@
 		(uuid "0794d1f3-8a9f-4f22-a39b-ba67b54c1050")
 	)
 	(junction
+		(at 339.09 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0797357c-8513-49e6-80cb-c88fbbee532e")
+	)
+	(junction
 		(at 119.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6475,12 +6463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ab1fa2-97c8-45c1-b58e-ce249941b743")
-	)
-	(junction
-		(at 295.91 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4913a8c0-b78f-4d3f-adf0-4db420699c77")
 	)
 	(junction
 		(at 252.73 54.61)
@@ -6805,6 +6787,10 @@
 	(no_connect
 		(at 166.37 72.39)
 		(uuid "b4bd9d25-c6b9-49c8-a081-91fa2eae50f8")
+	)
+	(no_connect
+		(at 344.17 54.61)
+		(uuid "c0fe3ae9-e130-4376-86e6-fcd5695b0ad8")
 	)
 	(no_connect
 		(at 166.37 77.47)
@@ -7694,6 +7680,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 38.1) (xy 297.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392d4077-bfbd-46a2-9339-f7c6a13042fa")
+	)
+	(wire
+		(pts
 			(xy 125.73 68.58) (xy 125.73 69.85)
 		)
 		(stroke
@@ -8554,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 39.37) (xy 339.09 54.61)
+			(xy 339.09 39.37) (xy 339.09 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8751,16 +8747,6 @@
 			(type default)
 		)
 		(uuid "794c2155-28ce-4302-a981-a8ed20ed19ab")
-	)
-	(wire
-		(pts
-			(xy 344.17 54.61) (xy 344.17 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bae6859-e1b6-4d96-a58c-715311c9f7d3")
 	)
 	(wire
 		(pts
@@ -9044,16 +9030,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 50.8) (xy 345.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ceed8c-1f32-4c7a-8875-8279b2c3c03c")
-	)
-	(wire
-		(pts
 			(xy 331.47 203.2) (xy 331.47 208.28)
 		)
 		(stroke
@@ -9061,16 +9037,6 @@
 			(type default)
 		)
 		(uuid "8aae7cad-5b8a-4154-85ff-7a63c2d675f3")
-	)
-	(wire
-		(pts
-			(xy 250.19 29.21) (xy 295.91 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e93a796-11ea-4cc9-b188-d9b32db0fa75")
 	)
 	(wire
 		(pts
@@ -9424,6 +9390,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 38.1) (xy 295.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a647c7df-df25-4ceb-9d5c-0fd1f74b4e74")
+	)
+	(wire
+		(pts
 			(xy 339.09 36.83) (xy 339.09 39.37)
 		)
 		(stroke
@@ -9564,7 +9540,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 29.21) (xy 321.31 29.21)
+			(xy 250.19 29.21) (xy 321.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9871,6 +9847,16 @@
 			(type default)
 		)
 		(uuid "bb22c4e5-18e7-425a-adbb-c4a653a187e5")
+	)
+	(wire
+		(pts
+			(xy 339.09 50.8) (xy 345.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd358c03-7837-4cf8-987c-6eb9e859e48c")
 	)
 	(wire
 		(pts
@@ -10624,16 +10610,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 29.21) (xy 295.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf32791-d6a1-49d4-9c18-9135db5d38a1")
-	)
-	(wire
-		(pts
 			(xy 29.21 72.39) (xy 40.64 72.39)
 		)
 		(stroke
@@ -10811,6 +10787,16 @@
 			(type default)
 		)
 		(uuid "f671cdf3-7208-47b9-ab0e-58ba9f4cc1b0")
+	)
+	(wire
+		(pts
+			(xy 339.09 50.8) (xy 339.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a8cb86-ecd6-4f25-bc55-99734318b755")
 	)
 	(wire
 		(pts
@@ -11698,6 +11684,28 @@
 			)
 		)
 	)
+	(global_label "V_{Watch}"
+		(shape input)
+		(at 297.18 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee8a44bc-f3bc-49d8-b104-466eb682bf29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.1014 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 20.32 212.09 0)
@@ -12130,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, SOT-23"
 			(at 339.09 29.21 0)
 			(effects
 				(font
@@ -12158,6 +12166,15 @@
 			)
 		)
 		(property "mouser#" "771-BSH205G2AR"
+			(at 339.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
 			(at 339.09 29.21 0)
 			(effects
 				(font

@@ -12,9 +12,9 @@
 	)
 	(lib_symbols)
 	(arc
-		(start 33.02 33.02)
-		(mid 33.7639 31.2239)
-		(end 35.56 30.48)
+		(start 115.57 74.93)
+		(mid 116.3139 73.1339)
+		(end 118.11 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -25,9 +25,9 @@
 		(uuid 1f986cde-39dc-4256-b7ab-1b87b0450a5a)
 	)
 	(arc
-		(start 35.56 60.96)
-		(mid 33.7698 60.2102)
-		(end 33.02 58.42)
+		(start 118.11 102.87)
+		(mid 116.3198 102.1202)
+		(end 115.57 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -38,9 +38,9 @@
 		(uuid 475eac8c-bcd6-4178-93e0-d59cefc80fd7)
 	)
 	(arc
-		(start 31.75 45.72)
-		(mid 32.6451 46.0949)
-		(end 33.02 46.99)
+		(start 114.3 87.63)
+		(mid 115.1951 88.0049)
+		(end 115.57 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -51,9 +51,9 @@
 		(uuid 602f2a6b-d9f6-47eb-afd4-baba9ea1f008)
 	)
 	(arc
-		(start 33.02 44.45)
-		(mid 32.6451 45.3451)
-		(end 31.75 45.72)
+		(start 115.57 86.36)
+		(mid 115.1951 87.2551)
+		(end 114.3 87.63)
 		(stroke
 			(width 0)
 			(type default)
@@ -65,7 +65,7 @@
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 57.785 74.93 0)
+		(at 140.335 116.84 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -77,32 +77,9 @@
 		)
 		(uuid "edcfc842-3b0d-4b1a-9bde-92f723be0a77")
 	)
-	(text_box "I2C addresses\n----------------\nBMP581			0x46\nRV-8263-C8		0x51\nAPDS-9306-065	0x52\nBMI270			0x68\nnPM1300			0x6B\nLIS2MDLTR		0x1E"
-		(exclude_from_sim no)
-		(at 247.65 125.73 0)
-		(size 35.56 29.21)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4cfd49f0-cf3d-448e-b835-b27d54dce44f")
-	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 13.97 43.18 0)
+		(at 96.52 85.09 0)
 		(size 17.145 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -125,7 +102,7 @@
 	)
 	(polyline
 		(pts
-			(xy 33.02 46.99) (xy 33.02 58.42)
+			(xy 115.57 88.9) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -135,7 +112,7 @@
 	)
 	(polyline
 		(pts
-			(xy 33.02 44.45) (xy 33.02 33.02)
+			(xy 115.57 86.36) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +121,7 @@
 		(uuid "efee73f9-8b99-4dd0-a783-7dbc49dacb47")
 	)
 	(sheet
-		(at 43.18 17.78)
+		(at 125.73 59.69)
 		(size 38.1 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +137,7 @@
 		)
 		(uuid "82af773f-8c39-43b9-baa2-3658da6c8bb2")
 		(property "Sheetname" "Main"
-			(at 43.18 17.0684 0)
+			(at 125.73 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,172 +146,12 @@
 			)
 		)
 		(property "Sheetfile" "Main.kicad_sch"
-			(at 43.18 76.7846 0)
+			(at 125.73 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 81.28 62.23 0)
-			(uuid "1eba675f-19b6-4eba-8fe6-90deccba51be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCL" input
-			(at 81.28 59.69 0)
-			(uuid "bb337551-8166-4fd6-a499-6bab8619b51a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LIS2MDL-INT" output
-			(at 81.28 44.45 0)
-			(uuid "f9446bb0-ec0b-453a-b94f-c3fef08131bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BMI270-INT" output
-			(at 81.28 41.91 0)
-			(uuid "de9f7396-b2c2-41ba-b5b4-bf10ea78a8a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIC-EN" input
-			(at 81.28 30.48 0)
-			(uuid "33014fe4-8fc2-4a90-8488-3a78a8f94939")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIC-CLK" input
-			(at 81.28 35.56 0)
-			(uuid "bd487bc6-b4ba-4b0a-a3b2-8e2efd663997")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIC-DATA" output
-			(at 81.28 33.02 0)
-			(uuid "da52275d-b12c-474d-9e34-8bab37713965")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Buttons" output
-			(at 81.28 66.04 0)
-			(uuid "0045687a-593f-4c61-91f3-4bbebd17a337")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VBAT" input
-			(at 81.28 22.86 0)
-			(uuid "3ffb7511-678d-4b0c-8533-869f86755930")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSYS" input
-			(at 81.28 25.4 0)
-			(uuid "4e5961b0-ce96-4f62-8ff7-f606f1f01d2a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{RTC-INT}" output
-			(at 81.28 46.99 0)
-			(uuid "1b89b6ba-fdaa-4042-99a5-381aa29b58e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIB-EN" input
-			(at 81.28 53.34 0)
-			(uuid "c06a7bb5-06bd-4fd2-9e16-ee0bf75a1651")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIB-PWM" input
-			(at 81.28 55.88 0)
-			(uuid "4df49e2f-f788-4101-bb1f-064313bba0b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCLK" input
-			(at 81.28 69.85 0)
-			(uuid "f606846e-30e5-4f58-89da-18bf98f13c82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WS" output
-			(at 81.28 72.39 0)
-			(uuid "aff0a317-18e8-472f-bf48-839c4ad6be5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Data" output
-			(at 81.28 74.93 0)
-			(uuid "dbef254f-68b8-4eac-a0cc-f1fdad27723e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
