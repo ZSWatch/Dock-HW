@@ -12327,7 +12327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75020.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/588/LG_L29K_EN-3419084.pdf"
 			(at 181.61 200.66 0)
 			(effects
 				(font
@@ -12354,7 +12354,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Wurth Elektronik"
+		(property "manf" "ams OSRAM"
 			(at 181.61 200.66 0)
 			(effects
 				(font
@@ -12363,7 +12363,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "150060GS75020"
+		(property "manf#" "LG L29K-G2J1-24"
 			(at 181.61 200.66 0)
 			(effects
 				(font
@@ -12372,7 +12372,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "710-150060GS75020"
+		(property "mouser#" "720-LGL29KG2J124Z"
 			(at 181.61 200.66 0)
 			(effects
 				(font
