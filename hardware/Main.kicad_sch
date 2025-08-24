@@ -23449,7 +23449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
+		(property "Footprint" "Amphenol:10133475-10001LF"
 			(at 267.97 54.61 0)
 			(effects
 				(font
@@ -23458,7 +23458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf"
 			(at 267.97 54.61 0)
 			(effects
 				(font
@@ -23467,7 +23467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+		(property "Description" "USB Full-Featured Type-C edge connector"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -23494,7 +23494,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "12401610E4-2A"
+		(property "manf#" "10133475-10001LF"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -23503,7 +23503,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "523-12401610E4#2A"
+		(property "mouser#" "523-10133475-10001LF"
 			(at 264.16 54.61 0)
 			(effects
 				(font
