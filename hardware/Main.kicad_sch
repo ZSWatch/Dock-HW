@@ -3041,6 +3041,593 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Logic_LevelTranslator:TXB0304RUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TXB0304RUT"
+				(at 3.81 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Texas_R-PUQFN-N12"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0304.pdf"
+				(at 2.794 2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*R*PUQFN*N12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TXB0304RUT_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 7.493) (xy -2.286 8.509) (xy -0.508 8.509)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 2.413) (xy -2.286 3.429) (xy -0.508 3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.667) (xy -2.286 -1.651) (xy -0.508 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -7.747) (xy -2.286 -6.731) (xy -0.508 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 6.477) (xy -2.286 6.477) (xy -2.286 7.493) (xy -4.318 7.493)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 6.477) (xy 1.27 7.493) (xy 1.27 5.461) (xy -0.508 6.477)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.397) (xy -2.286 1.397) (xy -2.286 2.413) (xy -4.064 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.397) (xy 1.27 2.413) (xy 1.27 0.381) (xy -0.508 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -3.683) (xy -2.286 -3.683) (xy -2.286 -2.667) (xy -4.064 -2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -3.683) (xy 1.27 -2.667) (xy 1.27 -4.699) (xy -0.508 -3.683)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -8.763) (xy -2.286 -8.763) (xy -2.286 -7.747) (xy -4.064 -7.747)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -8.763) (xy 1.27 -7.747) (xy 1.27 -9.779) (xy -0.508 -8.763)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 8.509) (xy -0.508 7.493) (xy -0.508 9.525) (xy 1.27 8.509)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 8.509) (xy 3.048 8.509) (xy 3.048 7.493) (xy 4.318 7.493)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.429) (xy -0.508 2.413) (xy -0.508 4.445) (xy 1.27 3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.429) (xy 3.048 3.429) (xy 3.048 2.413) (xy 4.318 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.651) (xy -0.508 -2.667) (xy -0.508 -0.635) (xy 1.27 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.651) (xy 3.048 -1.651) (xy 3.048 -2.667) (xy 4.318 -2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.731) (xy -0.508 -7.747) (xy -0.508 -5.715) (xy 1.27 -6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.731) (xy 3.048 -6.731) (xy 3.048 -7.747) (xy 4.318 -7.747)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 7.493) (xy 3.048 6.477) (xy 1.27 6.477)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.413) (xy 3.048 1.397) (xy 1.27 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.667) (xy 3.048 -3.683) (xy 1.27 -3.683)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -7.747) (xy 3.048 -8.763) (xy 1.27 -8.763)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TXB0304RUT_1_1"
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Microchip_Kampi:USB2512BT"
 			(pin_names
 				(offset 1.016)
@@ -4066,324 +4653,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ON Semiconductor:NL3V4T244 (TSSOP14)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at -8.89 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nl3v4t244-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NL3V4T244 (TSSOP14)_0_0"
-				(rectangle
-					(start -10.16 8.89)
-					(end 10.16 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NL3V4T244 (TSSOP14)_1_0"
-				(pin input line
-					(at -12.7 6.35 0)
-					(length 2.54)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 11.43 270)
-					(length 2.54)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 11.43 270)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 6.35 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6192,7 +6461,7 @@
 	)
 	(text "90 Ohm ± 15%"
 		(exclude_from_sim no)
-		(at 198.12 69.215 0)
+		(at 227.33 69.215 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6213,7 +6482,7 @@
 	)
 	(text "USB (To Host/Computer)"
 		(exclude_from_sim no)
-		(at 138.43 19.05 0)
+		(at 167.64 19.05 0)
 		(effects
 			(font
 				(size 3 3)
@@ -6235,7 +6504,7 @@
 	)
 	(text "90 Ohm ± 15%"
 		(exclude_from_sim no)
-		(at 302.26 69.215 0)
+		(at 331.47 69.215 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6266,7 +6535,7 @@
 	)
 	(text "USB (To Client/ZSWatch)"
 		(exclude_from_sim no)
-		(at 222.25 19.05 0)
+		(at 251.46 19.05 0)
 		(effects
 			(font
 				(size 3 3)
@@ -6306,6 +6575,17 @@
 		)
 		(uuid "d3a57398-2d70-4420-b386-b18da5cb08a7")
 	)
+	(text "Swap these resistors\nwhen using the \nTXBN variant!"
+		(exclude_from_sim no)
+		(at 139.065 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d71dc37b-7163-4542-9263-8243ffbf8542")
+	)
 	(text "Reset"
 		(exclude_from_sim no)
 		(at 16.51 203.2 0)
@@ -6341,7 +6621,7 @@
 	)
 	(text "1V8 domain"
 		(exclude_from_sim no)
-		(at 274.32 69.85 0)
+		(at 303.53 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6357,22 +6637,16 @@
 		(uuid "026a0aa9-b3c1-457c-acd6-2384c8195d96")
 	)
 	(junction
-		(at 349.25 29.21)
+		(at 378.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0794d1f3-8a9f-4f22-a39b-ba67b54c1050")
 	)
 	(junction
-		(at 339.09 50.8)
+		(at 368.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0797357c-8513-49e6-80cb-c88fbbee532e")
-	)
-	(junction
-		(at 119.38 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099d0299-1cba-4c68-8bdc-4acb90c96d82")
 	)
 	(junction
 		(at 91.44 212.09)
@@ -6393,28 +6667,28 @@
 		(uuid "0e5c38e7-e069-4581-8e91-1d6d38d3d4b9")
 	)
 	(junction
-		(at 86.36 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc1674b-0087-4e33-8830-603389a7866d")
-	)
-	(junction
-		(at 91.44 85.09)
+		(at 91.44 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fe0ba15-0d73-4a44-b52e-ede31918768e")
 	)
 	(junction
-		(at 283.21 90.17)
+		(at 312.42 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a8d561-c4dc-4c67-badc-8058e70a83bc")
 	)
 	(junction
-		(at 251.46 86.36)
+		(at 280.67 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fa970fd-d449-4c0b-bb16-e39be4ee4196")
+	)
+	(junction
+		(at 88.9 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2198179b-57a5-4419-9688-37f09068dd82")
 	)
 	(junction
 		(at 127 29.21)
@@ -6423,7 +6697,7 @@
 		(uuid "22db329a-e2bf-4fd2-8eac-324241a7c273")
 	)
 	(junction
-		(at 100.33 60.96)
+		(at 87.63 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26a79c55-c758-4848-a500-5c40500cfcaa")
@@ -6459,13 +6733,13 @@
 		(uuid "348ab62e-5958-45bb-a320-9dbb32c261d6")
 	)
 	(junction
-		(at 321.31 29.21)
+		(at 350.52 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ab1fa2-97c8-45c1-b58e-ce249941b743")
 	)
 	(junction
-		(at 252.73 54.61)
+		(at 281.94 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aeb4612-8258-4a2e-b354-4820c6a3a847")
@@ -6477,7 +6751,7 @@
 		(uuid "50089a1b-5682-4c97-b564-1dee108e78f1")
 	)
 	(junction
-		(at 339.09 39.37)
+		(at 368.3 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50be468a-81c1-4402-a62e-408eeb163b81")
@@ -6519,25 +6793,31 @@
 		(uuid "67503d0a-e276-4742-9a3e-b9051b033f9a")
 	)
 	(junction
-		(at 120.65 90.17)
+		(at 121.92 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e2b825b-813b-4533-af58-5695fbdb9381")
+		(uuid "6d2c29ec-1d5d-43e1-8975-ccd63d73094f")
 	)
 	(junction
-		(at 179.07 93.98)
+		(at 208.28 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "714c3726-57b7-43a0-aca9-e0ae40bcf655")
 	)
 	(junction
-		(at 255.27 57.15)
+		(at 124.46 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7948a61f-9df4-4904-817c-0f9d6a956e58")
+	)
+	(junction
+		(at 284.48 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a84cdef-9c59-43a6-befd-d7762ac27ac7")
 	)
 	(junction
-		(at 254 77.47)
+		(at 283.21 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af3e441-e605-431f-a651-3d54e7cc60e6")
@@ -6567,7 +6847,7 @@
 		(uuid "8efe7172-4da2-495b-87b7-e858ffd94ff0")
 	)
 	(junction
-		(at 365.76 29.21)
+		(at 394.97 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91a7fd7a-bfae-40bf-b4fb-4991e5687193")
@@ -6583,12 +6863,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf5611f-33ff-4681-82ab-d50634cc0020")
-	)
-	(junction
-		(at 121.92 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1c563f0-2524-4d32-9afb-ca68f77de3ee")
 	)
 	(junction
 		(at 204.47 207.01)
@@ -6609,7 +6883,7 @@
 		(uuid "bd0f209f-eb35-4a4b-9e8e-dcfe2de77f00")
 	)
 	(junction
-		(at 251.46 48.26)
+		(at 280.67 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf0e7557-8771-4180-957c-85266523e9de")
@@ -6627,7 +6901,7 @@
 		(uuid "cb34a5d4-9e8c-4ac7-982d-115a936d4956")
 	)
 	(junction
-		(at 251.46 43.18)
+		(at 280.67 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43bf1b1-f501-409a-a425-32c7adff5c7e")
@@ -6639,19 +6913,19 @@
 		(uuid "d46922b5-befa-4ca2-a565-3e1abeff5942")
 	)
 	(junction
-		(at 88.9 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7d31dde-54ba-4acd-a390-d36c83013847")
-	)
-	(junction
 		(at 91.44 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db191e97-bf3c-4fc4-9ca0-b1e722cc3cfe")
 	)
 	(junction
-		(at 167.64 43.18)
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e45ef5c2-ebf3-4cf2-b5d6-453fd9855e23")
+	)
+	(junction
+		(at 196.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e86911e0-c800-4bcd-8976-ee2639a485ce")
@@ -6661,6 +6935,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e87d0486-7717-4400-adbc-aa936cedcf6f")
+	)
+	(junction
+		(at 86.36 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee260666-c605-4e83-8475-217aece22d1a")
 	)
 	(junction
 		(at 30.48 69.85)
@@ -6681,7 +6961,7 @@
 		(uuid "f641bdc3-42ea-4402-b7eb-a9010e7f4b3a")
 	)
 	(junction
-		(at 251.46 64.77)
+		(at 280.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f914aaf0-fdc7-4cc6-b480-3d0fa60900f0")
@@ -6699,29 +6979,29 @@
 		(uuid "fa530a25-1360-4a2a-9f4e-96e26b1fb52d")
 	)
 	(junction
-		(at 328.93 29.21)
+		(at 358.14 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb2c2a75-14d1-4b87-b3aa-8bf3a4abfb50")
 	)
 	(junction
-		(at 167.64 48.26)
+		(at 196.85 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc1b42b-ba10-4e84-a732-765f298ee055")
 	)
 	(junction
-		(at 191.77 29.21)
+		(at 220.98 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd8c04b7-385f-4ed1-b938-4c0f296a55c4")
 	)
 	(no_connect
-		(at 166.37 80.01)
+		(at 195.58 80.01)
 		(uuid "0bdddcdb-5bc0-4bf9-b34c-4dbf62a54927")
 	)
 	(no_connect
-		(at 166.37 62.23)
+		(at 195.58 62.23)
 		(uuid "1a1a3d65-39fa-4cb5-a4ef-a36f07301064")
 	)
 	(no_connect
@@ -6729,11 +7009,11 @@
 		(uuid "232f5ad1-f4ab-4b99-a06c-6e68b67608c2")
 	)
 	(no_connect
-		(at 166.37 64.77)
+		(at 195.58 64.77)
 		(uuid "241f7900-f035-43e0-8ba2-029b28ce7880")
 	)
 	(no_connect
-		(at 166.37 69.85)
+		(at 195.58 69.85)
 		(uuid "324d9de0-73e5-4364-976b-e541791d5cb6")
 	)
 	(no_connect
@@ -6745,7 +7025,7 @@
 		(uuid "48097dfc-2bab-42da-98bb-708b68370ba1")
 	)
 	(no_connect
-		(at 166.37 85.09)
+		(at 195.58 85.09)
 		(uuid "5209c8e1-8021-46ca-b941-ad81ad00cbc8")
 	)
 	(no_connect
@@ -6753,7 +7033,7 @@
 		(uuid "691149b5-cde8-4686-8ace-66466238ceb2")
 	)
 	(no_connect
-		(at 166.37 87.63)
+		(at 195.58 87.63)
 		(uuid "74349375-5a0f-46cb-be50-005fb8ca5db8")
 	)
 	(no_connect
@@ -6761,7 +7041,7 @@
 		(uuid "7715fb3a-d1cc-4543-ae44-6f0531b12762")
 	)
 	(no_connect
-		(at 166.37 57.15)
+		(at 195.58 57.15)
 		(uuid "78d14e7c-0ac9-4ddf-a63b-2c58250bc40e")
 	)
 	(no_connect
@@ -6769,7 +7049,7 @@
 		(uuid "7ad37fb4-56e9-4921-bcc4-1a8a0aef9f70")
 	)
 	(no_connect
-		(at 166.37 54.61)
+		(at 195.58 54.61)
 		(uuid "7f6da42c-0725-4c89-887b-64a28d453657")
 	)
 	(no_connect
@@ -6785,15 +7065,15 @@
 		(uuid "9d411615-10ca-41a3-a0fd-c5cc23b8591c")
 	)
 	(no_connect
-		(at 166.37 72.39)
+		(at 195.58 72.39)
 		(uuid "b4bd9d25-c6b9-49c8-a081-91fa2eae50f8")
 	)
 	(no_connect
-		(at 344.17 54.61)
+		(at 373.38 54.61)
 		(uuid "c0fe3ae9-e130-4376-86e6-fcd5695b0ad8")
 	)
 	(no_connect
-		(at 166.37 77.47)
+		(at 195.58 77.47)
 		(uuid "c8ae70e3-0c42-4a7f-b9a2-235cd9f3d8b9")
 	)
 	(no_connect
@@ -6810,7 +7090,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 104.14) (xy 377.19 104.14)
+			(xy 250.19 104.14) (xy 406.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6850,7 +7130,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 13.97) (xy 220.98 104.14)
+			(xy 250.19 13.97) (xy 250.19 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6860,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 90.17) (xy 284.48 90.17)
+			(xy 312.42 90.17) (xy 313.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6877,16 +7157,6 @@
 			(type default)
 		)
 		(uuid "04d3ab3f-f36d-4ca0-842f-18394343b562")
-	)
-	(wire
-		(pts
-			(xy 120.65 80.01) (xy 118.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0508c32e-75c5-4f19-a27b-68bcb0b8e4b4")
 	)
 	(polyline
 		(pts
@@ -6970,7 +7240,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 92.71 85.09)
+			(xy 91.44 82.55) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6988,9 +7258,19 @@
 		)
 		(uuid "0a7a39fa-8e51-417b-95f8-5f0ee037695b")
 	)
+	(polyline
+		(pts
+			(xy 137.16 60.96) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2aecb5-ee6d-411b-a93f-a17e172dfc8f")
+	)
 	(wire
 		(pts
-			(xy 167.64 41.91) (xy 167.64 43.18)
+			(xy 196.85 41.91) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7020,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 46.99) (xy 167.64 46.99)
+			(xy 195.58 46.99) (xy 196.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7040,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 33.02) (xy 323.85 31.75)
+			(xy 353.06 33.02) (xy 353.06 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7050,7 +7330,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 52.07) (xy 13.97 139.7)
+			(xy 13.97 52.07) (xy 13.97 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7060,7 +7340,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 87.63) (xy 91.44 115.57)
+			(xy 116.84 82.55) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f4c8c0-5933-42bd-9565-b9932d7c6453")
+	)
+	(wire
+		(pts
+			(xy 91.44 87.63) (xy 91.44 127)
 		)
 		(stroke
 			(width 0)
@@ -7070,7 +7360,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 177.8 93.98)
+			(xy 207.01 83.82) (xy 207.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 52.07) (xy 191.77 53.34)
+			(xy 220.98 52.07) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7090,7 +7380,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 100.33 129.54)
+			(xy 114.3 77.47) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12681fe5-d36a-488b-bc7d-035d38accd58")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 100.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7110,7 +7410,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 50.8) (xy 358.14 50.8)
+			(xy 382.27 50.8) (xy 387.35 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 91.44 87.63)
+			(xy 91.44 82.55) (xy 91.44 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7130,7 +7430,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 62.23) (xy 254 62.23)
+			(xy 279.4 62.23) (xy 283.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7150,7 +7450,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 62.23) (xy 100.33 60.96)
+			(xy 87.63 62.23) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7160,7 +7460,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 57.15) (xy 255.27 57.15)
+			(xy 285.75 57.15) (xy 284.48 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7530,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 93.98) (xy 180.34 93.98)
+			(xy 208.28 93.98) (xy 209.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7300,7 +7600,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 64.77) (xy 256.54 64.77)
+			(xy 280.67 64.77) (xy 285.75 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7310,7 +7610,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 44.45) (xy 287.02 43.18)
+			(xy 316.23 44.45) (xy 316.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7360,7 +7660,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 44.45) (xy 251.46 44.45)
+			(xy 279.4 44.45) (xy 280.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7370,7 +7670,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 69.85) (xy 88.9 60.96)
+			(xy 69.85 69.85) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7680,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 13.97) (xy 219.71 104.14)
+			(xy 248.92 13.97) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7390,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 180.34 83.82)
+			(xy 209.55 93.98) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7720,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 54.61) (xy 252.73 54.61)
+			(xy 285.75 54.61) (xy 281.94 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7440,7 +7740,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 251.46 44.45)
+			(xy 280.67 43.18) (xy 280.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 199.39 44.45)
+			(xy 226.06 44.45) (xy 228.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7490,7 +7790,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 50.8) (xy 365.76 50.8)
+			(xy 392.43 50.8) (xy 394.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7510,17 +7810,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 69.85) (xy 88.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6a9258-6b3b-4315-ae4d-5953e9dfa91c")
-	)
-	(wire
-		(pts
-			(xy 365.76 29.21) (xy 367.03 29.21)
+			(xy 394.97 29.21) (xy 396.24 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +7820,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 29.21) (xy 328.93 29.21)
+			(xy 356.87 29.21) (xy 358.14 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7540,7 +7830,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 46.99) (xy 251.46 48.26)
+			(xy 280.67 46.99) (xy 280.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7570,7 +7860,27 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 95.25) (xy 227.33 96.52)
+			(xy 121.92 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311410f7-25b2-4751-8295-10adedc7b338")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bd81d3-68b8-4242-9e0c-36d177fd3ecd")
+	)
+	(wire
+		(pts
+			(xy 256.54 95.25) (xy 256.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7610,16 +7920,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 123.19 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34679d33-87d0-4efc-a4c1-41c3bb33f1a9")
-	)
-	(wire
-		(pts
 			(xy 20.32 212.09) (xy 20.32 218.44)
 		)
 		(stroke
@@ -7630,7 +7930,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 185.42 43.18)
+			(xy 196.85 43.18) (xy 214.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7640,7 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 85.09) (xy 251.46 86.36)
+			(xy 280.67 85.09) (xy 280.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7670,6 +7970,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 138.43) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dcebfc-70ff-46b9-bd8c-84d47ddbe20e")
+	)
+	(wire
+		(pts
 			(xy 283.21 146.05) (xy 283.21 144.78)
 		)
 		(stroke
@@ -7680,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 38.1) (xy 297.18 38.1)
+			(xy 325.12 38.1) (xy 326.39 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7720,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 41.91) (xy 251.46 43.18)
+			(xy 280.67 41.91) (xy 280.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7760,16 +8070,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a24a2e-862d-4ad7-a3c3-8ebc2a5d3179")
-	)
-	(wire
-		(pts
 			(xy 127 39.37) (xy 127 43.18)
 		)
 		(stroke
@@ -7780,7 +8080,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 46.99) (xy 251.46 46.99)
+			(xy 279.4 46.99) (xy 280.67 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7790,7 +8090,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 29.21) (xy 191.77 29.21)
+			(xy 195.58 29.21) (xy 220.98 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7800,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 29.21) (xy 322.58 29.21)
+			(xy 350.52 29.21) (xy 351.79 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7880,7 +8180,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 87.63) (xy 250.19 87.63)
+			(xy 114.3 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47960563-718a-488f-ba69-d0e9af4bb36b")
+	)
+	(wire
+		(pts
+			(xy 280.67 87.63) (xy 279.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7890,7 +8200,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 72.39) (xy 255.27 72.39)
+			(xy 279.4 72.39) (xy 284.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +8270,7 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 53.34) (xy 270.51 87.63)
+			(xy 299.72 53.34) (xy 299.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7970,7 +8280,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 43.18) (xy 185.42 44.45)
+			(xy 101.6 60.96) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2642b5-d2c3-45a5-8df2-cee2f0f799b8")
+	)
+	(wire
+		(pts
+			(xy 214.63 43.18) (xy 214.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7980,7 +8300,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 180.34 78.74)
+			(xy 209.55 34.29) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7990,7 +8310,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 104.14 60.96)
+			(xy 87.63 60.96) (xy 101.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8060,6 +8380,16 @@
 	)
 	(polyline
 		(pts
+			(xy 135.89 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547cf3eb-d806-4ab2-996a-cce6ba34b3f1")
+	)
+	(polyline
+		(pts
 			(xy 72.39 13.97) (xy 72.39 50.8)
 		)
 		(stroke
@@ -8080,7 +8410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 377.19 13.97) (xy 377.19 104.14)
+			(xy 406.4 13.97) (xy 406.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8110,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 39.37) (xy 349.25 29.21)
+			(xy 378.46 39.37) (xy 378.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8130,7 +8460,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 46.99) (xy 303.53 46.99)
+			(xy 330.2 46.99) (xy 332.74 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8200,7 +8530,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 67.31) (xy 207.01 68.58)
+			(xy 236.22 67.31) (xy 236.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8230,7 +8560,7 @@
 	)
 	(polyline
 		(pts
-			(xy 293.37 68.58) (xy 293.37 67.31)
+			(xy 322.58 68.58) (xy 322.58 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8270,6 +8600,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 92.71) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e24d40f-2326-4330-bd42-15e100586ea6")
+	)
+	(wire
+		(pts
 			(xy 63.5 106.68) (xy 63.5 109.22)
 		)
 		(stroke
@@ -8280,7 +8620,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 93.98) (xy 179.07 93.98)
+			(xy 207.01 93.98) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8320,7 +8660,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 143.51 96.52)
+			(xy 172.72 95.25) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8340,7 +8680,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 64.77) (xy 341.63 66.04)
+			(xy 370.84 64.77) (xy 370.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8360,7 +8700,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 48.26) (xy 198.12 67.31)
+			(xy 227.33 48.26) (xy 227.33 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8370,7 +8710,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 167.64 44.45)
+			(xy 196.85 43.18) (xy 196.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8408,16 +8748,6 @@
 		)
 		(uuid "63de12c5-a335-4295-ac15-dfdcca0d66bf")
 	)
-	(wire
-		(pts
-			(xy 118.11 90.17) (xy 120.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640e78c9-e7f0-43a8-84a8-041eae152287")
-	)
 	(polyline
 		(pts
 			(xy 72.39 13.97) (xy 135.89 13.97)
@@ -8440,7 +8770,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 90.17) (xy 88.9 127)
+			(xy 88.9 90.17) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8520,7 +8850,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 13.97) (xy 377.19 13.97)
+			(xy 250.19 13.97) (xy 406.4 13.97)
 		)
 		(stroke
 			(width 0)
@@ -8550,7 +8880,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 39.37) (xy 339.09 50.8)
+			(xy 368.3 39.37) (xy 368.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8560,7 +8890,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 52.07) (xy 135.89 52.07)
+			(xy 13.97 52.07) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8570,7 +8900,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 29.21) (xy 365.76 29.21)
+			(xy 378.46 29.21) (xy 394.97 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8610,7 +8940,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 80.01) (xy 251.46 64.77)
+			(xy 280.67 80.01) (xy 280.67 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8630,7 +8960,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 39.37) (xy 349.25 39.37)
+			(xy 375.92 39.37) (xy 378.46 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8650,7 +8980,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 36.83) (xy 177.8 78.74)
+			(xy 207.01 36.83) (xy 207.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8667,16 +8997,6 @@
 			(type default)
 		)
 		(uuid "75c29ab0-f546-49ee-b375-e0e427d658e9")
-	)
-	(wire
-		(pts
-			(xy 118.11 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c799c7-2195-4d59-a45a-3beeceb097e7")
 	)
 	(wire
 		(pts
@@ -8700,7 +9020,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 87.63) (xy 92.71 87.63)
+			(xy 91.44 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8720,7 +9040,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 90.17) (xy 283.21 90.17)
+			(xy 311.15 90.17) (xy 312.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8760,7 +9080,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 46.99) (xy 287.02 46.99)
+			(xy 320.04 46.99) (xy 316.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8770,7 +9090,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 36.83) (xy 250.19 36.83)
+			(xy 311.15 36.83) (xy 279.4 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8790,17 +9110,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 119.38 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f205daf-13fc-418a-b4e0-cc58b1aa3520")
-	)
-	(wire
-		(pts
-			(xy 328.93 29.21) (xy 328.93 31.75)
+			(xy 358.14 29.21) (xy 358.14 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8810,7 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 44.45) (xy 167.64 44.45)
+			(xy 195.58 44.45) (xy 196.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8840,7 +9150,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 52.07) (xy 295.91 53.34)
+			(xy 325.12 52.07) (xy 325.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8870,16 +9180,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 120.65 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83fd0309-33f9-40a2-b901-13171b1443d9")
-	)
-	(wire
-		(pts
 			(xy 127 27.94) (xy 127 29.21)
 		)
 		(stroke
@@ -8900,7 +9200,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 46.99) (xy 287.02 48.26)
+			(xy 316.23 46.99) (xy 316.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8910,7 +9210,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 33.02) (xy 326.39 31.75)
+			(xy 355.6 33.02) (xy 355.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9020,7 +9320,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 49.53) (xy 167.64 49.53)
+			(xy 195.58 49.53) (xy 196.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9060,7 +9360,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 62.23) (xy 254 77.47)
+			(xy 283.21 62.23) (xy 283.21 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9070,7 +9370,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 46.99)
+			(xy 214.63 48.26) (xy 214.63 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9080,7 +9380,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 115.57) (xy 119.38 115.57)
+			(xy 107.95 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -9090,7 +9390,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 121.92 129.54)
+			(xy 107.95 140.97) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9100,17 +9400,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 90.17) (xy 92.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9359805d-2ee4-44ba-baa9-41b00469323a")
-	)
-	(wire
-		(pts
-			(xy 251.46 86.36) (xy 251.46 87.63)
+			(xy 280.67 86.36) (xy 280.67 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9130,7 +9420,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 41.91) (xy 167.64 41.91)
+			(xy 195.58 41.91) (xy 196.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9150,7 +9440,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 77.47) (xy 256.54 77.47)
+			(xy 283.21 77.47) (xy 285.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9170,7 +9460,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 77.47) (xy 254 77.47)
+			(xy 114.3 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c5d92e-b41e-4934-bd5e-873d29fcddc1")
+	)
+	(wire
+		(pts
+			(xy 279.4 77.47) (xy 283.21 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9180,7 +9480,7 @@
 	)
 	(polyline
 		(pts
-			(xy 267.97 53.34) (xy 270.51 53.34)
+			(xy 297.18 53.34) (xy 299.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9210,7 +9510,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 68.58)
+			(xy 87.63 67.31) (xy 87.63 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9220,7 +9520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 267.97 87.63) (xy 270.51 87.63)
+			(xy 297.18 87.63) (xy 299.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9230,13 +9530,23 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 69.85) (xy 273.05 69.85)
+			(xy 299.72 69.85) (xy 302.26 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d23013f-7a2e-4f50-8768-9933f9b71c59")
+	)
+	(polyline
+		(pts
+			(xy 137.16 68.58) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4af7b0-a3ba-4a16-9f1a-1de43b90aed9")
 	)
 	(wire
 		(pts
@@ -9260,7 +9570,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 13.97) (xy 137.16 104.14)
+			(xy 166.37 13.97) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9290,7 +9600,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 13.97) (xy 219.71 13.97)
+			(xy 166.37 13.97) (xy 248.92 13.97)
 		)
 		(stroke
 			(width 0)
@@ -9300,7 +9610,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 36.83) (xy 166.37 36.83)
+			(xy 207.01 36.83) (xy 195.58 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9310,7 +9620,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 29.21) (xy 334.01 29.21)
+			(xy 358.14 29.21) (xy 363.22 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9340,7 +9650,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 93.98) (xy 179.07 96.52)
+			(xy 208.28 93.98) (xy 208.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9350,7 +9660,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 96.52)
+			(xy 180.34 95.25) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9380,17 +9690,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 119.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5eb146f-ac86-4369-b0c3-cdf388ea2e9a")
-	)
-	(wire
-		(pts
-			(xy 295.91 38.1) (xy 295.91 39.37)
+			(xy 325.12 38.1) (xy 325.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9400,7 +9700,17 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 36.83) (xy 339.09 39.37)
+			(xy 116.84 87.63) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d1fe72-592f-4b3e-9ec0-f1601401da52")
+	)
+	(wire
+		(pts
+			(xy 368.3 36.83) (xy 368.3 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9410,7 +9720,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 29.21) (xy 349.25 29.21)
+			(xy 373.38 29.21) (xy 378.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9480,16 +9790,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 123.19 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa860b44-4c38-40bb-9d5d-6b357e5d4410")
-	)
-	(wire
-		(pts
 			(xy 210.82 212.09) (xy 218.44 212.09)
 		)
 		(stroke
@@ -9520,16 +9820,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 119.38 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1cfcdf-f090-486d-9e8a-9e6d87195733")
-	)
-	(wire
-		(pts
 			(xy 88.9 262.89) (xy 88.9 264.16)
 		)
 		(stroke
@@ -9540,7 +9830,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 29.21) (xy 321.31 29.21)
+			(xy 279.4 29.21) (xy 350.52 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9560,7 +9850,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 167.64 49.53)
+			(xy 196.85 48.26) (xy 196.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9600,7 +9890,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.26 66.04) (xy 302.26 67.31)
+			(xy 331.47 66.04) (xy 331.47 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9610,7 +9900,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 29.21) (xy 193.04 29.21)
+			(xy 220.98 29.21) (xy 222.25 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9620,7 +9910,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 31.75) (xy 321.31 31.75)
+			(xy 353.06 31.75) (xy 350.52 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9650,7 +9940,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 255.27 72.39)
+			(xy 284.48 57.15) (xy 284.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9660,7 +9950,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 120.65 127)
+			(xy 107.95 138.43) (xy 121.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9710,17 +10000,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 123.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59aff49-814a-49d8-96dd-5e92417d2c84")
-	)
-	(wire
-		(pts
-			(xy 85.09 85.09) (xy 91.44 85.09)
+			(xy 85.09 82.55) (xy 91.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9730,7 +10010,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 83.82) (xy 281.94 90.17)
+			(xy 311.15 83.82) (xy 311.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9740,7 +10020,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 64.77) (xy 251.46 64.77)
+			(xy 279.4 64.77) (xy 280.67 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9750,7 +10030,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 44.45) (xy 303.53 44.45)
+			(xy 330.2 44.45) (xy 332.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9820,13 +10100,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 92.71 92.71)
+			(xy 116.84 87.63) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9bd332a-1de8-42f7-a438-fafb274080ed")
+		(uuid "b89dd8e8-d18e-48e6-a703-fac7317e5a8d")
 	)
 	(wire
 		(pts
@@ -9840,7 +10120,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 80.01) (xy 251.46 80.01)
+			(xy 279.4 80.01) (xy 280.67 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9850,13 +10130,23 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 50.8) (xy 345.44 50.8)
+			(xy 368.3 50.8) (xy 374.65 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd358c03-7837-4cf8-987c-6eb9e859e48c")
+	)
+	(wire
+		(pts
+			(xy 86.36 97.79) (xy 93.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf471a9-ad45-4098-8df1-1468c9b73a26")
 	)
 	(wire
 		(pts
@@ -9880,7 +10170,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 105.41 99.06)
+			(xy 104.14 107.95) (xy 104.14 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9890,7 +10180,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 29.21) (xy 365.76 50.8)
+			(xy 394.97 29.21) (xy 394.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9910,7 +10200,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 90.17) (xy 283.21 96.52)
+			(xy 312.42 90.17) (xy 312.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9920,7 +10210,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 54.61) (xy 250.19 54.61)
+			(xy 281.94 54.61) (xy 279.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9970,7 +10260,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 115.57) (xy 100.33 115.57)
+			(xy 91.44 127) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
@@ -9980,7 +10270,17 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 36.83) (xy 281.94 78.74)
+			(xy 88.9 92.71) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ccc2d0-e8d1-4080-9419-f4e0fb1e9083")
+	)
+	(wire
+		(pts
+			(xy 311.15 36.83) (xy 311.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9990,7 +10290,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 185.42 44.45)
+			(xy 215.9 44.45) (xy 214.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10010,7 +10310,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 90.17) (xy 284.48 83.82)
+			(xy 313.69 90.17) (xy 313.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10028,6 +10328,16 @@
 		)
 		(uuid "c71b6019-b72a-4dfc-a820-58cf562e4c3f")
 	)
+	(polyline
+		(pts
+			(xy 135.89 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c738dd66-907a-43ed-af62-28dc17abff5a")
+	)
 	(wire
 		(pts
 			(xy 55.88 90.17) (xy 64.77 90.17)
@@ -10038,15 +10348,35 @@
 		)
 		(uuid "c76cc18a-d3ab-4349-b8d9-7cced8b6f0ed")
 	)
+	(polyline
+		(pts
+			(xy 137.16 68.58) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d386db-06a5-4513-8882-2a1c6d0eedd9")
+	)
 	(wire
 		(pts
-			(xy 100.33 127) (xy 88.9 127)
+			(xy 100.33 138.43) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8c5f1db-158b-40fd-a6af-96c8714ecc93")
+	)
+	(wire
+		(pts
+			(xy 86.36 97.79) (xy 86.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9866716-a538-4dd3-b704-5627befadcf7")
 	)
 	(wire
 		(pts
@@ -10057,16 +10387,6 @@
 			(type default)
 		)
 		(uuid "c9a81902-92c0-4c3c-bca5-92c2d11fb4c3")
-	)
-	(wire
-		(pts
-			(xy 104.14 60.96) (xy 104.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b7220d-6928-4743-94b5-82226dbf1188")
 	)
 	(wire
 		(pts
@@ -10090,13 +10410,23 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 39.37) (xy 341.63 39.37)
+			(xy 368.3 39.37) (xy 370.84 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cacfbf30-1af7-41c8-99f8-4978833d2029")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad5be96-3571-49be-8ce5-dc68bb30e9eb")
 	)
 	(wire
 		(pts
@@ -10140,7 +10470,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 49.53) (xy 251.46 49.53)
+			(xy 279.4 49.53) (xy 280.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10150,7 +10480,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 250.19 57.15)
+			(xy 284.48 57.15) (xy 279.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10160,7 +10490,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 85.09) (xy 251.46 85.09)
+			(xy 279.4 85.09) (xy 280.67 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10170,7 +10500,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 29.21) (xy 321.31 31.75)
+			(xy 350.52 29.21) (xy 350.52 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10210,7 +10540,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 185.42 48.26)
+			(xy 196.85 48.26) (xy 214.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10220,7 +10550,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 31.75) (xy 328.93 31.75)
+			(xy 355.6 31.75) (xy 358.14 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10270,7 +10600,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 69.85) (xy 252.73 54.61)
+			(xy 281.94 69.85) (xy 281.94 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10280,7 +10610,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 166.37 34.29)
+			(xy 209.55 34.29) (xy 195.58 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10300,7 +10630,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 29.21) (xy 191.77 39.37)
+			(xy 220.98 29.21) (xy 220.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10340,7 +10670,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 106.68 74.93)
+			(xy 106.68 60.96) (xy 106.68 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10390,7 +10720,7 @@
 	)
 	(polyline
 		(pts
-			(xy 189.23 67.31) (xy 207.01 67.31)
+			(xy 218.44 67.31) (xy 236.22 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10420,7 +10750,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.89 52.07) (xy 135.89 139.7)
+			(xy 165.1 52.07) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10430,7 +10760,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 139.7) (xy 135.89 139.7)
+			(xy 13.97 161.29) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10440,7 +10770,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 46.99) (xy 199.39 46.99)
+			(xy 226.06 46.99) (xy 228.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10490,7 +10820,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 86.36 129.54)
+			(xy 114.3 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54ff11b-eb08-4a9e-bd77-aa80c678a77d")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 86.36 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10520,7 +10860,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 41.91) (xy 251.46 41.91)
+			(xy 279.4 41.91) (xy 280.67 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10550,7 +10890,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 48.26) (xy 287.02 48.26)
+			(xy 280.67 48.26) (xy 316.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10560,7 +10900,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 69.85) (xy 252.73 69.85)
+			(xy 279.4 69.85) (xy 281.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10570,7 +10910,7 @@
 	)
 	(polyline
 		(pts
-			(xy 189.23 68.58) (xy 189.23 67.31)
+			(xy 218.44 68.58) (xy 218.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10600,7 +10940,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 34.29) (xy 284.48 78.74)
+			(xy 313.69 34.29) (xy 313.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10620,7 +10960,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 48.26) (xy 251.46 49.53)
+			(xy 280.67 48.26) (xy 280.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10630,7 +10970,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 256.54 86.36)
+			(xy 280.67 86.36) (xy 285.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10650,13 +10990,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 120.65 80.01)
+			(xy 120.65 68.58) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef52ada0-5e3d-433d-a294-ebe7144107a5")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02372f5-e2b7-43ad-b17f-02e7eadd76d4")
 	)
 	(wire
 		(pts
@@ -10670,7 +11020,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 34.29) (xy 284.48 34.29)
+			(xy 279.4 34.29) (xy 313.69 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10680,7 +11030,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 95.25) (xy 234.95 96.52)
+			(xy 264.16 95.25) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10690,7 +11040,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 44.45) (xy 290.83 44.45)
+			(xy 316.23 44.45) (xy 320.04 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10720,7 +11070,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.26 48.26) (xy 302.26 66.04)
+			(xy 331.47 48.26) (xy 331.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10747,16 +11097,6 @@
 			(type default)
 		)
 		(uuid "f5f9ecdc-02ed-45c1-a8c8-34b7db2438aa")
-	)
-	(wire
-		(pts
-			(xy 118.11 87.63) (xy 119.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61990a0-ca93-4453-aacd-860253e01332")
 	)
 	(wire
 		(pts
@@ -10790,7 +11130,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 50.8) (xy 339.09 54.61)
+			(xy 368.3 50.8) (xy 368.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10800,7 +11140,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 287.02 43.18)
+			(xy 280.67 43.18) (xy 316.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10810,7 +11150,7 @@
 	)
 	(polyline
 		(pts
-			(xy 293.37 67.31) (xy 311.15 67.31)
+			(xy 322.58 67.31) (xy 340.36 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10820,7 +11160,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 104.14) (xy 219.71 104.14)
+			(xy 166.37 104.14) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10830,7 +11170,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 46.99) (xy 185.42 46.99)
+			(xy 215.9 46.99) (xy 214.63 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10840,7 +11180,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 100.33 60.96)
+			(xy 69.85 60.96) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10860,7 +11200,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 46.99) (xy 167.64 48.26)
+			(xy 196.85 46.99) (xy 196.85 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10900,7 +11240,7 @@
 	)
 	(polyline
 		(pts
-			(xy 311.15 67.31) (xy 311.15 68.58)
+			(xy 340.36 67.31) (xy 340.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10919,7 +11259,7 @@
 		(uuid "fffe89b5-3705-45b3-81d2-6784747afa2a")
 	)
 	(label "D-"
-		(at 173.99 43.18 180)
+		(at 203.2 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10929,7 +11269,7 @@
 		(uuid "5f975e24-4a73-4672-bb34-395bca97af00")
 	)
 	(label "D_{2}+"
-		(at 257.81 48.26 180)
+		(at 287.02 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10939,7 +11279,7 @@
 		(uuid "cc8baf0e-480f-4105-9bff-3d35c22b3d17")
 	)
 	(label "D_{2}-"
-		(at 257.81 43.18 180)
+		(at 287.02 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10949,7 +11289,7 @@
 		(uuid "e6dd678e-660e-4112-a4f6-b2ba8ce0b631")
 	)
 	(label "D+"
-		(at 173.99 48.26 180)
+		(at 203.2 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11004,7 +11344,7 @@
 	)
 	(global_label "USB-D+"
 		(shape bidirectional)
-		(at 199.39 46.99 0)
+		(at 228.6 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11014,7 +11354,7 @@
 		)
 		(uuid "1dd99eb9-fd30-4999-9225-84df2c0c0a5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8983 46.99 0)
+			(at 240.1083 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11410,7 @@
 	)
 	(global_label "USB-D-"
 		(shape bidirectional)
-		(at 199.39 44.45 0)
+		(at 228.6 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11080,7 +11420,7 @@
 		)
 		(uuid "39eb1ec4-7abb-4525-855e-8943ae6b93a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8983 44.45 0)
+			(at 240.1083 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +11432,7 @@
 	)
 	(global_label "SWDCLK_{LV}"
 		(shape output)
-		(at 123.19 90.17 0)
+		(at 127 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11102,7 +11442,7 @@
 		)
 		(uuid "3b057646-d076-481b-8161-74d973472a18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7642 90.17 0)
+			(at 138.5742 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11454,7 @@
 	)
 	(global_label "RESETn"
 		(shape input)
-		(at 85.09 85.09 180)
+		(at 85.09 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11124,7 +11464,7 @@
 		)
 		(uuid "48dedfff-d422-4b11-82ec-3fb24c04795f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.8649 85.09 0)
+			(at 75.8649 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11476,7 @@
 	)
 	(global_label "USB-2-D-"
 		(shape bidirectional)
-		(at 303.53 44.45 0)
+		(at 332.74 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11146,7 +11486,7 @@
 		)
 		(uuid "4e4d6cb7-cdb3-48e5-84d1-3df985bb4bbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8202 44.45 0)
+			(at 347.0302 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11498,7 @@
 	)
 	(global_label "RESETn_{LV}"
 		(shape output)
-		(at 123.19 87.63 0)
+		(at 127 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11168,7 +11508,7 @@
 		)
 		(uuid "4f3c742f-94f5-4282-9ee3-c8a7fc2ce104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1593 87.63 0)
+			(at 137.9693 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11542,7 @@
 	)
 	(global_label "TxD_{LV}"
 		(shape input)
-		(at 256.54 54.61 0)
+		(at 285.75 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11212,7 +11552,7 @@
 		)
 		(uuid "59741f54-74d4-4982-b1c9-159baf2ae5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.8809 54.61 0)
+			(at 293.0909 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11586,7 @@
 	)
 	(global_label "USB-2-D+"
 		(shape bidirectional)
-		(at 303.53 46.99 0)
+		(at 332.74 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11256,7 +11596,7 @@
 		)
 		(uuid "621fd91f-a3e5-412f-9cc5-cbb51f488e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.8202 46.99 0)
+			(at 347.0302 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11696,7 @@
 	)
 	(global_label "V_{Watch}"
 		(shape input)
-		(at 367.03 29.21 0)
+		(at 396.24 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11366,7 +11706,7 @@
 		)
 		(uuid "92c5dc36-317f-4fc6-b43c-e2de4251674b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.9514 29.21 0)
+			(at 404.1614 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +11718,7 @@
 	)
 	(global_label "SWDIO_{LV}"
 		(shape bidirectional)
-		(at 123.19 92.71 0)
+		(at 127 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11388,7 +11728,7 @@
 		)
 		(uuid "a0583223-7ca5-46ca-b466-dc9517e88e68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0839 92.71 0)
+			(at 137.8939 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11762,7 @@
 	)
 	(global_label "RESETn_{LV}"
 		(shape input)
-		(at 256.54 86.36 0)
+		(at 285.75 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11432,7 +11772,7 @@
 		)
 		(uuid "ac895041-90ba-4ad5-9272-c02fef6c136e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.5093 86.36 0)
+			(at 296.7193 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11828,7 @@
 	)
 	(global_label "V_{BUS}"
 		(shape output)
-		(at 193.04 29.21 0)
+		(at 222.25 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11498,7 +11838,7 @@
 		)
 		(uuid "c2b1ee06-f430-4812-a773-c64ac44bd82a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5584 29.21 0)
+			(at 228.7684 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11938,7 @@
 	)
 	(global_label "SWDCLK_{LV}"
 		(shape input)
-		(at 256.54 64.77 0)
+		(at 285.75 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11608,7 +11948,7 @@
 		)
 		(uuid "dabe5fa5-fac1-4479-8338-974b8aa60ebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1142 64.77 0)
+			(at 297.3242 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11960,7 @@
 	)
 	(global_label "RxD_{LV}"
 		(shape output)
-		(at 256.54 57.15 0)
+		(at 285.75 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11630,7 +11970,7 @@
 		)
 		(uuid "dc1353d4-cc6e-4a85-902d-917bb099da4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1833 57.15 0)
+			(at 293.3933 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,7 +11982,7 @@
 	)
 	(global_label "SWDIO_{LV}"
 		(shape bidirectional)
-		(at 256.54 77.47 0)
+		(at 285.75 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11652,7 +11992,7 @@
 		)
 		(uuid "dc987bd3-1d71-43d9-9b3d-630462c189c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.4339 77.47 0)
+			(at 296.6439 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11686,7 +12026,7 @@
 	)
 	(global_label "V_{Watch}"
 		(shape input)
-		(at 297.18 38.1 0)
+		(at 326.39 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11696,7 +12036,7 @@
 		)
 		(uuid "ee8a44bc-f3bc-49d8-b104-466eb682bf29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.1014 38.1 0)
+			(at 334.3114 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +12057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0287cdf7-4121-4f93-99e8-3d251df39543")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0401"
 			(at 20.32 215.9 0)
 			(effects
 				(font
@@ -11767,7 +12107,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0101")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -11783,7 +12123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06299b85-ac04-4414-b859-451e66797937")
-		(property "Reference" "C103"
+		(property "Reference" "C403"
 			(at 62.23 265.4363 0)
 			(effects
 				(font
@@ -11873,7 +12213,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C103")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -11889,7 +12229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07573f12-3475-4f18-8c21-9e42437fb17a")
-		(property "Reference" "C114"
+		(property "Reference" "C414"
 			(at 245.11 156.2163 0)
 			(effects
 				(font
@@ -11979,7 +12319,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C114")
+					(reference "C414")
 					(unit 1)
 				)
 			)
@@ -11995,7 +12335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "075a8bb6-9ed9-443c-9a81-2265a02aa242")
-		(property "Reference" "D101"
+		(property "Reference" "D401"
 			(at 60.96 77.4699 90)
 			(effects
 				(font
@@ -12085,7 +12425,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "D101")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -12093,7 +12433,7 @@
 	)
 	(symbol
 		(lib_id "Nexperia:BSH205G2AR")
-		(at 339.09 29.21 90)
+		(at 368.3 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12101,8 +12441,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07e3cf84-de09-4023-b156-f38b07ce91bb")
-		(property "Reference" "Q101"
-			(at 339.09 22.86 90)
+		(property "Reference" "Q401"
+			(at 368.3 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12450,7 @@
 			)
 		)
 		(property "Value" "BSH205G2AR"
-			(at 339.09 25.4 90)
+			(at 368.3 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12458,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 339.09 44.45 0)
+			(at 368.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12469,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSH205G2A.pdf"
-			(at 339.09 55.88 0)
+			(at 368.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12479,7 @@
 			)
 		)
 		(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, SOT-23"
-			(at 339.09 29.21 0)
+			(at 368.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12488,7 @@
 			)
 		)
 		(property "manf" "Nexperia"
-			(at 339.09 29.21 0)
+			(at 368.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12497,7 @@
 			)
 		)
 		(property "manf#" "BSH205G2AR"
-			(at 339.09 29.21 0)
+			(at 368.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +12506,7 @@
 			)
 		)
 		(property "mouser#" "771-BSH205G2AR"
-			(at 339.09 29.21 0)
+			(at 368.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +12515,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 339.09 29.21 0)
+			(at 368.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +12535,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "Q101")
+					(reference "Q401")
 					(unit 1)
 				)
 			)
@@ -12211,7 +12551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09434551-16fc-4a21-b17a-81388674a74b")
-		(property "Reference" "R112"
+		(property "Reference" "R414"
 			(at 245.11 146.0499 0)
 			(effects
 				(font
@@ -12301,7 +12641,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R112")
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -12317,7 +12657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a145272-7bdb-45c9-93bf-5030068cb0bd")
-		(property "Reference" "D103"
+		(property "Reference" "D403"
 			(at 177.8 200.9774 90)
 			(effects
 				(font
@@ -12407,7 +12747,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "D103")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -12422,7 +12762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a5fcaf6-064b-4505-ad45-0769845f335f")
-		(property "Reference" "IC103"
+		(property "Reference" "IC403"
 			(at 74.93 228.6 0)
 			(effects
 				(font
@@ -12563,7 +12903,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC103")
+					(reference "IC403")
 					(unit 1)
 				)
 			)
@@ -12579,7 +12919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac6e643-0df7-42e2-88f8-7ab81c34a2a4")
-		(property "Reference" "C111"
+		(property "Reference" "C411"
 			(at 129.54 35.5663 0)
 			(effects
 				(font
@@ -12669,7 +13009,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C111")
+					(reference "C411")
 					(unit 1)
 				)
 			)
@@ -12684,7 +13024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b248859-4929-40d2-a9d1-14cef4960f9c")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0436"
 			(at 190.5 214.63 0)
 			(effects
 				(font
@@ -12734,7 +13074,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0137")
+					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -12749,7 +13089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c200b8c-3ebe-4081-95f6-00ee1128cd41")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0442"
 			(at 241.3 219.71 0)
 			(effects
 				(font
@@ -12799,7 +13139,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0144")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -12807,15 +13147,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 96.52 0)
+		(at 256.54 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c20c719-cf43-4ee7-8865-dde6facce1be")
-		(property "Reference" "#PWR0141"
-			(at 227.33 102.87 0)
+		(property "Reference" "#PWR0446"
+			(at 256.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +13164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 101.6 0)
+			(at 256.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +13172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 96.52 0)
+			(at 256.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,7 +13181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 96.52 0)
+			(at 256.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12850,7 +13190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 96.52 0)
+			(at 256.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +13204,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0141")
+					(reference "#PWR0446")
 					(unit 1)
 				)
 			)
@@ -12880,7 +13220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12833754-409d-4665-953b-98fd0dcb1e02")
-		(property "Reference" "R111"
+		(property "Reference" "R413"
 			(at 228.6 182.8799 0)
 			(effects
 				(font
@@ -12970,7 +13310,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R111")
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -12986,7 +13326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157c7304-9230-4911-b4f1-85827df1fbe3")
-		(property "Reference" "R107"
+		(property "Reference" "R407"
 			(at 186.69 187.96 90)
 			(effects
 				(font
@@ -13074,7 +13414,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R107")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -13090,7 +13430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16a583b3-2e80-4d7b-973f-25186120ced8")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0416"
 			(at 83.82 226.06 0)
 			(effects
 				(font
@@ -13140,7 +13480,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0116")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -13157,7 +13497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1917b30b-01cf-4c21-8c03-c951a3451457")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0425"
 			(at 109.22 63.5 0)
 			(effects
 				(font
@@ -13211,7 +13551,7 @@
 					(unit 1)
 				)
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0125")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -13228,7 +13568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0a7752-b104-4b61-a14b-8227e2b4cc49")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0420"
 			(at 91.44 214.63 0)
 			(effects
 				(font
@@ -13278,7 +13618,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0120")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -13286,7 +13626,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 295.91 44.45 0)
+		(at 325.12 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13294,8 +13634,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a425a5e-dfd9-4e17-b9df-8f2924955957")
-		(property "Reference" "IC108"
-			(at 298.45 40.64 0)
+		(property "Reference" "IC408"
+			(at 327.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13644,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 298.45 51.435 0)
+			(at 327.66 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13653,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 294.894 51.181 0)
+			(at 324.104 51.181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 294.894 53.086 0)
+			(at 324.104 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +13674,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
-			(at 295.91 44.45 0)
+			(at 325.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +13683,7 @@
 			)
 		)
 		(property "manf" "STMicroelectronics"
-			(at 295.91 44.45 0)
+			(at 325.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +13692,7 @@
 			)
 		)
 		(property "manf#" "USBLC6-2P6"
-			(at 295.91 44.45 0)
+			(at 325.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13361,7 +13701,7 @@
 			)
 		)
 		(property "mouser#" "511-USBLC6-2P6"
-			(at 295.91 44.45 0)
+			(at 325.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +13710,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 295.91 44.45 0)
+			(at 325.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13739,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC108")
+					(reference "IC408")
 					(unit 1)
 				)
 			)
@@ -13414,7 +13754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1aa76e5b-7dec-42cb-8dfc-811e96e1ba44")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0460"
 			(at 392.43 165.1 0)
 			(effects
 				(font
@@ -13464,7 +13804,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0160")
+					(reference "#PWR0460")
 					(unit 1)
 				)
 			)
@@ -13481,7 +13821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4c8abe-7b98-4702-acce-fc753cc52317")
-		(property "Reference" "C119"
+		(property "Reference" "C419"
 			(at 394.97 153.6763 0)
 			(effects
 				(font
@@ -13571,7 +13911,143 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C119")
+					(reference "C419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:TXB0304RUT")
+		(at 104.14 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c706bf1-ab1d-4555-96cf-b8a350c6bc80")
+		(property "Reference" "IC405"
+			(at 102.235 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXB0304RUT"
+			(at 108.585 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_R-PUQFN-N12"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0304.pdf"
+			(at 101.346 87.757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instruments"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TXB0304RUTR"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-TXB0304RUTR"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4e048e34-b754-447f-81dc-51f72ad37121")
+		)
+		(pin "10"
+			(uuid "f1b5d719-46c9-4364-822e-653032748f25")
+		)
+		(pin "3"
+			(uuid "b6500098-72fb-4e34-916c-85a7cb009e8b")
+		)
+		(pin "12"
+			(uuid "07dc78aa-2543-422c-9b9e-b5384fdec624")
+		)
+		(pin "2"
+			(uuid "7573892f-09eb-45ac-bfbe-5da0984071a9")
+		)
+		(pin "5"
+			(uuid "27315caf-0e6b-4343-a083-c4cb034d0cf9")
+		)
+		(pin "1"
+			(uuid "8b7140de-4da6-412c-8bb3-eafb81401ca0")
+		)
+		(pin "6"
+			(uuid "90d3d502-d870-49c0-ab5c-8ea0f4ee3fb0")
+		)
+		(pin "11"
+			(uuid "57c61421-cae8-42da-846b-3a6d0722634f")
+		)
+		(pin "9"
+			(uuid "0309c9a0-2cfe-4aa0-9793-bf964fe5ff47")
+		)
+		(pin "8"
+			(uuid "be6602dc-6d43-4836-b286-c41cf881de53")
+		)
+		(pin "7"
+			(uuid "d7131f95-79dc-4d2d-8a39-8e81e4e8ad4b")
+		)
+		(instances
+			(project ""
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "IC405")
 					(unit 1)
 				)
 			)
@@ -13579,15 +14055,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 295.91 53.34 0)
+		(at 325.12 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1d0d3d76-8c7d-438d-9000-5544d4a7e418")
-		(property "Reference" "#PWR0153"
-			(at 295.91 59.69 0)
+		(property "Reference" "#PWR0454"
+			(at 325.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13596,7 +14072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 58.42 0)
+			(at 325.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,7 +14081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 53.34 0)
+			(at 325.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13614,7 +14090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 53.34 0)
+			(at 325.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,7 +14099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 53.34 0)
+			(at 325.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +14113,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0153")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 			)
@@ -13652,7 +14128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2146828e-a18c-41c4-a7d8-a7f5950519c2")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0451"
 			(at 290.83 158.75 0)
 			(effects
 				(font
@@ -13702,7 +14178,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0152")
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -13717,7 +14193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21f63fff-b068-4b03-a9d9-8f21a0618817")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0418"
 			(at 88.9 270.51 0)
 			(effects
 				(font
@@ -13767,7 +14243,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0118")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -13783,7 +14259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2826b74b-a4c0-4abd-acac-87d25e094bac")
-		(property "Reference" "R119"
+		(property "Reference" "R419"
 			(at 360.68 176.5299 0)
 			(effects
 				(font
@@ -13873,7 +14349,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R119")
+					(reference "R419")
 					(unit 1)
 				)
 			)
@@ -13890,7 +14366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28292134-082b-4e73-831a-a1025ed1e3b5")
-		(property "Reference" "C115"
+		(property "Reference" "C415"
 			(at 280.67 147.3263 0)
 			(effects
 				(font
@@ -13980,7 +14456,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C115")
+					(reference "C415")
 					(unit 1)
 				)
 			)
@@ -13996,7 +14472,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "293c6694-eee6-4d4b-8a24-3def3db7cfea")
-		(property "Reference" "R109"
+		(property "Reference" "R411"
 			(at 215.9 205.7399 0)
 			(effects
 				(font
@@ -14086,7 +14562,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R109")
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -14094,7 +14570,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 191.77 44.45 0)
+		(at 220.98 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14103,8 +14579,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f7a1cb-f5c7-4486-a8b4-cef195d08afb")
-		(property "Reference" "IC106"
-			(at 194.8881 36.83 0)
+		(property "Reference" "IC406"
+			(at 224.0981 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +14589,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 194.8881 39.37 0)
+			(at 224.0981 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,7 +14598,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 190.754 51.181 0)
+			(at 219.964 51.181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +14609,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 190.754 53.086 0)
+			(at 219.964 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,7 +14619,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
-			(at 191.77 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14152,7 +14628,7 @@
 			)
 		)
 		(property "manf" "STMicroelectronics"
-			(at 191.77 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14161,7 +14637,7 @@
 			)
 		)
 		(property "manf#" "USBLC6-2P6"
-			(at 191.77 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14646,7 @@
 			)
 		)
 		(property "mouser#" "511-USBLC6-2P6"
-			(at 191.77 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14179,7 +14655,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 191.77 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +14690,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC106")
+					(reference "IC406")
 					(unit 1)
 				)
 			)
@@ -14229,7 +14705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cdd72ad-a89a-4fd5-8fab-f4e48681d39f")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0444"
 			(at 247.65 167.64 0)
 			(effects
 				(font
@@ -14279,7 +14755,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0146")
+					(reference "#PWR0444")
 					(unit 1)
 				)
 			)
@@ -14294,7 +14770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d0713f1-9f2a-4c3c-be93-4bc3b106c05c")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0450"
 			(at 287.02 222.25 0)
 			(effects
 				(font
@@ -14344,7 +14820,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0151")
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -14352,7 +14828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 66.04 0)
+		(at 370.84 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14360,8 +14836,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ddae55e-8941-4c53-8323-2db2f8c82d2d")
-		(property "Reference" "#PWR0156"
-			(at 341.63 72.39 0)
+		(property "Reference" "#PWR0458"
+			(at 370.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,7 +14846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 341.63 71.12 0)
+			(at 370.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14378,7 +14854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 66.04 0)
+			(at 370.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14387,7 +14863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 66.04 0)
+			(at 370.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14396,7 +14872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 66.04 0)
+			(at 370.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,7 +14890,7 @@
 					(unit 1)
 				)
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0156")
+					(reference "#PWR0458")
 					(unit 1)
 				)
 			)
@@ -14430,7 +14906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "333efda1-2288-4736-90eb-aa6a5b690d24")
-		(property "Reference" "Y101"
+		(property "Reference" "Y401"
 			(at 231.14 205.7399 90)
 			(effects
 				(font
@@ -14532,7 +15008,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "Y101")
+					(reference "Y401")
 					(unit 1)
 				)
 			)
@@ -14547,7 +15023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36a05e16-bb71-4f28-9a8c-6bba64d21975")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0441"
 			(at 228.6 219.71 0)
 			(effects
 				(font
@@ -14597,7 +15073,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0142")
+					(reference "#PWR0441")
 					(unit 1)
 				)
 			)
@@ -14614,7 +15090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36bed794-6e40-4e47-9740-f7cae821eab4")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0404"
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -14664,7 +15140,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0103")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -14679,7 +15155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37599df6-3d24-4bc1-951d-57fa3b12b5df")
-		(property "Reference" "IC104"
+		(property "Reference" "IC404"
 			(at 88.9 26.035 0)
 			(effects
 				(font
@@ -14776,7 +15252,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC104")
+					(reference "IC404")
 					(unit 1)
 				)
 			)
@@ -14784,15 +15260,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 96.52 0)
+		(at 180.34 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3918e09d-caf9-4c58-9eff-91447aef5ae8")
-		(property "Reference" "#PWR0134"
-			(at 151.13 102.87 0)
+		(property "Reference" "#PWR0434"
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14801,7 +15277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +15285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +15294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +15303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14841,7 +15317,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0134")
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -14857,7 +15333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b081344-3d24-4c04-89ab-f97add5e46ff")
-		(property "Reference" "R120"
+		(property "Reference" "R403"
 			(at 53.34 95.25 90)
 			(effects
 				(font
@@ -14945,7 +15421,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R120")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -14962,7 +15438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b575d01-9270-4f04-87c1-55b21790ffea")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0443"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -15012,7 +15488,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0145")
+					(reference "#PWR0443")
 					(unit 1)
 				)
 			)
@@ -15027,7 +15503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ee5d90e-dfb9-4783-9156-ec0e36c825ad")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0412"
 			(at 64.77 276.86 0)
 			(effects
 				(font
@@ -15077,7 +15553,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0112")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -15093,7 +15569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4127e1a4-cf3a-471d-b0de-2eacc50d91fc")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0426"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -15147,7 +15623,7 @@
 					(unit 1)
 				)
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0126")
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
@@ -15163,7 +15639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434ede06-76b3-422b-9001-014016ef612a")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0449"
 			(at 287.02 147.32 0)
 			(effects
 				(font
@@ -15213,7 +15689,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0150")
+					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -15229,7 +15705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "496df61a-143a-47fd-9cf0-72987f9e46e4")
-		(property "Reference" "D102"
+		(property "Reference" "D402"
 			(at 60.96 101.5999 90)
 			(effects
 				(font
@@ -15325,7 +15801,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "D102")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -15340,7 +15816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49bf4fbf-7c2b-49c5-985b-c42fad007adf")
-		(property "Reference" "X101"
+		(property "Reference" "X401"
 			(at 25.146 78.74 0)
 			(effects
 				(font
@@ -15454,7 +15930,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X101")
+					(reference "X401")
 					(unit 1)
 				)
 			)
@@ -15462,15 +15938,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 96.52 0)
+		(at 104.14 110.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c2f6402-c978-47bd-b880-37c0cae9869f")
-		(property "Reference" "#PWR0135"
-			(at 179.07 102.87 0)
+		(uuid "4c152cb3-1518-4136-a15a-eadc87be8981")
+		(property "Reference" "#PWR0423"
+			(at 104.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15479,7 +15956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 101.6 0)
+			(at 104.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 96.52 0)
+			(at 104.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 96.52 0)
+			(at 104.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15982,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 96.52 0)
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db32be20-9ce0-400e-9e74-5252703a63ec")
+		)
+		(instances
+			(project "ZSWatch-Dock"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "#PWR0423")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c2f6402-c978-47bd-b880-37c0cae9869f")
+		(property "Reference" "#PWR0438"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +16061,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0135")
+					(reference "#PWR0438")
 					(unit 1)
 				)
 			)
@@ -15535,7 +16077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f676ddf-88c7-45b8-8b98-229009751475")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0414"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -15585,7 +16127,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0114")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -15601,7 +16143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52d82e5a-55e1-404b-93b4-b63301b3fed8")
-		(property "Reference" "J102"
+		(property "Reference" "J402"
 			(at 24.13 60.96 0)
 			(effects
 				(font
@@ -15698,7 +16240,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "J102")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -15713,7 +16255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "558ceffc-0784-4bcb-80cc-896ef0126135")
-		(property "Reference" "IC109"
+		(property "Reference" "IC409"
 			(at 372.11 161.29 0)
 			(effects
 				(font
@@ -15825,7 +16367,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC109")
+					(reference "IC409")
 					(unit 1)
 				)
 			)
@@ -15841,7 +16383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58004673-94d5-4005-9dd8-d43c85ac8c16")
-		(property "Reference" "C117"
+		(property "Reference" "C417"
 			(at 323.85 209.5563 0)
 			(effects
 				(font
@@ -15931,7 +16473,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C117")
+					(reference "C417")
 					(unit 1)
 				)
 			)
@@ -15948,7 +16490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581af18d-981e-457f-a786-ab5c6d2a7a6a")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0440"
 			(at 226.06 181.61 0)
 			(effects
 				(font
@@ -15998,7 +16540,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0140")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -16006,7 +16548,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 281.94 81.28 0)
+		(at 311.15 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16014,8 +16556,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a26fe96-00ec-4227-b604-6dac874a118e")
-		(property "Reference" "R113"
-			(at 279.4 80.0099 0)
+		(property "Reference" "R415"
+			(at 308.61 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +16566,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 279.4 82.5499 0)
+			(at 308.61 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16042,7 +16584,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16051,7 +16593,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16060,7 +16602,7 @@
 			)
 		)
 		(property "manf" "Vishay"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16069,7 +16611,7 @@
 			)
 		)
 		(property "manf#" "CRCW06035K10FKEA"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16078,7 +16620,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06035K10FKEA"
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16087,7 +16629,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 281.94 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16104,7 +16646,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R113")
+					(reference "R415")
 					(unit 1)
 				)
 			)
@@ -16120,7 +16662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bdd4e9d-0de7-4015-ae0c-d0ec214b6150")
-		(property "Reference" "C110"
+		(property "Reference" "C410"
 			(at 119.38 35.5663 0)
 			(effects
 				(font
@@ -16210,7 +16752,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C110")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -16218,7 +16760,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 104.14 115.57 0)
+		(at 104.14 127 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16227,8 +16769,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5dddd58a-e706-4740-ac04-52159c3728f7")
-		(property "Reference" "SB101"
-			(at 104.14 109.22 0)
+		(property "Reference" "SB401"
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16236,7 +16778,7 @@
 			)
 		)
 		(property "Value" "Resetn"
-			(at 104.14 111.76 0)
+			(at 104.14 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16244,7 +16786,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16253,7 +16795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16262,7 +16804,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16271,7 +16813,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16280,7 +16822,7 @@
 			)
 		)
 		(property "manf" ""
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16289,7 +16831,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16298,7 +16840,7 @@
 			)
 		)
 		(property "mouser#" ""
-			(at 104.14 115.57 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16315,7 +16857,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "SB101")
+					(reference "SB401")
 					(unit 1)
 				)
 			)
@@ -16331,7 +16873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec523cb-e6aa-47a7-9b1c-93ed5a2e3d2c")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0407"
 			(at 40.64 63.5 0)
 			(effects
 				(font
@@ -16381,7 +16923,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0107")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -16396,7 +16938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60eccd96-9e41-417b-ae93-05b7720b7a45")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0406"
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -16482,7 +17024,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0106")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -16497,7 +17039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61e97e52-edd1-4e74-bba3-8a4d66cbbfce")
-		(property "Reference" "IC107"
+		(property "Reference" "IC407"
 			(at 256.54 161.29 0)
 			(effects
 				(font
@@ -16675,7 +17217,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC107")
+					(reference "IC407")
 					(unit 1)
 				)
 			)
@@ -16691,7 +17233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62503bc0-6ed1-4e48-8c6d-8050aeab9202")
-		(property "Reference" "C108"
+		(property "Reference" "C408"
 			(at 109.22 35.5663 0)
 			(effects
 				(font
@@ -16781,7 +17323,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C108")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -16789,7 +17331,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 349.25 50.8 0)
+		(at 378.46 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16797,8 +17339,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64330885-f35d-4007-a8cc-f0d4a77cff67")
-		(property "Reference" "D104"
-			(at 347.6625 44.45 0)
+		(property "Reference" "D404"
+			(at 376.8725 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16806,7 +17348,7 @@
 			)
 		)
 		(property "Value" "Charge"
-			(at 347.6625 46.99 0)
+			(at 376.8725 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16814,7 +17356,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16823,7 +17365,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75020.pdf"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16832,7 +17374,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16841,7 +17383,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16850,7 +17392,7 @@
 			)
 		)
 		(property "manf" "Wurth Elektronik"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16859,7 +17401,7 @@
 			)
 		)
 		(property "manf#" "150060YS75020"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +17410,7 @@
 			)
 		)
 		(property "mouser#" "710-150060YS75020"
-			(at 349.25 50.8 0)
+			(at 378.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16885,7 +17427,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "D104")
+					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -16901,7 +17443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "643cda38-c3ed-4d72-a328-15e8150729fa")
-		(property "Reference" "C118"
+		(property "Reference" "C418"
 			(at 334.01 209.5563 0)
 			(effects
 				(font
@@ -16991,77 +17533,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66e1d01f-fc64-48cc-8dd7-d650e3b8e6e2")
-		(property "Reference" "#PWR0123"
-			(at 105.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "152d6efe-c9a3-4d89-9a00-116723c1fe9e")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0123")
+					(reference "C418")
 					(unit 1)
 				)
 			)
@@ -17076,7 +17548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6979ca23-43dc-4fdd-87d6-76deb80ccbec")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0435"
 			(at 181.61 214.63 0)
 			(effects
 				(font
@@ -17126,7 +17598,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0136")
+					(reference "#PWR0435")
 					(unit 1)
 				)
 			)
@@ -17141,7 +17613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69d5b109-f9fd-4ccd-9f67-cda01a404e3c")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0424"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -17191,7 +17663,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0124")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -17207,7 +17679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f2150d-6e28-4927-a5b5-0b887aad6279")
-		(property "Reference" "R102"
+		(property "Reference" "R404"
 			(at 62.23 255.2699 0)
 			(effects
 				(font
@@ -17297,7 +17769,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R102")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -17313,7 +17785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3b3ac6-90a9-4658-9df9-aec02582e3bf")
-		(property "Reference" "C101"
+		(property "Reference" "C401"
 			(at 22.86 236.2263 0)
 			(effects
 				(font
@@ -17403,7 +17875,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C101")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -17411,15 +17883,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 96.52 0)
+		(at 312.42 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6f13364b-4125-4dde-a486-c32fdb92ef0b")
-		(property "Reference" "#PWR0148"
-			(at 283.21 102.87 0)
+		(property "Reference" "#PWR0452"
+			(at 312.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17428,7 +17900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 101.6 0)
+			(at 312.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17436,7 +17908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 96.52 0)
+			(at 312.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17445,7 +17917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 96.52 0)
+			(at 312.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17454,7 +17926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 96.52 0)
+			(at 312.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17468,7 +17940,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0148")
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -17483,7 +17955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71dbcd57-976c-41f2-95c8-51d3f618ca43")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0457"
 			(at 363.22 193.04 0)
 			(effects
 				(font
@@ -17533,7 +18005,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0158")
+					(reference "#PWR0457")
 					(unit 1)
 				)
 			)
@@ -17549,7 +18021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759e0157-abe4-4dbc-a39f-5bf1fb604c6d")
-		(property "Reference" "R121"
+		(property "Reference" "R402"
 			(at 53.34 85.09 90)
 			(effects
 				(font
@@ -17637,7 +18109,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R121")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -17652,7 +18124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77f133ce-017c-4583-ab3d-392b8d1bf05f")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0409"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -17702,7 +18174,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0110")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -17719,7 +18191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c4be2b0-3651-4295-9d38-4c950b8daeaa")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0453"
 			(at 321.31 222.25 0)
 			(effects
 				(font
@@ -17769,7 +18241,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0154")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
@@ -17784,7 +18256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2d6c2a-9c1f-4947-b00a-9e971eae5208")
-		(property "Reference" "IC101"
+		(property "Reference" "IC401"
 			(at 35.56 26.035 0)
 			(effects
 				(font
@@ -17888,153 +18360,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ON Semiconductor:NL3V4T244 (TSSOP14)")
-		(at 105.41 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e791ae3-630a-4a24-b70c-b6958f9233b3")
-		(property "Reference" "IC105"
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NL3V4T244MU2TAG-Q"
-			(at 95.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nl3v4t244-d.pdf"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "onsemi"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NL3V4T244MU2TAG-Q"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "863-NL3V4T244MU2TAG-Q"
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "141692bf-f1b2-48ae-a404-05ea0a4fbc34")
-		)
-		(pin "10"
-			(uuid "ef8eb4b1-942e-4526-9ba3-50a5668b7cc9")
-		)
-		(pin "11"
-			(uuid "2e7900fa-9694-4728-a483-e7dbfe4ad272")
-		)
-		(pin "12"
-			(uuid "557a38bb-a8d8-44a9-8433-0a5bd6536e69")
-		)
-		(pin "2"
-			(uuid "c19e69c8-cd18-4e48-9560-e6454bed459b")
-		)
-		(pin "3"
-			(uuid "72f3c455-0c20-4296-b1d8-0bc61f99c157")
-		)
-		(pin "4"
-			(uuid "2396a83c-30c3-4a46-9da8-4c01ef77124c")
-		)
-		(pin "5"
-			(uuid "69c1a901-70e9-4dd7-b5ff-5fb8fdcb6a44")
-		)
-		(pin "13"
-			(uuid "729ef242-8419-4386-aede-a35cbf26fb66")
-		)
-		(pin "7"
-			(uuid "fa145240-2299-4cc9-8493-19438bc44b2d")
-		)
-		(pin "8"
-			(uuid "b5c238e6-d314-44a0-8912-524253532455")
-		)
-		(pin "14"
-			(uuid "a3b80fa2-954f-486f-b62e-208b31bd8102")
-		)
-		(pin "9"
-			(uuid "29ebda19-24da-4975-8c2e-7ee9e4aa6619")
-		)
-		(pin "6"
-			(uuid "7e5fd782-2fbb-4863-a8c5-535fc21c9ba1")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(reference "IC9")
-					(unit 1)
-				)
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC105")
+					(reference "IC401")
 					(unit 1)
 				)
 			)
@@ -18049,7 +18375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f832bd3-8908-41af-966b-5489b1bd6d22")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0419"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -18099,7 +18425,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0119")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -18115,7 +18441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f314a3-bfe9-402a-8d87-95c153b53ef9")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0422"
 			(at 93.98 226.06 0)
 			(effects
 				(font
@@ -18165,7 +18491,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0121")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -18173,15 +18499,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 360.68 50.8 90)
+		(at 389.89 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "83c8d6d6-8a23-48a4-970f-1c2327635e8d")
-		(property "Reference" "R118"
-			(at 360.68 45.72 90)
+		(property "Reference" "R421"
+			(at 389.89 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18515,7 @@
 			)
 		)
 		(property "Value" "620R"
-			(at 360.68 48.26 90)
+			(at 389.89 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18197,7 +18523,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18206,7 +18532,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18215,7 +18541,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18224,7 +18550,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18233,7 +18559,7 @@
 			)
 		)
 		(property "manf" "Bourns"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18242,7 +18568,7 @@
 			)
 		)
 		(property "manf#" "CR0603-JW-621ELF"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18251,7 +18577,7 @@
 			)
 		)
 		(property "mouser#" "652-CR0603-JW-621ELF"
-			(at 360.68 50.8 0)
+			(at 389.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18268,7 +18594,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R118")
+					(reference "R421")
 					(unit 1)
 				)
 			)
@@ -18284,7 +18610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8537a538-8311-4cb0-96ab-819d4796afbc")
-		(property "Reference" "C106"
+		(property "Reference" "C407"
 			(at 96.52 214.6363 0)
 			(effects
 				(font
@@ -18374,7 +18700,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C106")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -18390,7 +18716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85612993-7774-4fdf-bcb0-5a8eb4354707")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0430"
 			(at 127 31.75 0)
 			(effects
 				(font
@@ -18440,7 +18766,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0130")
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
@@ -18455,7 +18781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85f91c0c-7595-4e24-814a-4e85d1550ecd")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0413"
 			(at 67.31 226.06 0)
 			(effects
 				(font
@@ -18505,7 +18831,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0113")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -18513,15 +18839,15 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
-		(at 151.13 54.61 0)
+		(at 180.34 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "889c034c-113b-4038-a4fe-7dcfcb1037e9")
-		(property "Reference" "X103"
-			(at 143.51 25.4 0)
+		(property "Reference" "X403"
+			(at 172.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18529,7 +18855,7 @@
 			)
 		)
 		(property "Value" "Host"
-			(at 143.51 91.44 0)
+			(at 172.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18537,7 +18863,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
-			(at 154.94 54.61 0)
+			(at 184.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18546,7 +18872,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 154.94 54.61 0)
+			(at 184.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18555,7 +18881,7 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 151.13 54.61 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18564,7 +18890,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 151.13 54.61 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,7 +18899,7 @@
 			)
 		)
 		(property "manf" "Amphenol Commercial Products"
-			(at 151.13 54.61 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18582,7 +18908,7 @@
 			)
 		)
 		(property "manf#" "12401610E4-2A"
-			(at 151.13 54.61 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18591,7 +18917,7 @@
 			)
 		)
 		(property "mouser#" "523-12401610E4#2A"
-			(at 151.13 54.61 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18677,7 +19003,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X103")
+					(reference "X403")
 					(unit 1)
 				)
 			)
@@ -18693,7 +19019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "893a51ae-a001-488d-a007-4c4ce3b09d8a")
-		(property "Reference" "C105"
+		(property "Reference" "C405"
 			(at 81.28 214.6363 0)
 			(effects
 				(font
@@ -18783,7 +19109,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C105")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -18798,7 +19124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d77228-1f08-4bef-a7af-6fb34d29b6be")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0448"
 			(at 283.21 158.75 0)
 			(effects
 				(font
@@ -18848,7 +19174,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0149")
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -18864,7 +19190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d3d0c83-99d4-4c6d-8649-455758881c85")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0455"
 			(at 331.47 222.25 0)
 			(effects
 				(font
@@ -18914,7 +19240,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0155")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 			)
@@ -18931,7 +19257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e0b5c21-681e-43be-a779-df9ac62c7a5f")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0415"
 			(at 69.85 214.63 0)
 			(effects
 				(font
@@ -18981,7 +19307,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0115")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -18998,7 +19324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e790b8d-55cb-4841-a55d-029c40728ae0")
-		(property "Reference" "C113"
+		(property "Reference" "C413"
 			(at 208.2863 215.9 90)
 			(effects
 				(font
@@ -19086,7 +19412,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C113")
+					(reference "C413")
 					(unit 1)
 				)
 			)
@@ -19101,7 +19427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee037f9-0d55-44b0-af5a-3e1122c48bb9")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0445"
 			(at 252.73 222.25 0)
 			(effects
 				(font
@@ -19151,7 +19477,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0147")
+					(reference "#PWR0445")
 					(unit 1)
 				)
 			)
@@ -19166,7 +19492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90dbe653-047f-4d9e-a3b8-0d8dd648476f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0427"
 			(at 116.84 49.53 0)
 			(effects
 				(font
@@ -19216,7 +19542,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0127")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -19224,7 +19550,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 325.12 29.21 270)
+		(at 354.33 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19232,8 +19558,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9229c3d5-bcb4-4110-8394-de2f103588ff")
-		(property "Reference" "R115"
-			(at 325.12 24.13 90)
+		(property "Reference" "R418"
+			(at 354.33 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19241,7 +19567,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 325.12 26.67 90)
+			(at 354.33 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19249,7 +19575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19258,7 +19584,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,7 +19593,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19276,7 +19602,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19285,7 +19611,7 @@
 			)
 		)
 		(property "manf" "Vishay"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19294,7 +19620,7 @@
 			)
 		)
 		(property "manf#" "CRCW08050000Z0EAHP"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19303,7 +19629,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW08050000Z0EAHP"
-			(at 325.12 29.21 0)
+			(at 354.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +19646,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R115")
+					(reference "R418")
 					(unit 1)
 				)
 			)
@@ -19336,7 +19662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf452b7-3f12-45e4-b7e9-a926b489c271")
-		(property "Reference" "R108"
+		(property "Reference" "R408"
 			(at 193.04 199.3899 0)
 			(effects
 				(font
@@ -19426,7 +19752,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R108")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -19443,7 +19769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f00d9f5-6b50-4c24-bfec-c2c527eabf69")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0408"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -19529,7 +19855,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0109")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -19537,15 +19863,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 53.34 0)
+		(at 220.98 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a2264000-6756-41c5-b114-b28848f7ba34")
-		(property "Reference" "#PWR0138"
-			(at 191.77 59.69 0)
+		(property "Reference" "#PWR0439"
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19554,7 +19880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 58.42 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19563,7 +19889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 53.34 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19572,7 +19898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 53.34 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +19907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 53.34 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19595,7 +19921,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0138")
+					(reference "#PWR0439")
 					(unit 1)
 				)
 			)
@@ -19610,7 +19936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a35aaa87-7361-4fef-8239-07a3405640c6")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0402"
 			(at 20.32 251.46 0)
 			(effects
 				(font
@@ -19660,7 +19986,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0102")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -19677,7 +20003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4a8868f-d5e8-46f6-a3fb-15655b890134")
-		(property "Reference" "S101"
+		(property "Reference" "S401"
 			(at 36.83 236.2199 90)
 			(effects
 				(font
@@ -19767,7 +20093,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "S101")
+					(reference "S401")
 					(unit 1)
 				)
 			)
@@ -19775,7 +20101,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 341.63 59.69 270)
+		(at 370.84 59.69 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19784,8 +20110,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d2b7ff-8fc3-420a-bc41-761ca0b93fc9")
-		(property "Reference" "SW101"
-			(at 346.71 58.4199 90)
+		(property "Reference" "SW401"
+			(at 375.92 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19794,7 +20120,7 @@
 			)
 		)
 		(property "Value" "Charge"
-			(at 346.71 60.9599 90)
+			(at 375.92 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19803,7 +20129,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +20138,7 @@
 			)
 		)
 		(property "Datasheet" "https://ckswitches.com/media/1424/pcm.pdf"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +20147,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +20156,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19839,7 +20165,7 @@
 			)
 		)
 		(property "manf" "C&K"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,7 +20174,7 @@
 			)
 		)
 		(property "manf#" "PCM12SMTR"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19857,7 +20183,7 @@
 			)
 		)
 		(property "mouser#" "611-PCM12SMTR"
-			(at 341.63 59.69 0)
+			(at 370.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19886,7 +20212,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "SW101")
+					(reference "SW401")
 					(unit 1)
 				)
 			)
@@ -19903,7 +20229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76fc923-b0cb-4e38-8e69-7803030ff3f5")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0411"
 			(at 64.77 256.54 0)
 			(effects
 				(font
@@ -19953,7 +20279,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0111")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -19961,15 +20287,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 96.52 0)
+		(at 264.16 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a93909ea-b06f-4fed-b871-a7fa8848f4d0")
-		(property "Reference" "#PWR0143"
-			(at 234.95 102.87 0)
+		(property "Reference" "#PWR0447"
+			(at 264.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +20304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 101.6 0)
+			(at 264.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19986,7 +20312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 96.52 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19995,7 +20321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 96.52 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20004,7 +20330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 96.52 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20018,7 +20344,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0143")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 			)
@@ -20034,7 +20360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab7cd238-1ad6-4ab6-be4d-e7725c10ccbe")
-		(property "Reference" "C109"
+		(property "Reference" "C409"
 			(at 111.76 63.5063 0)
 			(effects
 				(font
@@ -20128,7 +20454,7 @@
 					(unit 1)
 				)
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C109")
+					(reference "C409")
 					(unit 1)
 				)
 			)
@@ -20144,7 +20470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aecdd4e5-628c-4e4f-a6e2-20b8ca3e260c")
-		(property "Reference" "R110"
+		(property "Reference" "R412"
 			(at 217.17 182.8799 0)
 			(effects
 				(font
@@ -20234,7 +20560,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R110")
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -20250,7 +20576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aefc89d9-e7b1-4f11-a3f0-4a66d69da02c")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0456"
 			(at 341.63 222.25 0)
 			(effects
 				(font
@@ -20300,7 +20626,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0157")
+					(reference "#PWR0456")
 					(unit 1)
 				)
 			)
@@ -20317,7 +20643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3b7896-e372-456f-b92e-adb3e3e8fa72")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0417"
 			(at 86.36 214.63 0)
 			(effects
 				(font
@@ -20367,7 +20693,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0117")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -20382,7 +20708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afd52114-d6ae-43f7-9f25-019293679812")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0459"
 			(at 377.19 193.04 0)
 			(effects
 				(font
@@ -20432,7 +20758,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0159")
+					(reference "#PWR0459")
 					(unit 1)
 				)
 			)
@@ -20440,15 +20766,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 96.52 0)
+		(at 172.72 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b2349a51-93bb-4891-b4eb-2a9d9c43727e")
-		(property "Reference" "#PWR0133"
-			(at 143.51 102.87 0)
+		(property "Reference" "#PWR0433"
+			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20457,7 +20783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 101.6 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20465,7 +20791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20474,7 +20800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20483,7 +20809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20497,7 +20823,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0133")
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -20512,7 +20838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a002e2-4f9e-4287-93d4-ded9983c435f")
-		(property "Reference" "X102"
+		(property "Reference" "X402"
 			(at 128.27 264.1599 90)
 			(effects
 				(font
@@ -20611,7 +20937,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X102")
+					(reference "X402")
 					(unit 1)
 				)
 			)
@@ -20627,7 +20953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e529d7-a538-412a-ac22-fc06d90440b6")
-		(property "Reference" "R116"
+		(property "Reference" "R417"
 			(at 344.17 209.5499 0)
 			(effects
 				(font
@@ -20717,7 +21043,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R116")
+					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -20732,7 +21058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b98378d5-a627-49c4-9d9c-9169be3c4a9d")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0403"
 			(at 30.48 115.57 0)
 			(effects
 				(font
@@ -20782,7 +21108,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0104")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -20790,7 +21116,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 323.85 38.1 90)
+		(at 353.06 38.1 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20798,8 +21124,8 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bc5169dc-f89f-4173-ae69-08a233fce04f")
-		(property "Reference" "X105"
-			(at 321.31 36.83 90)
+		(property "Reference" "X405"
+			(at 350.52 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20808,7 +21134,7 @@
 			)
 		)
 		(property "Value" "Current"
-			(at 321.31 39.37 90)
+			(at 350.52 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20817,7 +21143,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 323.85 38.1 0)
+			(at 353.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20826,7 +21152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 38.1 0)
+			(at 353.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20835,7 +21161,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 38.1 0)
+			(at 353.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20844,7 +21170,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 323.85 38.1 0)
+			(at 353.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20861,7 +21187,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X105")
+					(reference "X405")
 					(unit 1)
 				)
 			)
@@ -20869,7 +21195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 284.48 81.28 180)
+		(at 313.69 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20877,8 +21203,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd026e42-58bc-48d2-a76d-63a9841e307a")
-		(property "Reference" "R114"
-			(at 287.02 80.0099 0)
+		(property "Reference" "R416"
+			(at 316.23 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20887,7 +21213,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 287.02 82.5499 0)
+			(at 316.23 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20896,7 +21222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20905,7 +21231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20914,7 +21240,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20923,7 +21249,7 @@
 			)
 		)
 		(property "manf" "Vishay"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20932,7 +21258,7 @@
 			)
 		)
 		(property "manf#" "CRCW06035K10FKEA"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20941,7 +21267,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06035K10FKEA"
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20950,7 +21276,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 284.48 81.28 0)
+			(at 313.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20967,7 +21293,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R114")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -20984,7 +21310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be72aa76-82a0-4fe0-96da-666000daf4ab")
-		(property "Reference" "C104"
+		(property "Reference" "C404"
 			(at 64.77 214.6363 0)
 			(effects
 				(font
@@ -21074,7 +21400,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C104")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -21090,7 +21416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "becd71c7-b11c-42be-a272-f74fbf76ce03")
-		(property "Reference" "C112"
+		(property "Reference" "C412"
 			(at 208.2863 195.58 90)
 			(effects
 				(font
@@ -21178,7 +21504,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C112")
+					(reference "C412")
 					(unit 1)
 				)
 			)
@@ -21195,7 +21521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf60a548-7ea2-4dfe-b298-52fb8835cd9b")
-		(property "Reference" "C116"
+		(property "Reference" "C416"
 			(at 293.37 147.3263 0)
 			(effects
 				(font
@@ -21285,7 +21611,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C116")
+					(reference "C416")
 					(unit 1)
 				)
 			)
@@ -21293,7 +21619,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 100.33 64.77 0)
+		(at 87.63 64.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21301,8 +21627,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf81a34b-6d55-4e5f-9f6b-c2c792d7cfeb")
-		(property "Reference" "C107"
-			(at 97.79 63.5063 0)
+		(property "Reference" "C406"
+			(at 85.09 63.5063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21311,7 +21637,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 97.79 66.0463 0)
+			(at 85.09 66.0463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21320,7 +21646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21329,7 +21655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,7 +21664,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,7 +21673,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21356,7 +21682,7 @@
 			)
 		)
 		(property "manf" "Kemet"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21365,7 +21691,7 @@
 			)
 		)
 		(property "manf#" "C0603C104M4RAC7411"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21374,7 +21700,7 @@
 			)
 		)
 		(property "mouser#" "80-C0603C104M4R7411"
-			(at 100.33 64.77 0)
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21391,7 +21717,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C107")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -21399,15 +21725,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 344.17 39.37 90)
+		(at 373.38 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4908bc8-6412-4e6b-85f8-b4bafa56f5c2")
-		(property "Reference" "R117"
-			(at 344.17 34.29 90)
+		(property "Reference" "R420"
+			(at 373.38 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21415,7 +21741,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 344.17 36.83 90)
+			(at 373.38 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,7 +21749,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21432,7 +21758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21441,7 +21767,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21450,7 +21776,7 @@
 			)
 		)
 		(property "manf" "YAGEO"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21459,7 +21785,7 @@
 			)
 		)
 		(property "manf#" "RC0603FR-07100KL"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21468,7 +21794,7 @@
 			)
 		)
 		(property "mouser#" "603-RC0603FR-07100KL"
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21477,7 +21803,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 344.17 39.37 0)
+			(at 373.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21494,7 +21820,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R117")
+					(reference "R420")
 					(unit 1)
 				)
 			)
@@ -21502,7 +21828,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 104.14 127 0)
+		(at 104.14 138.43 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21511,8 +21837,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cdc74791-5129-45b8-8b57-ce2a9caa81a3")
-		(property "Reference" "SB102"
-			(at 104.14 120.65 0)
+		(property "Reference" "SB402"
+			(at 104.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21520,7 +21846,7 @@
 			)
 		)
 		(property "Value" "SWDCLK"
-			(at 104.14 123.19 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21528,7 +21854,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21537,7 +21863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21546,7 +21872,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21555,7 +21881,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21564,7 +21890,7 @@
 			)
 		)
 		(property "manf" ""
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21573,7 +21899,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,7 +21908,7 @@
 			)
 		)
 		(property "mouser#" ""
-			(at 104.14 127 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21599,7 +21925,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "SB102")
+					(reference "SB402")
 					(unit 1)
 				)
 			)
@@ -21607,7 +21933,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 180.34 81.28 180)
+		(at 209.55 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21615,8 +21941,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0d651b-3763-462b-8932-7e31f9f4acba")
-		(property "Reference" "R106"
-			(at 182.88 80.0099 0)
+		(property "Reference" "R410"
+			(at 212.09 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21625,7 +21951,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 182.88 82.5499 0)
+			(at 212.09 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21634,7 +21960,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21643,7 +21969,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21652,7 +21978,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,7 +21987,7 @@
 			)
 		)
 		(property "manf" "Vishay"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21670,7 +21996,7 @@
 			)
 		)
 		(property "manf#" "CRCW06035K10FKEA"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21679,7 +22005,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06035K10FKEA"
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +22014,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 180.34 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,7 +22031,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R106")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -21719,9 +22045,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d3069845-6df0-49a0-9126-0fd41172e0e9")
-		(property "Reference" "R103"
+		(property "Reference" "R405"
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -21811,7 +22137,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R103")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -21828,7 +22154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d84e7d91-a210-45a7-a8ef-4f21f4e8306f")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0428"
 			(at 125.73 63.5 0)
 			(effects
 				(font
@@ -21878,7 +22204,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0128")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -21894,7 +22220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd775084-0136-462e-8ad9-4a1cbf83c906")
-		(property "Reference" "R101"
+		(property "Reference" "R401"
 			(at 22.86 219.7099 0)
 			(effects
 				(font
@@ -21984,7 +22310,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R101")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -21992,7 +22318,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 104.14 129.54 0)
+		(at 104.14 140.97 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22001,8 +22327,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dfde7a98-0460-40bd-9f1e-2e1d033bf253")
-		(property "Reference" "SB103"
-			(at 104.14 133.35 0)
+		(property "Reference" "SB403"
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22010,7 +22336,7 @@
 			)
 		)
 		(property "Value" "SWDIO"
-			(at 104.14 135.89 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22018,7 +22344,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22027,7 +22353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22036,7 +22362,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22045,7 +22371,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,7 +22380,7 @@
 			)
 		)
 		(property "manf" ""
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22063,7 +22389,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22072,7 +22398,7 @@
 			)
 		)
 		(property "mouser#" ""
-			(at 104.14 129.54 0)
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22089,7 +22415,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "SB103")
+					(reference "SB403")
 					(unit 1)
 				)
 			)
@@ -22104,7 +22430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e25a4a02-dc00-4a34-9e1b-3f4c9a5ef457")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0431"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -22154,7 +22480,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0131")
+					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
@@ -22169,7 +22495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7d5a8c7-450b-4f5c-bfb7-45f5dbf83dae")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0405"
 			(at 35.56 251.46 0)
 			(effects
 				(font
@@ -22219,7 +22545,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0105")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -22235,7 +22561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea515a31-7b28-474f-850f-e5e3e9118407")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0432"
 			(at 130.81 257.81 0)
 			(effects
 				(font
@@ -22285,7 +22611,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0132")
+					(reference "#PWR0432")
 					(unit 1)
 				)
 			)
@@ -22297,11 +22623,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ee2a6e1c-231d-48c7-909c-a0cddf78afba")
-		(property "Reference" "R104"
+		(property "Reference" "R406"
 			(at 128.27 71.12 0)
 			(effects
 				(font
@@ -22391,7 +22717,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R104")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -22399,7 +22725,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 68.58 0)
+		(at 87.63 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22407,8 +22733,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee5227ac-beb1-4eaf-b413-a08bae4ca1a1")
-		(property "Reference" "#PWR0122"
-			(at 100.33 74.93 0)
+		(property "Reference" "#PWR0421"
+			(at 87.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,7 +22743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 73.66 0)
+			(at 87.63 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22425,7 +22751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 68.58 0)
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,7 +22760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 68.58 0)
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22443,7 +22769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 68.58 0)
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22457,7 +22783,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0122")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -22473,7 +22799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f17a4363-e01c-4818-9627-cdee6860808e")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0429"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -22523,7 +22849,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0129")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -22538,7 +22864,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "f63ebd49-9c91-432d-939d-f65dd39d13de")
-		(property "Reference" "J101"
+		(property "Reference" "J401"
 			(at 17.145 71.12 90)
 			(effects
 				(font
@@ -22629,7 +22955,7 @@
 			)
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "J101")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -22637,7 +22963,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.8 81.28 0)
+		(at 207.01 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22645,8 +22971,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9341b73-7b37-4ba5-9f30-fca183e81bce")
-		(property "Reference" "R105"
-			(at 175.26 80.0099 0)
+		(property "Reference" "R409"
+			(at 204.47 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22655,7 +22981,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 175.26 82.5499 0)
+			(at 204.47 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22664,7 +22990,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22673,7 +22999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22682,7 +23008,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22691,7 +23017,7 @@
 			)
 		)
 		(property "manf" "Vishay"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22700,7 +23026,7 @@
 			)
 		)
 		(property "manf#" "CRCW06035K10FKEA"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22709,7 +23035,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06035K10FKEA"
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22718,7 +23044,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 177.8 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22735,7 +23061,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "R105")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -22751,7 +23077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa00d9ec-5d78-43e5-8196-c86da889e530")
-		(property "Reference" "IC102"
+		(property "Reference" "IC402"
 			(at 72.9681 97.79 0)
 			(effects
 				(font
@@ -22856,7 +23182,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC102")
+					(reference "IC402")
 					(unit 1)
 				)
 			)
@@ -22871,7 +23197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa03e202-46a3-48fb-a395-60dab0be3584")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0437"
 			(at 200.66 214.63 0)
 			(effects
 				(font
@@ -22921,7 +23247,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0139")
+					(reference "#PWR0437")
 					(unit 1)
 				)
 			)
@@ -22937,7 +23263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba32480-9908-45b8-a55d-10498bdb4ecb")
-		(property "Reference" "C102"
+		(property "Reference" "C402"
 			(at 59.69 35.5663 0)
 			(effects
 				(font
@@ -23027,7 +23353,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "C102")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -23042,7 +23368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe037c84-f93a-469b-8af5-7593b77dee64")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0410"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -23092,7 +23418,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0108")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -23100,15 +23426,15 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
-		(at 234.95 54.61 0)
+		(at 264.16 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc731a8-b733-42af-83bc-5fe747e3f89a")
-		(property "Reference" "X104"
-			(at 227.33 25.4 0)
+		(property "Reference" "X404"
+			(at 256.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23116,7 +23442,7 @@
 			)
 		)
 		(property "Value" "Device"
-			(at 227.965 91.44 0)
+			(at 257.175 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23124,7 +23450,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
-			(at 238.76 54.61 0)
+			(at 267.97 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23133,7 +23459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 238.76 54.61 0)
+			(at 267.97 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23142,7 +23468,7 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 234.95 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23151,7 +23477,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 234.95 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23160,7 +23486,7 @@
 			)
 		)
 		(property "manf" "Amphenol Commercial Products"
-			(at 234.95 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23169,7 +23495,7 @@
 			)
 		)
 		(property "manf#" "12401610E4-2A"
-			(at 234.95 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23178,7 +23504,7 @@
 			)
 		)
 		(property "mouser#" "523-12401610E4#2A"
-			(at 234.95 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23264,7 +23590,7 @@
 		(instances
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "X104")
+					(reference "X404")
 					(unit 1)
 				)
 			)
