@@ -1,17 +1,13 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
+  <img alt="Logo" width="33%" src="Logos/ZSWatch_logo_with_text.png">
 </p>
 
 <h1 align="center">${BOARD_NAME}</h1>
 
 <p align="center" width="100%">
-  <a href="${GIT_URL}/actions/workflows/pcb.yaml">
-    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/pcb.yaml/badge.svg?branch=">
+  <a href="${GIT_URL}/actions/workflows/Dock-HW.yaml">
+    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/Dock-HW.yaml/badge.svg?branch=">
   </a>
-</p>
-
-<p align="center" width="100%">
-    <img src="Images/dummy_image.png">
 </p>
 
 ***
