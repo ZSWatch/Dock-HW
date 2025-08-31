@@ -117,6 +117,7 @@ groups:
     outputs:
       - @TXT_FAB_NOTES_OUTPUT@
       - @TXT_ASSEMBLY_NOTES_OUTPUT@
+      - @COPY_LOGO@
 
   - name: 3d
     outputs:
@@ -427,6 +428,13 @@ import:
       COMMENT: PCB 3D model in STEP format
       DIR: @3D_DIR@
 
+  # Copy logo files
+  - file: kibot_out_logo_copy.yaml
+    definitions:
+      NAME: @COPY_LOGO@
+      COMMENT: Copy logo
+      DIR: @COPY_LOGO_DIR@
+
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
     definitions:
@@ -541,13 +549,13 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: ZSWatch-Dock
+  PROJECT_NAME: ZSWatch Dock
   BOARD_NAME: Dock-HW
 
   COMPANY: ZSWatch
   DESIGNER: Daniel Kampert
 
-  LOGO: 'Logos/dummy_logo.png'
+  LOGO: 'Logos/ZSWatch_logo_with_text.png'
   GIT_URL: 'https://github.com/ZSWatch/Dock-HW'
 
   # Preflight ==================================================================
@@ -608,6 +616,7 @@ definitions:
   IMAGES_DIR: 'Images'
   3D_DIR: '3D'
   NETLIST_DIR: 'Netlist'
+  COPY_LOGO_DIR: '.'
 
   RESOURCES_DIR: './kibot_resources'
   REPORT_TEMPLATE_DIR: '@RESOURCES_DIR@/templates'
@@ -668,6 +677,9 @@ definitions:
   PNG_3D_VIEWER_ANGLED_BOTTOM: png_3d_viewer_angled_bottom
 
   STEP_OUTPUT: step
+
+  COPY_LOGO: copy_logo
+
   BLENDER_OUTPUT: blender
 
   PDF_SCHEMATIC_OUTPUT: pdf_schematic

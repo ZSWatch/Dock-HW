@@ -684,7 +684,7 @@
       "svg": "",
       "vrml": "../cad/ZSWatch.wrl"
     },
-    "page_layout_descr_file": "KDT_Template_PCB_GIT_A3.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -787,7 +787,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "mouser#"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

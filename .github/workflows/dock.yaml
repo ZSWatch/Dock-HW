@@ -12,7 +12,7 @@ on:
       - '*.md'
 
 env:
-  kicad_board: Dock-HW
+  kicad_board: ZSWatch-Dock
   kibot_config: kibot_yaml/kibot_main.yaml
 
   # Output directory for the run results from KiBot
@@ -93,8 +93,8 @@ jobs:
 
       - name: Getting the dependencies
         run: |
-          git clone https://github.com/Kampi/KiCad.git library
-          echo "KICAD_LIBRARY=$(pwd)/library" >> $GITHUB_ENV
+          git clone https://github.com/Kampi/KiCad.git kicad-library
+          echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> $GITHUB_ENV
 
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
@@ -162,23 +162,23 @@ jobs:
       - name: Generate notes
         if: ${{ env.kibot_variant != 'DRAFT' }}
         run: |
-          cd watch-dk
+          cd dock
           kibot -vvvv -c ${{ env.kibot_config }} -d ${{ env.kibot_output_dir }} -b ${{ env.kicad_board }}.kicad_pcb -s all -g variant=${{ env.kibot_variant }} notes 2> ../log/kibot_notes.log
 
       - name: Generate README only
         if: ${{ env.kibot_variant == 'DRAFT' }}
         run: |
-          cd watch-dk
+          cd dock
           kibot -vvvv -c ${{ env.kibot_config }} -d ${{ env.kibot_output_dir }} -b ${{ env.kicad_board }}.kicad_pcb -s draw_fancy_stackup,set_text_variables,erc,drc -g variant=${{ env.kibot_variant }} md_readme 2> ../log/kibot_readme.log
 
       - name: Generate outputs
         run: |
-          cd watch-dk
+          cd dock
           kibot -vvvv -c ${{ env.kibot_config }} -d ${{ env.kibot_output_dir }} -b ${{ env.kicad_board }}.kicad_pcb -g variant=${{ env.kibot_variant }} ${{ env.additional_args }} 2> ../log/kibot_output.log
 
       - name: Collect PCB costs
         run: |
-          cd watch-dk
+          cd dock
           revision=$(python3 kibot_resources/scripts/get_changelog_version.py -f CHANGELOG.md)
           if [[ $? -ne 0 ]]; then
               echo -e "${YELLOW}Warning: Unable to determine version from CHANGELOG.md. Defaulting to empty revision.${NC}"
