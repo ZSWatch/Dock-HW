@@ -10,10 +10,6 @@
   </a>
 </p>
 
-<p align="center" width="100%">
-    <img src="Images/dummy_image.png">
-</p>
-
 ***
 
 <p align="center">
@@ -26,7 +22,7 @@
 
 ## SPECIFICATIONS
 
-| Parameter | Value | 
+| Parameter | Value |
 | --- | --- |
 | Dimensions | 32.0 × 24.0 mm |
 
