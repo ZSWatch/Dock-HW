@@ -1,0 +1,75 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d5742f03-3b1a-42e5-a384-018bd4b919aa")
+	(paper "A4")
+	(title_block
+		(title "Power-Management")
+		(date "2025-07-13")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 140.335 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "edcfc842-3b0d-4b1a-9bde-92f723be0a77")
+	)
+	(sheet
+		(at 125.73 59.69)
+		(size 38.1 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 0 0.5000)
+		)
+		(uuid "82af773f-8c39-43b9-baa2-3658da6c8bb2")
+		(property "Sheetname" "Main"
+			(at 125.73 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main.kicad_sch"
+			(at 125.73 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "#")
+				)
+			)
+			(project "ZSWatch-Dock"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "4")
+				)
+			)
+		)
+	)
+)
