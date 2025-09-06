@@ -20,7 +20,6 @@ outputs:
     realistic_solder_mask: false
     dpi: 1200
     dnf_filter: _kibom_dnf_Config
-    # dnf_filter: '_null'
     sheet_reference_layout: '@SHEET_WKS@'
     include_table:
       outputs:

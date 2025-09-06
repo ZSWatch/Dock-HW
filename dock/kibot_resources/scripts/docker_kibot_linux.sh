@@ -6,7 +6,7 @@ export USER_ID=$(id -u)
 export GROUP_ID=$(id -g)
 export USER_NAME=$(whoami)
 
-docker run --rm -it \
+sudo docker run --rm -it \
     --user "$USER_ID:$GROUP_ID" \
     --env NO_AT_BRIDGE=1 \
     --env DISPLAY="$DISPLAY" \

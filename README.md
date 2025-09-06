@@ -24,8 +24,6 @@ Key features:
 - 📝 Clear documentation and changelog to track progress
 - 🌍 Designed with collaboration and transparency in mind
 
-![Complete](/production/dock-hw/Images/ZSWatch-Dock-angled_top.png)
-
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
 ## 📂 Directory Breakdown
@@ -33,7 +31,7 @@ Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more inform
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
 - **`dock`**: KiCad project for the dock
-- **`production/PCBWay`**: Manufacturing outputs (Gerbers, etc.) for PCBWay
+- **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
 - **`CHANGELOG.md`**: Version history
 - **`LICENSE`**: Project license (GPL-3.0)
 - **`README.md`**: Project overview

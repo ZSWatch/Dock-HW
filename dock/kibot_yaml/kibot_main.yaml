@@ -56,6 +56,7 @@ groups:
       - @PDF_SCHEMATIC_OUTPUT@
       - @MD_README_OUTPUT@
       - @HTML_NAV_RES_OUTPUT@
+      - @HTML_KIRI_OUTPUT@
 
   - name: draft_group
     outputs:
@@ -600,7 +601,7 @@ definitions:
   # Output directories =========================================================
 
   # Root
-  OUTPUT_DIR: ./
+  OUTPUT_DIR: './'
 
   # Output directories, relative to OUTPUT_DIR
   REPORT_DIR: 'Reports'
