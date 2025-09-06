@@ -5,7 +5,7 @@
 	(uuid "d5742f03-3b1a-42e5-a384-018bd4b919aa")
 	(paper "A3")
 	(title_block
-		(title "Dock-HW")
+		(title "Dock-DevKit")
 		(date "2025-07-13")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -1730,56 +1730,6 @@
 		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
 	)
 	(sheet
-		(at 346.71 314.96)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b")
-		(property "Sheetname" "Power - Sequencing"
-			(at 346.71 313.9309 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power - Sequencing.kicad_sch"
-			(at 347.98 316.23 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "KDT_Hierarchical_KiBot"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "6")
-				)
-			)
-			(project "ZSWatch-Dock"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 346.71 303.53)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1824,7 +1774,7 @@
 			)
 			(project "ZSWatch-Dock"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-					(page "6")
+					(page "5")
 				)
 			)
 		)

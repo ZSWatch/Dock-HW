@@ -143,7 +143,7 @@ fi
 # Determine output directory based on variant
 case "$variant" in
     DRAFT|PRELIMINARY|CHECKED|RELEASED)
-        output_dir="."
+        output_dir="$variant"
         ;;
     *)
         output_dir="Variants"
@@ -156,16 +156,16 @@ if [[ "$costs_flag" == true ]]; then
 else
     case "$variant" in
         DRAFT)
-            kibot_command1="$kibot_base --skip-pre set_text_variables,draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' md_readme"
-            kibot_command2="$kibot_base --skip-pre draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' draft_group"
+            kibot_command1="$kibot_base --skip-pre set_text_variables,draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' md_readme"
+            kibot_command2="$kibot_base --skip-pre draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' draft_group"
             ;;
         PRELIMINARY)
-            kibot_command1="$kibot_base --skip-pre erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' notes"
-            kibot_command2="$kibot_base --skip-pre erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' all_group"
+            kibot_command1="$kibot_base --skip-pre erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' notes"
+            kibot_command2="$kibot_base --skip-pre erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' all_group"
             ;;
         CHECKED|RELEASED|*)
-            kibot_command1="$kibot_base --skip-pre set_text_variables,draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' notes"
-            kibot_command2="$kibot_base $kibot_config -d '$output_dir' -g variant=$variant -E REVISION='$revision' all_group"
+            kibot_command1="$kibot_base --skip-pre set_text_variables,draw_fancy_stackup,erc,drc $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' notes"
+            kibot_command2="$kibot_base $kibot_config -d '$output_dir' -g variant=$variant -E PDF_REPORT_ROOT_DIR='$output_dir' -E REVISION='$revision' all_group"
             ;;
     esac
 fi

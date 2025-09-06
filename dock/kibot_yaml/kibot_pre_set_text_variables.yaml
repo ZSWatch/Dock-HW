@@ -36,30 +36,15 @@ preflight:
       text: '%V'
 
     # Changelog
-    # - variable: '@RELEASE_TITLE_VAR@1.0.0'
-    #   command: '@GET_TITLE_CMD@ 1.0.0'
-    # - variable: '@RELEASE_BODY_VAR@1.0.0'
-    #   command: '@GET_BODY_CMD@ 1.0.0'
+    - variable: '@RELEASE_TITLE_VAR@2.2.0'
+      command: '@GET_TITLE_CMD@ 2.2.0'
+    - variable: '@RELEASE_BODY_VAR@2.2.0'
+      command: '@GET_BODY_CMD@ 2.2.0'
 
-    # - variable: '@RELEASE_TITLE_VAR@1.0.1'
-    #   command: '@GET_TITLE_CMD@ 1.0.1'
-    # - variable: '@RELEASE_BODY_VAR@1.0.1'
-    #   command: '@GET_BODY_CMD@ 1.0.1'
-
-    # - variable: '@RELEASE_TITLE_VAR@1.0.2'
-    #   command: '@GET_TITLE_CMD@ 1.0.2'
-    # - variable: '@RELEASE_BODY_VAR@1.0.2'
-    #   command: '@GET_BODY_CMD@ 1.0.2'
-
-    # - variable: '@RELEASE_TITLE_VAR@1.1.0'
-    #   command: '@GET_TITLE_CMD@ 1.1.0'
-    # - variable: '@RELEASE_BODY_VAR@1.1.0'
-    #   command: '@GET_BODY_CMD@ 1.1.0'
-
-    # - variable: '@RELEASE_TITLE_VAR@1.1.1'
-    #   command: '@GET_TITLE_CMD@ 1.1.1'
-    # - variable: '@RELEASE_BODY_VAR@1.1.1'
-    #   command: '@GET_BODY_CMD@ 1.1.1'
+    # - variable: '@RELEASE_TITLE_VAR@x.y.z'
+    #   command: '@GET_TITLE_CMD@ x.y.z'
+    # - variable: '@RELEASE_BODY_VAR@x.y.z'
+    #   command: '@GET_BODY_CMD@ x.y.z'
 
     - variable: '@RELEASE_TITLE_VAR@UNRELEASED'
       command: '@GET_TITLE_CMD@ Unreleased'
@@ -69,13 +54,12 @@ preflight:
     # Fabrication notes
     - variable: 'FABRICATION_NOTES'
       expand_in_command: true
-      command: '[ -f "@FABRICATION_DIR@/%f-fabrication_notes%v.txt" ] && cat "@FABRICATION_DIR@/%f-fabrication_notes%v.txt" || echo ""'
-
+      command: '[ -f "@PDF_REPORT_ROOT_DIR@/@FABRICATION_DIR@/%f-fabrication_notes%v.txt" ] && cat "@PDF_REPORT_ROOT_DIR@/@FABRICATION_DIR@/%f-fabrication_notes%v.txt" || echo ""'
 
     # Fabrication notes
     - variable: 'ASSEMBLY_NOTES'
       expand_in_command: true
-      command: '[ -f "@ASSEMBLY_DIR@/%f-assembly_notes%v.txt" ] && cat "@ASSEMBLY_DIR@/%f-assembly_notes%v.txt" || echo ""'
+      command: '[ -f "@PDF_REPORT_ROOT_DIR@/@ASSEMBLY_DIR@/%f-assembly_notes%v.txt" ] && cat "@PDF_REPORT_ROOT_DIR@/@ASSEMBLY_DIR@/%f-assembly_notes%v.txt" || echo ""'
 
     # Page titles for automatic ToC
     - variable: '@SHEET_NAME_VAR@1'
