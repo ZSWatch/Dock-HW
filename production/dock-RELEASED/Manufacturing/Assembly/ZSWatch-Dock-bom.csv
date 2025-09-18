@@ -1,0 +1,32 @@
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,manf,manf#,mouser#
+1,2,C412 C413,18p,https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,06031A180KAT2A,581-06031A180KAT2A
+2,1,C408,470p,https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,06031C471K4Z4A,581-06031C471K4Z4A
+3,13,C401 C403 C404 C405 C406 C407 C409 C414 C415 C416 C417 C418 C419,100n,https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",Kemet,C0603C104M4RAC7411,80-C0603C104M4R7411
+4,1,C410,1u,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",TDK,C1608X7R1H105K080AB,810-C1608X7R1H105K08
+5,2,C402 C411,2u2,https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf,C_0603_1608Metric,"Unpolarized capacitor, small symbol",KYOCERA AVX,0603YD225KAT4A,581-0603YD225KAT4A
+6,1,D404,Charge,https://www.we-online.com/components/products/datasheet/150060GS75020.pdf,LED_0603_1608Metric,Light emitting diode,Wurth Elektronik,150060YS75020,710-150060YS75020
+7,2,D401 D402,ESD5Zxx,https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf,D_SOD-523,"ESD Protection Diode, SOD-523",onsemi,ESD5Z5.0T5G,863-ESD5Z5.0T5G
+8,1,D403,USB,https://www.mouser.de/datasheet/2/588/LG_L29K_EN-3419084.pdf,LED_0603_1608Metric,Light emitting diode,ams OSRAM,LG L29K-G2J1-24,720-LGL29KG2J124Z
+9,1,IC403,FT230XQ,https://ftdichip.com/wp-content/uploads/2024/05/DS_FT230X.pdf,QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm,"Full Speed USB to Basic UART, QFN-16",FTDI,FT230XQ-R,895-FT230XQ-R
+10,1,IC409,MIC2026-1xM,https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf,SOIC-8_3.9x4.9mm_P1.27mm,"Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8",Microchip Technology,MIC2026-1YM,998-MIC2026-1YM
+11,1,IC404,MIC5219-3.3YM5,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf,SOT-23-5,"500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5",Microchip Technology,MIC5219-3.3YM5-TR,998-MIC5219-3.3YM5TR
+12,1,IC401,TLV70218_SOT23-5,http://www.ti.com/lit/ds/symlink/tlv702.pdf,SOT-23-5,"300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5",Texas Instruments,TLV70218DBVRG4,595-TLV70218DBVRG4
+13,1,IC405,TXB0304RUT,http://www.ti.com/lit/ds/symlink/txb0304.pdf,Texas_R-PUQFN-N12,"4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12",Texas Instruments,TXB0304RUTR,595-TXB0304RUTR
+14,1,IC407,USB2512BT,https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/USB251xB-xBi-Data-Sheet-DS00001692.pdf,QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm,,Microchip Technology,USB2512BT/M2,579-USB2512BT/M2
+15,3,IC402 IC406 IC408,USBLC6-2P6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,SOT-666,"Very low capacitance ESD protection diode, 2 data-line, SOT-666",STMicroelectronics,USBLC6-2P6,511-USBLC6-2P6
+16,1,J401,Jumper,https://www.we-online.com/katalog/datasheet/60900213421.pdf,,Generic jumper cap,Würth Elektronik,60900213421,710-60900213421
+17,2,J402 X402,Voltage,https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,PinHeader_1x03_P2.54mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Amphenol FCI,10129378-936001BLF,649-10129378-936001BLF
+18,1,Q401,BSH205G2AR,https://assets.nexperia.com/documents/data-sheet/BSH205G2A.pdf,SOT-23,"-2A Id, -20V Vds, P-Channel MOSFET, SOT-23",Nexperia,BSH205G2AR,771-BSH205G2AR
+19,2,R405 R418,0R,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0805_2012Metric,"Resistor, small symbol",Bourns,CR0805-J/-000ELF,652-CR0805-J/-000ELF
+20,2,R402 R403,22R,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0603_1608Metric,"Resistor, small symbol",Bourns,CR0603-JW-220ELF,652-CR0603-JW-220ELF
+21,1,R421,620R,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0603_1608Metric,"Resistor, small symbol",Bourns,CR0603-JW-621ELF,652-CR0603-JW-621ELF
+22,1,R407,3k3,https://www.vishay.com/doc?20035,R_0603_1608Metric,"Resistor, small symbol",Vishay,CRCW06033K300FKEA,71-CRCW06033K300FKEA
+23,4,R409 R410 R415 R416,5k1,https://www.vishay.com/doc?20035,R_0603_1608Metric,"Resistor, small symbol",Vishay,CRCW06035K10FKEA,71-CRCW06035K10FKEA
+24,8,R401 R404 R408 R412 R413 R414 R419 R420,100k,https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf,R_0603_1608Metric,"Resistor, small symbol",YAGEO,RC0603FR-07100KL,603-RC0603FR-07100KL
+25,1,R417,12k / 1%,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0603_1608Metric,"Resistor, small symbol",Bourns,CR0603-FX-1202ELF,652-CR0603-FX-1202ELF
+26,1,S401,Reset,https://www.we-online.com/components/products/datasheet/430182050816.pdf,WS-TASV-6x6,,Wurth Elektronik,430182050816,710-430182050816
+27,1,SW401,Charge,https://ckswitches.com/media/1424/pcm.pdf,SW_SPDT_PCM12,"Switch, dual pole double throw, separate symbols",C&K,PCM12SMTR,611-PCM12SMTR
+28,1,X401,Debug,https://www.we-online.com/components/products/datasheet/62101021021.pdf,SHF-105-01-L-D-SM-TR,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Wurth Elektronik,62101021021,710-62101021021
+29,1,X404,Device,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf,10133475-10001LF,USB Full-Featured Type-C edge connector,Amphenol Commercial Products,10133475-10001LF,523-10133475-10001LF
+30,1,X403,Host,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB_C_Receptacle_Amphenol_12401610E4-2A,USB Full-Featured Type-C Receptacle connector,Amphenol Commercial Products,12401610E4-2A,523-12401610E4#2A
+31,1,Y401,24 MHz,https://www.mouser.de/datasheet/2/3/ABM8G-3318032.pdf,Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm,"Four pin crystal, GND on pins 2 and 4",ABRACON,ABM8G-24.000MHZ-B4Y-T,815-ABM8G-24-B4Y-T

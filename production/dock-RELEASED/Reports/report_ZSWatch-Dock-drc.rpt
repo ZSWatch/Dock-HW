@@ -1,0 +1,93 @@
+** Drc report for ZSWatch-Dock.kicad_pcb **
+** Created on 2025-09-18T10:25:18+0000 **
+
+** Found 19 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.1000 mm; actual 0.0298 mm)
+    ; error
+    @(167.7 mm, 144.775 mm): Segment on Edge.Cuts
+    @(168.65 mm, 144.945 mm): Pad S1 [GND] of X404 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.1000 mm; actual 0.0385 mm)
+    ; error
+    @(168.05 mm, 152.075 mm): Segment on Edge.Cuts
+    @(168.65 mm, 151.695 mm): Pad S1 [GND] of X404 on B.Cu
+[lib_footprint_mismatch]: Footprint 'QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm' does not match copy in library 'Package_DFN_QFN'.
+    ; warning
+    @(200.475 mm, 151.025 mm): Footprint IC403
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(226.475 mm, 135.3625 mm): Footprint IC404
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_Amphenol_12401610E4-2A' does not match copy in library 'Connector_USB'.
+    ; warning
+    @(243.725 mm, 148.32 mm): Footprint X403
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Horizontal' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(178.925 mm, 130.285 mm): Footprint X405
+[lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(233.5 mm, 142.225 mm): Footprint IC409
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(213.9 mm, 168.2 mm): Footprint X402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(183.825 mm, 165.95 mm): Footprint S401
+[lib_footprint_mismatch]: Footprint 'SOT-666' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(176.979999 mm, 148.3375 mm): Footprint IC408
+[lib_footprint_mismatch]: Footprint 'SOT-666' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(198.4 mm, 130.6625 mm): Footprint IC402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'footprints'.
+    ; warning
+    @(229.258797 mm, 126.081666 mm): Footprint G***
+[lib_footprint_mismatch]: Footprint 'SOT-666' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(235.8 mm, 148.4625 mm): Footprint IC406
+[lib_footprint_mismatch]: Footprint 'QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm' does not match copy in library 'Package_DFN_QFN'.
+    ; warning
+    @(218.1625 mm, 147.1 mm): Footprint IC407
+[lib_footprint_mismatch]: Footprint 'SW_SPDT_PCM12' does not match copy in library 'Button_Switch_SMD'.
+    ; warning
+    @(194.1 mm, 166.97 mm): Footprint SW401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Amphenol'.
+    ; warning
+    @(168.65 mm, 148.32 mm): Footprint X404
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Samtec'.
+    ; warning
+    @(207.623 mm, 128.45 mm): Footprint X401
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(213.5 mm, 125.9 mm): Footprint J402
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(220.35 mm, 135.725 mm): Footprint IC401
+
+** Found 0 unconnected pads **
+
+** Found 7 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(243.7 mm, 127.1 mm): Footprint REF**
+    @(243.7 mm, 167.1 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(171.7 mm, 167.1 mm): Footprint REF**
+    @(243.7 mm, 167.1 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(171.7 mm, 127.1 mm): Footprint REF**
+    @(243.7 mm, 167.1 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(243.7 mm, 167.1 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(243.7 mm, 127.1 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(171.7 mm, 167.1 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(171.7 mm, 127.1 mm): Footprint REF**
+
+** End of Report **

@@ -2,22 +2,56 @@
 <export version="E">
   <design>
     <source>/__w/Dock-HW/Dock-HW/dock/ZSWatch-Dock.kicad_sch</source>
-    <date>2025-09-07T10:34:54+0000</date>
+    <date>2025-09-18T10:28:32+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Dock-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">7f1ec63</textvar>
-    <textvar name="GIT_HASH_SCH">7f1ec63</textvar>
+    <textvar name="GIT_HASH_PCB">01b6f71</textvar>
+    <textvar name="GIT_HASH_SCH">01b6f71</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Dock-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Dock</textvar>
-    <textvar name="RELEASE_BODY_2.2.0">Version 2.2.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.2.0">___________________________________
+
+Fixed
+
+-   Fix inverted Charge-Switch (#51)
+
+-   Flip Rx and Tx lines for USB UART (#48)
+
+-   Fix wrong reset button (#45)
+
+-   Fix wrong pin header for SWD (#44)
+
+___________________________________
+
+Added
+
+-   Add new KiCad template (#42)
+
+-   Add 22R series resistors for SWD lines (#52)
+
+-   Add 0R resistors (NA) to bridge the level shifter (#54)
+
+___________________________________
+
+Changed
+
+-   Replace USB connector with edge mounted female USB (#61)
+
+-   Replace level shifter with TXB0102 (#59)
+
+-   Change silkscreen to white (#60)
+
+-   Replace the USB LED with a darker one (#58)
+
+-   Replace ESD diodes with USBLC6-2P6 (#50)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">07-Sep-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-09-07</textvar>
-    <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 not found.</textvar>
+    <textvar name="RELEASE_DATE">18-Sep-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-09-18</textvar>
+    <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 - 2025-09-18</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>

@@ -857,15 +857,15 @@
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "bf7152f",
-    "GIT_HASH_SCH": "bf7152f",
+    "GIT_HASH_PCB": "01b6f71",
+    "GIT_HASH_SCH": "01b6f71",
     "GIT_URL": "https://github.com/ZSWatch/Dock-HW",
     "PROJECT_NAME": "ZSWatch Dock",
-    "RELEASE_BODY_2.2.0": "Version 2.2.0 not found.",
+    "RELEASE_BODY_2.2.0": "___________________________________\n\nFixed\n\n-   Fix inverted Charge-Switch (#51)\n\n-   Flip Rx and Tx lines for USB UART (#48)\n\n-   Fix wrong reset button (#45)\n\n-   Fix wrong pin header for SWD (#44)\n\n___________________________________\n\nAdded\n\n-   Add new KiCad template (#42)\n\n-   Add 22R series resistors for SWD lines (#52)\n\n-   Add 0R resistors (NA) to bridge the level shifter (#54)\n\n___________________________________\n\nChanged\n\n-   Replace USB connector with edge mounted female USB (#61)\n\n-   Replace level shifter with TXB0102 (#59)\n\n-   Change silkscreen to white (#60)\n\n-   Replace the USB LED with a darker one (#58)\n\n-   Replace ESD diodes with USBLC6-2P6 (#50)",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "07-Sep-2025",
-    "RELEASE_DATE_NUM": "2025-09-07",
-    "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
+    "RELEASE_DATE": "18-Sep-2025",
+    "RELEASE_DATE_NUM": "2025-09-18",
+    "RELEASE_TITLE_2.2.0": "Version 2.2.0 - 2025-09-18",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
@@ -908,6 +908,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "RELEASED"
   }
 }
