@@ -1,0 +1,613 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: ZSWatch-Dock<br>
+   <b>Variant</b>: RELEASED<br>
+   <b>Revision</b>: 2.2.0<br>
+   <b>Date</b>: 2025-07-13<br>
+   <b>KiCad Version</b>: 9.0.1+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 31<br>
+   <b>Component Count</b>: 61 (per PCB)<br>
+
+   <b>Fitted Components</b>: 61 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 61 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Description</th>
+   <th class="th-user">manf</th>
+   <th class="th-user">manf#</th>
+   <th class="th-user">mouser#</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-gen0">1</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C413"></div><div id="C412"></div>C412 C413</td>
+   <td class="td-kicad0">18p</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">Unpolarized capacitor, small symbol</td>
+   <td class="td-user0">KYOCERA AVX</td>
+   <td class="td-user0">06031A180KAT2A</td>
+   <td class="td-user0">581-06031A180KAT2A</td>
+  </tr>
+  <tr id="1">
+   <td class="td-gen1">2</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C408"></div>C408</td>
+   <td class="td-kicad1">470p</td>
+   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">Unpolarized capacitor, small symbol</td>
+   <td class="td-user1">KYOCERA AVX</td>
+   <td class="td-user1">06031C471K4Z4A</td>
+   <td class="td-user1">581-06031C471K4Z4A</td>
+  </tr>
+  <tr id="2">
+   <td class="td-gen0">3</td>
+   <td class="td-gen0">13</td>
+   <td class="td-kicad0"><div id="C419"></div><div id="C418"></div><div id="C417"></div><div id="C416"></div><div id="C415"></div><div id="C414"></div><div id="C409"></div><div id="C407"></div><div id="C406"></div><div id="C405"></div><div id="C404"></div><div id="C403"></div><div id="C401"></div>C401 C403 C404 C405 C406 C407 C409 C414 C415 C416 C417 C418 C419</td>
+   <td class="td-kicad0">100n</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf">https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">Unpolarized capacitor, small symbol</td>
+   <td class="td-user0">Kemet</td>
+   <td class="td-user0">C0603C104M4RAC7411</td>
+   <td class="td-user0">80-C0603C104M4R7411</td>
+  </tr>
+  <tr id="3">
+   <td class="td-gen1">4</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="C410"></div>C410</td>
+   <td class="td-kicad1">1u</td>
+   <td class="td-kicad1"><a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</a></td>
+   <td class="td-kicad1">C_0603_1608Metric</td>
+   <td class="td-user1">Unpolarized capacitor, small symbol</td>
+   <td class="td-user1">TDK</td>
+   <td class="td-user1">C1608X7R1H105K080AB</td>
+   <td class="td-user1">810-C1608X7R1H105K08</td>
+  </tr>
+  <tr id="4">
+   <td class="td-gen0">5</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="C411"></div><div id="C402"></div>C402 C411</td>
+   <td class="td-kicad0">2u2</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">Unpolarized capacitor, small symbol</td>
+   <td class="td-user0">KYOCERA AVX</td>
+   <td class="td-user0">0603YD225KAT4A</td>
+   <td class="td-user0">581-0603YD225KAT4A</td>
+  </tr>
+  <tr id="5">
+   <td class="td-gen1">6</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="D404"></div>D404</td>
+   <td class="td-kicad1">Charge</td>
+   <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/150060GS75020.pdf">https://www.we-online.com/components/products/datasheet/150060GS75020.pdf</a></td>
+   <td class="td-kicad1">LED_0603_1608Metric</td>
+   <td class="td-user1">Light emitting diode</td>
+   <td class="td-user1">Wurth Elektronik</td>
+   <td class="td-user1">150060YS75020</td>
+   <td class="td-user1">710-150060YS75020</td>
+  </tr>
+  <tr id="6">
+   <td class="td-gen0">7</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="D402"></div><div id="D401"></div>D401 D402</td>
+   <td class="td-kicad0">ESD5Zxx</td>
+   <td class="td-kicad0"><a href="https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf">https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf</a></td>
+   <td class="td-kicad0">D_SOD-523</td>
+   <td class="td-user0">ESD Protection Diode, SOD-523</td>
+   <td class="td-user0">onsemi</td>
+   <td class="td-user0">ESD5Z5.0T5G</td>
+   <td class="td-user0">863-ESD5Z5.0T5G</td>
+  </tr>
+  <tr id="7">
+   <td class="td-gen1">8</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="D403"></div>D403</td>
+   <td class="td-kicad1">USB</td>
+   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/2/588/LG_L29K_EN-3419084.pdf">https://www.mouser.de/datasheet/2/588/LG_L29K_EN-3419084.pdf</a></td>
+   <td class="td-kicad1">LED_0603_1608Metric</td>
+   <td class="td-user1">Light emitting diode</td>
+   <td class="td-user1">ams OSRAM</td>
+   <td class="td-user1">LG L29K-G2J1-24</td>
+   <td class="td-user1">720-LGL29KG2J124Z</td>
+  </tr>
+  <tr id="8">
+   <td class="td-gen0">9</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="IC403"></div>IC403</td>
+   <td class="td-kicad0">FT230XQ</td>
+   <td class="td-kicad0"><a href="https://ftdichip.com/wp-content/uploads/2024/05/DS_FT230X.pdf">https://ftdichip.com/wp-content/uploads/2024/05/DS_FT230X.pdf</a></td>
+   <td class="td-kicad0">QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm</td>
+   <td class="td-user0">Full Speed USB to Basic UART, QFN-16</td>
+   <td class="td-user0">FTDI</td>
+   <td class="td-user0">FT230XQ-R</td>
+   <td class="td-user0">895-FT230XQ-R</td>
+  </tr>
+  <tr id="9">
+   <td class="td-gen1">10</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="IC409"></div>IC409</td>
+   <td class="td-kicad1">MIC2026-1xM</td>
+   <td class="td-kicad1"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf">https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf</a></td>
+   <td class="td-kicad1">SOIC-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user1">Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8</td>
+   <td class="td-user1">Microchip Technology</td>
+   <td class="td-user1">MIC2026-1YM</td>
+   <td class="td-user1">998-MIC2026-1YM</td>
+  </tr>
+  <tr id="10">
+   <td class="td-gen0">11</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="IC404"></div>IC404</td>
+   <td class="td-kicad0">MIC5219-3.3YM5</td>
+   <td class="td-kicad0"><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</a></td>
+   <td class="td-kicad0">SOT-23-5</td>
+   <td class="td-user0">500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5</td>
+   <td class="td-user0">Microchip Technology</td>
+   <td class="td-user0">MIC5219-3.3YM5-TR</td>
+   <td class="td-user0">998-MIC5219-3.3YM5TR</td>
+  </tr>
+  <tr id="11">
+   <td class="td-gen1">12</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="IC401"></div>IC401</td>
+   <td class="td-kicad1">TLV70218_SOT23-5</td>
+   <td class="td-kicad1"><a href="http://www.ti.com/lit/ds/symlink/tlv702.pdf">http://www.ti.com/lit/ds/symlink/tlv702.pdf</a></td>
+   <td class="td-kicad1">SOT-23-5</td>
+   <td class="td-user1">300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</td>
+   <td class="td-user1">Texas Instruments</td>
+   <td class="td-user1">TLV70218DBVRG4</td>
+   <td class="td-user1">595-TLV70218DBVRG4</td>
+  </tr>
+  <tr id="12">
+   <td class="td-gen0">13</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="IC405"></div>IC405</td>
+   <td class="td-kicad0">TXB0304RUT</td>
+   <td class="td-kicad0"><a href="http://www.ti.com/lit/ds/symlink/txb0304.pdf">http://www.ti.com/lit/ds/symlink/txb0304.pdf</a></td>
+   <td class="td-kicad0">Texas_R-PUQFN-N12</td>
+   <td class="td-user0">4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12</td>
+   <td class="td-user0">Texas Instruments</td>
+   <td class="td-user0">TXB0304RUTR</td>
+   <td class="td-user0">595-TXB0304RUTR</td>
+  </tr>
+  <tr id="13">
+   <td class="td-gen1">14</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="IC407"></div>IC407</td>
+   <td class="td-kicad1">USB2512BT</td>
+   <td class="td-kicad1"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/USB251xB-xBi-Data-Sheet-DS00001692.pdf">https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/USB251xB-xBi-Data-Sheet-DS00001692.pdf</a></td>
+   <td class="td-kicad1">QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm</td>
+   <td class="td-empty1"></td>
+   <td class="td-user1">Microchip Technology</td>
+   <td class="td-user1">USB2512BT/M2</td>
+   <td class="td-user1">579-USB2512BT/M2</td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen0">15</td>
+   <td class="td-gen0">3</td>
+   <td class="td-kicad0"><div id="IC408"></div><div id="IC406"></div><div id="IC402"></div>IC402 IC406 IC408</td>
+   <td class="td-kicad0">USBLC6-2P6</td>
+   <td class="td-kicad0"><a href="https://www.st.com/resource/en/datasheet/usblc6-2.pdf">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</a></td>
+   <td class="td-kicad0">SOT-666</td>
+   <td class="td-user0">Very low capacitance ESD protection diode, 2 data-line, SOT-666</td>
+   <td class="td-user0">STMicroelectronics</td>
+   <td class="td-user0">USBLC6-2P6</td>
+   <td class="td-user0">511-USBLC6-2P6</td>
+  </tr>
+  <tr id="15">
+   <td class="td-gen1">16</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="J401"></div>J401</td>
+   <td class="td-kicad1">Jumper</td>
+   <td class="td-kicad1"><a href="https://www.we-online.com/katalog/datasheet/60900213421.pdf">https://www.we-online.com/katalog/datasheet/60900213421.pdf</a></td>
+   <td class="td-empty1"></td>
+   <td class="td-user1">Generic jumper cap</td>
+   <td class="td-user1">Würth Elektronik</td>
+   <td class="td-user1">60900213421</td>
+   <td class="td-user1">710-60900213421</td>
+  </tr>
+  <tr id="16">
+   <td class="td-gen0">17</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="X402"></div><div id="J402"></div>J402 X402</td>
+   <td class="td-kicad0">Voltage</td>
+   <td class="td-kicad0"><a href="https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</a></td>
+   <td class="td-kicad0">PinHeader_1x03_P2.54mm_Vertical</td>
+   <td class="td-user0">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td class="td-user0">Amphenol FCI</td>
+   <td class="td-user0">10129378-936001BLF</td>
+   <td class="td-user0">649-10129378-936001BLF</td>
+  </tr>
+  <tr id="17">
+   <td class="td-gen1">18</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="Q401"></div>Q401</td>
+   <td class="td-kicad1">BSH205G2AR</td>
+   <td class="td-kicad1"><a href="https://assets.nexperia.com/documents/data-sheet/BSH205G2A.pdf">https://assets.nexperia.com/documents/data-sheet/BSH205G2A.pdf</a></td>
+   <td class="td-kicad1">SOT-23</td>
+   <td class="td-user1">-2A Id, -20V Vds, P-Channel MOSFET, SOT-23</td>
+   <td class="td-user1">Nexperia</td>
+   <td class="td-user1">BSH205G2AR</td>
+   <td class="td-user1">771-BSH205G2AR</td>
+  </tr>
+  <tr id="18">
+   <td class="td-gen0">19</td>
+   <td class="td-gen0">2</td>
+   <td class="td-kicad0"><div id="R418"></div><div id="R405"></div>R405 R418</td>
+   <td class="td-kicad0">0R</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/54/cr-1858361.pdf">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</a></td>
+   <td class="td-kicad0">R_0805_2012Metric</td>
+   <td class="td-user0">Resistor, small symbol</td>
+   <td class="td-user0">Bourns</td>
+   <td class="td-user0">CR0805-J/-000ELF</td>
+   <td class="td-user0">652-CR0805-J/-000ELF</td>
+  </tr>
+  <tr id="19">
+   <td class="td-gen1">20</td>
+   <td class="td-gen1">2</td>
+   <td class="td-kicad1"><div id="R403"></div><div id="R402"></div>R402 R403</td>
+   <td class="td-kicad1">22R</td>
+   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/2/54/cr-1858361.pdf">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">Resistor, small symbol</td>
+   <td class="td-user1">Bourns</td>
+   <td class="td-user1">CR0603-JW-220ELF</td>
+   <td class="td-user1">652-CR0603-JW-220ELF</td>
+  </tr>
+  <tr id="20">
+   <td class="td-gen0">21</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R421"></div>R421</td>
+   <td class="td-kicad0">620R</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/54/cr-1858361.pdf">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">Resistor, small symbol</td>
+   <td class="td-user0">Bourns</td>
+   <td class="td-user0">CR0603-JW-621ELF</td>
+   <td class="td-user0">652-CR0603-JW-621ELF</td>
+  </tr>
+  <tr id="21">
+   <td class="td-gen1">22</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="R407"></div>R407</td>
+   <td class="td-kicad1">3k3</td>
+   <td class="td-kicad1"><a href="https://www.vishay.com/doc?20035">https://www.vishay.com/doc?20035</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">Resistor, small symbol</td>
+   <td class="td-user1">Vishay</td>
+   <td class="td-user1">CRCW06033K300FKEA</td>
+   <td class="td-user1">71-CRCW06033K300FKEA</td>
+  </tr>
+  <tr id="22">
+   <td class="td-gen0">23</td>
+   <td class="td-gen0">4</td>
+   <td class="td-kicad0"><div id="R416"></div><div id="R415"></div><div id="R410"></div><div id="R409"></div>R409 R410 R415 R416</td>
+   <td class="td-kicad0">5k1</td>
+   <td class="td-kicad0"><a href="https://www.vishay.com/doc?20035">https://www.vishay.com/doc?20035</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">Resistor, small symbol</td>
+   <td class="td-user0">Vishay</td>
+   <td class="td-user0">CRCW06035K10FKEA</td>
+   <td class="td-user0">71-CRCW06035K10FKEA</td>
+  </tr>
+  <tr id="23">
+   <td class="td-gen1">24</td>
+   <td class="td-gen1">8</td>
+   <td class="td-kicad1"><div id="R420"></div><div id="R419"></div><div id="R414"></div><div id="R413"></div><div id="R412"></div><div id="R408"></div><div id="R404"></div><div id="R401"></div>R401 R404 R408 R412 R413 R414 R419 R420</td>
+   <td class="td-kicad1">100k</td>
+   <td class="td-kicad1"><a href="https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf">https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</a></td>
+   <td class="td-kicad1">R_0603_1608Metric</td>
+   <td class="td-user1">Resistor, small symbol</td>
+   <td class="td-user1">YAGEO</td>
+   <td class="td-user1">RC0603FR-07100KL</td>
+   <td class="td-user1">603-RC0603FR-07100KL</td>
+  </tr>
+  <tr id="24">
+   <td class="td-gen0">25</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="R417"></div>R417</td>
+   <td class="td-kicad0">12k / 1%</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/54/cr-1858361.pdf">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</a></td>
+   <td class="td-kicad0">R_0603_1608Metric</td>
+   <td class="td-user0">Resistor, small symbol</td>
+   <td class="td-user0">Bourns</td>
+   <td class="td-user0">CR0603-FX-1202ELF</td>
+   <td class="td-user0">652-CR0603-FX-1202ELF</td>
+  </tr>
+  <tr id="25">
+   <td class="td-gen1">26</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="S401"></div>S401</td>
+   <td class="td-kicad1">Reset</td>
+   <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/430182050816.pdf">https://www.we-online.com/components/products/datasheet/430182050816.pdf</a></td>
+   <td class="td-kicad1">WS-TASV-6x6</td>
+   <td class="td-empty1"></td>
+   <td class="td-user1">Wurth Elektronik</td>
+   <td class="td-user1">430182050816</td>
+   <td class="td-user1">710-430182050816</td>
+  </tr>
+  <tr id="26">
+   <td class="td-gen0">27</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="SW401"></div>SW401</td>
+   <td class="td-kicad0">Charge</td>
+   <td class="td-kicad0"><a href="https://ckswitches.com/media/1424/pcm.pdf">https://ckswitches.com/media/1424/pcm.pdf</a></td>
+   <td class="td-kicad0">SW_SPDT_PCM12</td>
+   <td class="td-user0">Switch, dual pole double throw, separate symbols</td>
+   <td class="td-user0">C&K</td>
+   <td class="td-user0">PCM12SMTR</td>
+   <td class="td-user0">611-PCM12SMTR</td>
+  </tr>
+  <tr id="27">
+   <td class="td-gen1">28</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="X401"></div>X401</td>
+   <td class="td-kicad1">Debug</td>
+   <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/62101021021.pdf">https://www.we-online.com/components/products/datasheet/62101021021.pdf</a></td>
+   <td class="td-kicad1">SHF-105-01-L-D-SM-TR</td>
+   <td class="td-user1">Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</td>
+   <td class="td-user1">Wurth Elektronik</td>
+   <td class="td-user1">62101021021</td>
+   <td class="td-user1">710-62101021021</td>
+  </tr>
+  <tr id="28">
+   <td class="td-gen0">29</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="X404"></div>X404</td>
+   <td class="td-kicad0">Device</td>
+   <td class="td-kicad0"><a href="https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf</a></td>
+   <td class="td-kicad0">10133475-10001LF</td>
+   <td class="td-user0">USB Full-Featured Type-C edge connector</td>
+   <td class="td-user0">Amphenol Commercial Products</td>
+   <td class="td-user0">10133475-10001LF</td>
+   <td class="td-user0">523-10133475-10001LF</td>
+  </tr>
+  <tr id="29">
+   <td class="td-gen1">30</td>
+   <td class="td-gen1">1</td>
+   <td class="td-kicad1"><div id="X403"></div>X403</td>
+   <td class="td-kicad1">Host</td>
+   <td class="td-kicad1"><a href="https://www.usb.org/sites/default/files/documents/usb_type-c.zip">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</a></td>
+   <td class="td-kicad1">USB_C_Receptacle_Amphenol_12401610E4-2A</td>
+   <td class="td-user1">USB Full-Featured Type-C Receptacle connector</td>
+   <td class="td-user1">Amphenol Commercial Products</td>
+   <td class="td-user1">12401610E4-2A</td>
+   <td class="td-user1">523-12401610E4#2A</td>
+  </tr>
+  <tr id="30">
+   <td class="td-gen0">31</td>
+   <td class="td-gen0">1</td>
+   <td class="td-kicad0"><div id="Y401"></div>Y401</td>
+   <td class="td-kicad0">24 MHz</td>
+   <td class="td-kicad0"><a href="https://www.mouser.de/datasheet/2/3/ABM8G-3318032.pdf">https://www.mouser.de/datasheet/2/3/ABM8G-3318032.pdf</a></td>
+   <td class="td-kicad0">Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm</td>
+   <td class="td-user0">Four pin crystal, GND on pins 2 and 4</td>
+   <td class="td-user0">ABRACON</td>
+   <td class="td-user0">ABM8G-24.000MHZ-B4Y-T</td>
+   <td class="td-user0">815-ABM8G-24-B4Y-T</td>
+  </tr>
+ </tbody>
+</table>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
