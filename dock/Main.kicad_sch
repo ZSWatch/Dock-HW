@@ -11764,7 +11764,7 @@
 	)
 	(global_label "TxD_{LV}"
 		(shape input)
-		(at 285.75 54.61 0)
+		(at 285.75 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11774,7 +11774,7 @@
 		)
 		(uuid "59741f54-74d4-4982-b1c9-159baf2ae5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.0909 54.61 0)
+			(at 293.0909 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,7 +12160,7 @@
 	)
 	(global_label "SWDCLK_{LV}"
 		(shape input)
-		(at 285.75 64.77 0)
+		(at 285.75 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12170,7 +12170,7 @@
 		)
 		(uuid "dabe5fa5-fac1-4479-8338-974b8aa60ebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.3242 64.77 0)
+			(at 297.3242 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +12182,7 @@
 	)
 	(global_label "RxD_{LV}"
 		(shape output)
-		(at 285.75 57.15 0)
+		(at 285.75 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12192,7 +12192,7 @@
 		)
 		(uuid "dc1353d4-cc6e-4a85-902d-917bb099da4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.3933 57.15 0)
+			(at 293.3933 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12204,7 @@
 	)
 	(global_label "SWDIO_{LV}"
 		(shape bidirectional)
-		(at 285.75 77.47 0)
+		(at 285.75 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12214,7 +12214,7 @@
 		)
 		(uuid "dc987bd3-1d71-43d9-9b3d-630462c189c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.6439 77.47 0)
+			(at 296.6439 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
