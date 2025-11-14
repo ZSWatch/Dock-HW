@@ -14,15 +14,12 @@
 *.sch-bak
 *~
 _autosave-*
+*#auto_saved_files#*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 /build
-*.lck
-
-# Backup files
-*-backups/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -45,3 +42,9 @@ fp-info-cache
 *.log
 *.raw
 .svg2shenzhen-cache
+
+# Backup files
+*-backups/
+
+# Lock files
+*.lck
