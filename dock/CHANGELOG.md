@@ -23,6 +23,7 @@
 - Replace the USB LED with a darker one (#58)
 - Replace ESD diodes with USBLC6-2P6 (#50)
 - Change ZSWatch USB to a single sided and more stable one (#69)
+- Move Voltage REF connector a little (#72)
 
 ## [2.2.0] - 2025-09-18
 
