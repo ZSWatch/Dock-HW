@@ -11,7 +11,7 @@ outputs:
   dir: '@DIR@'
   options:
     files:
-      - source: Logos/ZSWatch_logo_with_text.png
+      - source: logos/ZSWatch_logo_with_text.png
         source_type: files
 
 definitions:
