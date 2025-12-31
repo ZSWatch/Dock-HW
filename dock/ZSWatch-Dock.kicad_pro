@@ -467,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "warning",
       "wire_dangling": "error"
@@ -874,7 +875,7 @@
     "RELEASE_DATE_NUM": "2025-09-07",
     "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "",
+    "REVISION": "X.Y.Z",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
