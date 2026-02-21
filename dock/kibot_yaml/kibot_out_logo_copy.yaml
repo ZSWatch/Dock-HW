@@ -17,4 +17,4 @@ outputs:
 definitions:
   NAME: copy_logo
   COMMENT: Copy logo files
-  LOGO: logos/Logo.png
+  LOGO: Logos/Logo.png

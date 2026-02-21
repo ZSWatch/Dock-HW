@@ -70,7 +70,7 @@ jobs:
       - name: Download updated CHANGELOG
         uses: actions/download-artifact@v4
         with:
-          name: CHANGELOG
+          name: CHANGELOG.md
           path: .
 
       - name: Download build artifacts
@@ -225,13 +225,23 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
         with:
-          name: Log-${{ env.kibot_variant }}.zip
+          name: Log-${{ env.kibot_variant }}
           path: log
+
+      - name: Clean up
+        shell: bash
+        run: |
+          rm -rf ${KICAD_LIBRARY}
+          find . -type f -iname \*.log -delete
+          find . -type f -iname \*.ogv -delete
+          find . -type f -iname \*.kicad_pro-bak -delete
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 
       - name: Upload artifacts (results)
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}.zip
+          name: ${{ env.kibot_variant }}
           path: production
           if-no-files-found: ignore
 
