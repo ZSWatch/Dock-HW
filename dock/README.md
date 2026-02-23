@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/ZSWatch_logo_with_text.png">
+  <img alt="Logo" width="33%" src="Images/Logos/Logo.png">
 </p>
 
 <h1 align="center">Template</h1>
