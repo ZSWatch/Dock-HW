@@ -76,7 +76,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}
+          name: ${{ env.kibot_variant }}.zip
           path: .
 
       - name: ZIP artifact
@@ -156,6 +156,11 @@ jobs:
           path: ~/cache_3d
           key: cache_3d
 
+      - name: Replace .wrl with .step in PCB file
+        shell: bash
+        run: |
+          sed -i 's/\.wrl/.step/g' ${{ env.kibot_input_dir }}/${{ env.kicad_board }}.kicad_pcb
+
       - name: Determine VERSION argument and override variant if tag
         shell: bash
         run: |
@@ -225,7 +230,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
         with:
-          name: Log-${{ env.kibot_variant }}
+          name: Log-${{ env.kibot_variant }}.zip
           path: log
 
       - name: Clean up
@@ -241,7 +246,7 @@ jobs:
       - name: Upload artifacts (results)
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}
+          name: ${{ env.kibot_variant }}.zip
           path: production
           if-no-files-found: ignore
 
@@ -251,16 +256,6 @@ jobs:
         with:
           name: CHANGELOG.md
           path: ${{ env.kibot_input_dir }}/CHANGELOG.md
-
-      - name: Clean up
-        shell: bash
-        run: |
-          rm -rf ${KICAD_LIBRARY}
-          find . -type f -iname \*.log -delete
-          find . -type f -iname \*.ogv -delete
-          find . -type f -iname \*.kicad_pro-bak -delete
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 
       - name: Pull latest changes
         shell: bash
