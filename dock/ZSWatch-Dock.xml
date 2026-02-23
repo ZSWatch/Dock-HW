@@ -2,22 +2,56 @@
 <export version="E">
   <design>
     <source>/__w/Dock-HW/Dock-HW/dock/ZSWatch-Dock.kicad_sch</source>
-    <date>2025-09-07T10:34:54+0000</date>
-    <tool>Eeschema 9.0.1+1</tool>
+    <date>2026-02-23T09:25:21+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Dock-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">7f1ec63</textvar>
-    <textvar name="GIT_HASH_SCH">7f1ec63</textvar>
+    <textvar name="GIT_HASH_PCB">75901a3</textvar>
+    <textvar name="GIT_HASH_SCH">01b6f71</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Dock-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Dock</textvar>
-    <textvar name="RELEASE_BODY_2.2.0">Version 2.2.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.2.0">___________________________________
+
+Fixed
+
+-   Fix inverted Charge-Switch (#51)
+
+-   Flip Rx and Tx lines for USB UART (#48)
+
+-   Fix wrong reset button (#45)
+
+-   Fix wrong pin header for SWD (#44)
+
+___________________________________
+
+Added
+
+-   Add new KiCad template (#42)
+
+-   Add 22R series resistors for SWD lines (#52)
+
+-   Add 0R resistors (NA) to bridge the level shifter (#54)
+
+___________________________________
+
+Changed
+
+-   Replace USB connector with edge mounted female USB (#61)
+
+-   Replace level shifter with TXB0102 (#59)
+
+-   Change silkscreen to white (#60)
+
+-   Replace the USB LED with a darker one (#58)
+
+-   Replace ESD diodes with USBLC6-2P6 (#50)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">07-Sep-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-09-07</textvar>
-    <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 not found.</textvar>
+    <textvar name="RELEASE_DATE">23-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-23</textvar>
+    <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 - 2025-09-18</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -60,7 +94,7 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dock-DevKit</title>
@@ -1411,6 +1445,7 @@
     <comp ref="R411">
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="CONFIG"/>
@@ -1419,7 +1454,7 @@
         <field name="mouser#"/>
         <field name="digikey#"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -1520,62 +1555,6 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
       <tstamps>09434551-16fc-4a21-b17a-81388674a74b</tstamps>
-    </comp>
-    <comp ref="R415">
-      <value>5k1</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.vishay.com/doc?20035</datasheet>
-      <description>Resistor, small symbol</description>
-      <fields>
-        <field name="manf">Vishay</field>
-        <field name="manf#">CRCW06035K10FKEA</field>
-        <field name="mouser#">71-CRCW06035K10FKEA</field>
-        <field name="CONFIG"/>
-        <field name="digikey#"/>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
-        <field name="Description">Resistor, small symbol</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="manf" value="Vishay"/>
-      <property name="manf#" value="CRCW06035K10FKEA"/>
-      <property name="mouser#" value="71-CRCW06035K10FKEA"/>
-      <property name="CONFIG" value=""/>
-      <property name="digikey#" value=""/>
-      <property name="Sheetname" value="Main"/>
-      <property name="Sheetfile" value="Main.kicad_sch"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
-      <tstamps>5a26fe96-00ec-4227-b604-6dac874a118e</tstamps>
-    </comp>
-    <comp ref="R416">
-      <value>5k1</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.vishay.com/doc?20035</datasheet>
-      <description>Resistor, small symbol</description>
-      <fields>
-        <field name="manf">Vishay</field>
-        <field name="manf#">CRCW06035K10FKEA</field>
-        <field name="mouser#">71-CRCW06035K10FKEA</field>
-        <field name="CONFIG"/>
-        <field name="digikey#"/>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.vishay.com/doc?20035</field>
-        <field name="Description">Resistor, small symbol</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="manf" value="Vishay"/>
-      <property name="manf#" value="CRCW06035K10FKEA"/>
-      <property name="mouser#" value="71-CRCW06035K10FKEA"/>
-      <property name="CONFIG" value=""/>
-      <property name="digikey#" value=""/>
-      <property name="Sheetname" value="Main"/>
-      <property name="Sheetfile" value="Main.kicad_sch"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Main/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2/"/>
-      <tstamps>bd026e42-58bc-48d2-a76d-63a9841e307a</tstamps>
     </comp>
     <comp ref="R417">
       <value>12k / 1%</value>
@@ -1746,6 +1725,7 @@
     <comp ref="SB401">
       <value>Resetn</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, open</description>
       <fields>
         <field name="CONFIG"/>
@@ -1754,7 +1734,7 @@
         <field name="mouser#"/>
         <field name="digikey#"/>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, open</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
@@ -1775,6 +1755,7 @@
     <comp ref="SB402">
       <value>SWDCLK</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, open</description>
       <fields>
         <field name="CONFIG"/>
@@ -1783,7 +1764,7 @@
         <field name="mouser#"/>
         <field name="digikey#"/>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, open</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
@@ -1804,6 +1785,7 @@
     <comp ref="SB403">
       <value>SWDIO</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, open</description>
       <fields>
         <field name="CONFIG"/>
@@ -1812,7 +1794,7 @@
         <field name="mouser#"/>
         <field name="digikey#"/>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, open</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
@@ -1889,6 +1871,7 @@
     <comp ref="X402">
       <value>UART</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="manf"/>
@@ -1897,7 +1880,7 @@
         <field name="CONFIG"/>
         <field name="digikey#"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1943,25 +1926,25 @@
     </comp>
     <comp ref="X404">
       <value>Device</value>
-      <footprint>Amphenol:10133475-10001LF</footprint>
-      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf</datasheet>
+      <footprint>GlobTect:PLUG-USBC-241SMT-4BC2SS</footprint>
+      <datasheet>https://spec.globtek.info/spec/pdf/2342615/d2760418</datasheet>
       <description>USB Full-Featured Type-C edge connector</description>
       <fields>
         <field name="CONFIG"/>
-        <field name="manf">Amphenol Commercial Products</field>
-        <field name="manf#">10133475-10001LF</field>
-        <field name="mouser#">523-10133475-10001LF</field>
-        <field name="digikey#"/>
-        <field name="Footprint">Amphenol:10133475-10001LF</field>
-        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10133475.pdf</field>
+        <field name="manf">GlobTek, Inc.</field>
+        <field name="manf#">PLUG-USBC-241SMT-4BC2SS</field>
+        <field name="mouser#"/>
+        <field name="digikey#">1939-PLUG-USBC-241SMT-4BC2SSCT-ND</field>
+        <field name="Footprint">GlobTect:PLUG-USBC-241SMT-4BC2SS</field>
+        <field name="Datasheet">https://spec.globtek.info/spec/pdf/2342615/d2760418</field>
         <field name="Description">USB Full-Featured Type-C edge connector</field>
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
       <property name="CONFIG" value=""/>
-      <property name="manf" value="Amphenol Commercial Products"/>
-      <property name="manf#" value="10133475-10001LF"/>
-      <property name="mouser#" value="523-10133475-10001LF"/>
-      <property name="digikey#" value=""/>
+      <property name="manf" value="GlobTek, Inc."/>
+      <property name="manf#" value="PLUG-USBC-241SMT-4BC2SS"/>
+      <property name="mouser#" value=""/>
+      <property name="digikey#" value="1939-PLUG-USBC-241SMT-4BC2SSCT-ND"/>
       <property name="Sheetname" value="Main"/>
       <property name="Sheetfile" value="Main.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
@@ -1972,12 +1955,13 @@
     <comp ref="X405">
       <value>Current</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="CONFIG"/>
         <field name="digikey#"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -2586,12 +2570,10 @@
     <net code="5" name="/Project Architecture/Main/D_{2}+" class="Default">
       <node ref="IC408" pin="4" pinfunction="I/O2" pintype="passive"/>
       <node ref="X404" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="X404" pin="B6" pinfunction="D+" pintype="bidirectional"/>
     </net>
     <net code="6" name="/Project Architecture/Main/D_{2}-" class="Default">
       <node ref="IC408" pin="6" pinfunction="I/O1" pintype="passive"/>
       <node ref="X404" pin="A7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="X404" pin="B7" pinfunction="D-" pintype="bidirectional"/>
     </net>
     <net code="7" name="EN_{OC1}" class="Default">
       <node ref="IC407" pin="12" pinfunction="PRTPWR1/BC_EN1" pintype="bidirectional"/>
@@ -2638,8 +2620,6 @@
       <node ref="R408" pin="2" pintype="passive"/>
       <node ref="R409" pin="2" pintype="passive"/>
       <node ref="R410" pin="1" pintype="passive"/>
-      <node ref="R415" pin="2" pintype="passive"/>
-      <node ref="R416" pin="1" pintype="passive"/>
       <node ref="R417" pin="2" pintype="passive"/>
       <node ref="R419" pin="2" pintype="passive"/>
       <node ref="S401" pin="2" pinfunction="2" pintype="passive"/>
@@ -2781,15 +2761,7 @@
       <node ref="R409" pin="1" pintype="passive"/>
       <node ref="X403" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="Net-(X404-CC1)" class="Default">
-      <node ref="R416" pin="2" pintype="passive"/>
-      <node ref="X404" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-    </net>
-    <net code="36" name="Net-(X404-CC2)" class="Default">
-      <node ref="R415" pin="1" pintype="passive"/>
-      <node ref="X404" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-    </net>
-    <net code="37" name="Net-(X405-Pin_1)" class="Default">
+    <net code="35" name="Net-(X405-Pin_1)" class="Default">
       <node ref="R418" pin="2" pintype="passive"/>
       <node ref="X404" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="X404" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -2797,7 +2769,7 @@
       <node ref="X404" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="X405" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="38" name="RESETn" class="Default">
+    <net code="36" name="RESETn" class="Default">
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D402" pin="1" pinfunction="K" pintype="passive"/>
@@ -2808,62 +2780,57 @@
       <node ref="SB401" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="X401" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
     </net>
-    <net code="39" name="RESETn_{LV}" class="Default">
+    <net code="37" name="RESETn_{LV}" class="Default">
       <node ref="IC405" pin="2" pinfunction="A1" pintype="tri_state"/>
       <node ref="IC405" pin="3" pinfunction="A2" pintype="tri_state"/>
       <node ref="SB401" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="X404" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
-      <node ref="X404" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
-    <net code="40" name="RxD_{LV}" class="Default">
+    <net code="38" name="RxD_{LV}" class="Default">
       <node ref="IC403" pin="2" pinfunction="RXD" pintype="input"/>
       <node ref="X402" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="X404" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
-      <node ref="X404" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
+      <node ref="X404" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
     </net>
-    <net code="41" name="SWDCLK_{LV}" class="Default">
+    <net code="39" name="SWDCLK_{LV}" class="Default">
       <node ref="IC405" pin="4" pinfunction="A3" pintype="tri_state"/>
       <node ref="SB402" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="X404" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
-      <node ref="X404" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
+      <node ref="X404" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
     </net>
-    <net code="42" name="SWDIO_{LV}" class="Default">
+    <net code="40" name="SWDIO_{LV}" class="Default">
       <node ref="IC405" pin="5" pinfunction="A4" pintype="tri_state"/>
       <node ref="SB403" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="X404" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
-      <node ref="X404" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
+      <node ref="X404" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
     </net>
-    <net code="43" name="TxD_{LV}" class="Default">
+    <net code="41" name="TxD_{LV}" class="Default">
       <node ref="IC403" pin="15" pinfunction="TXD" pintype="output"/>
       <node ref="X402" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="X404" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
-      <node ref="X404" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
+      <node ref="X404" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
     </net>
-    <net code="44" name="USB-1-D+" class="Default">
+    <net code="42" name="USB-1-D+" class="Default">
       <node ref="IC403" pin="6" pinfunction="USBDP" pintype="bidirectional"/>
       <node ref="IC407" pin="4" pinfunction="USBDP_{N2}" pintype="bidirectional"/>
     </net>
-    <net code="45" name="USB-1-D-" class="Default">
+    <net code="43" name="USB-1-D-" class="Default">
       <node ref="IC403" pin="7" pinfunction="USBDM" pintype="bidirectional"/>
       <node ref="IC407" pin="3" pinfunction="USBDM_{N2}" pintype="bidirectional"/>
     </net>
-    <net code="46" name="USB-2-D+" class="Default">
+    <net code="44" name="USB-2-D+" class="Default">
       <node ref="IC407" pin="2" pinfunction="USBDP_{N1}" pintype="bidirectional"/>
       <node ref="IC408" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="47" name="USB-2-D-" class="Default">
+    <net code="45" name="USB-2-D-" class="Default">
       <node ref="IC407" pin="1" pinfunction="USBDM_{N1}" pintype="bidirectional"/>
       <node ref="IC408" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="48" name="USB-D+" class="Default">
+    <net code="46" name="USB-D+" class="Default">
       <node ref="IC406" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="IC407" pin="31" pinfunction="USBDP_{UP}" pintype="bidirectional"/>
     </net>
-    <net code="49" name="USB-D-" class="Default">
+    <net code="47" name="USB-D-" class="Default">
       <node ref="IC406" pin="1" pinfunction="I/O1" pintype="passive"/>
       <node ref="IC407" pin="30" pinfunction="USBDM_{UP}" pintype="bidirectional"/>
     </net>
-    <net code="50" name="V_{BUS}" class="Default">
+    <net code="48" name="V_{BUS}" class="Default">
       <node ref="C419" pin="1" pintype="passive"/>
       <node ref="IC401" pin="1" pinfunction="IN" pintype="power_in"/>
       <node ref="IC401" pin="3" pinfunction="EN" pintype="input"/>
@@ -2877,90 +2844,117 @@
       <node ref="X403" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="X403" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="51" name="V_{Watch}" class="Default">
+    <net code="49" name="V_{Watch}" class="Default">
       <node ref="IC408" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="IC409" pin="8" pinfunction="OUTA" pintype="power_out"/>
       <node ref="Q401" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R420" pin="2" pintype="passive"/>
       <node ref="R421" pin="2" pintype="passive"/>
     </net>
-    <net code="52" name="unconnected-(IC401-NC-Pad4)" class="Default">
+    <net code="50" name="unconnected-(IC401-NC-Pad4)" class="Default">
       <node ref="IC401" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="53" name="unconnected-(IC403-CBUS0-Pad12)" class="Default">
+    <net code="51" name="unconnected-(IC403-CBUS0-Pad12)" class="Default">
       <node ref="IC403" pin="12" pinfunction="CBUS0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(IC403-CBUS1-Pad11)" class="Default">
+    <net code="52" name="unconnected-(IC403-CBUS1-Pad11)" class="Default">
       <node ref="IC403" pin="11" pinfunction="CBUS1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(IC403-CBUS2-Pad5)" class="Default">
+    <net code="53" name="unconnected-(IC403-CBUS2-Pad5)" class="Default">
       <node ref="IC403" pin="5" pinfunction="CBUS2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(IC403-CBUS3-Pad14)" class="Default">
+    <net code="54" name="unconnected-(IC403-CBUS3-Pad14)" class="Default">
       <node ref="IC403" pin="14" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(IC403-~{CTS}-Pad4)" class="Default">
+    <net code="55" name="unconnected-(IC403-~{CTS}-Pad4)" class="Default">
       <node ref="IC403" pin="4" pinfunction="~{CTS}" pintype="input+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(IC403-~{RTS}-Pad16)" class="Default">
+    <net code="56" name="unconnected-(IC403-~{RTS}-Pad16)" class="Default">
       <node ref="IC403" pin="16" pinfunction="~{RTS}" pintype="output+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(IC407-OCS_{N2}-Pad17)" class="Default">
+    <net code="57" name="unconnected-(IC407-OCS_{N2}-Pad17)" class="Default">
       <node ref="IC407" pin="17" pinfunction="OCS_{N2}" pintype="input+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(IC407-TEST-Pad11)" class="Default">
+    <net code="58" name="unconnected-(IC407-TEST-Pad11)" class="Default">
       <node ref="IC407" pin="11" pinfunction="TEST" pintype="no_connect"/>
     </net>
-    <net code="61" name="unconnected-(IC409-FLGB-Pad3)" class="Default">
+    <net code="59" name="unconnected-(IC409-FLGB-Pad3)" class="Default">
       <node ref="IC409" pin="3" pinfunction="FLGB" pintype="output+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(IC409-OUTB-Pad5)" class="Default">
+    <net code="60" name="unconnected-(IC409-OUTB-Pad5)" class="Default">
       <node ref="IC409" pin="5" pinfunction="OUTB" pintype="power_out+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(SW401A-A-Pad1)" class="Default">
+    <net code="61" name="unconnected-(SW401A-A-Pad1)" class="Default">
       <node ref="SW401" pin="1" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(X401-GNDDetect-Pad9)" class="Default">
+    <net code="62" name="unconnected-(X401-GNDDetect-Pad9)" class="Default">
       <node ref="X401" pin="9" pinfunction="GNDDetect" pintype="passive+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(X401-KEY-Pad7)" class="Default">
+    <net code="63" name="unconnected-(X401-KEY-Pad7)" class="Default">
       <node ref="X401" pin="7" pinfunction="KEY" pintype="no_connect"/>
     </net>
-    <net code="66" name="unconnected-(X401-NC/TDI-Pad8)" class="Default">
+    <net code="64" name="unconnected-(X401-NC/TDI-Pad8)" class="Default">
       <node ref="X401" pin="8" pinfunction="NC/TDI" pintype="output+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(X401-SWO/TDO-Pad6)" class="Default">
+    <net code="65" name="unconnected-(X401-SWO/TDO-Pad6)" class="Default">
       <node ref="X401" pin="6" pinfunction="SWO/TDO" pintype="input+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(X403-RX1+-PadB11)" class="Default">
+    <net code="66" name="unconnected-(X403-RX1+-PadB11)" class="Default">
       <node ref="X403" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(X403-RX1--PadB10)" class="Default">
+    <net code="67" name="unconnected-(X403-RX1--PadB10)" class="Default">
       <node ref="X403" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(X403-RX2+-PadA11)" class="Default">
+    <net code="68" name="unconnected-(X403-RX2+-PadA11)" class="Default">
       <node ref="X403" pin="A11" pinfunction="RX2+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(X403-RX2--PadA10)" class="Default">
+    <net code="69" name="unconnected-(X403-RX2--PadA10)" class="Default">
       <node ref="X403" pin="A10" pinfunction="RX2-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(X403-SBU1-PadA8)" class="Default">
+    <net code="70" name="unconnected-(X403-SBU1-PadA8)" class="Default">
       <node ref="X403" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(X403-SBU2-PadB8)" class="Default">
+    <net code="71" name="unconnected-(X403-SBU2-PadB8)" class="Default">
       <node ref="X403" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(X403-TX1+-PadA2)" class="Default">
+    <net code="72" name="unconnected-(X403-TX1+-PadA2)" class="Default">
       <node ref="X403" pin="A2" pinfunction="TX1+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(X403-TX1--PadA3)" class="Default">
+    <net code="73" name="unconnected-(X403-TX1--PadA3)" class="Default">
       <node ref="X403" pin="A3" pinfunction="TX1-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(X403-TX2+-PadB2)" class="Default">
+    <net code="74" name="unconnected-(X403-TX2+-PadB2)" class="Default">
       <node ref="X403" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(X403-TX2--PadB3)" class="Default">
+    <net code="75" name="unconnected-(X403-TX2--PadB3)" class="Default">
       <node ref="X403" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(X404-CC1-PadA5)" class="Default">
+      <node ref="X404" pin="A5" pinfunction="CC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(X404-CC2-PadB5)" class="Default">
+      <node ref="X404" pin="B5" pinfunction="CC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(X404-D+-PadB6)" class="Default">
+      <node ref="X404" pin="B6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(X404-D--PadB7)" class="Default">
+      <node ref="X404" pin="B7" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(X404-RX1+-PadB11)" class="Default">
+      <node ref="X404" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(X404-RX1--PadB10)" class="Default">
+      <node ref="X404" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(X404-SBU2-PadB8)" class="Default">
+      <node ref="X404" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(X404-TX2+-PadB2)" class="Default">
+      <node ref="X404" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(X404-TX2--PadB3)" class="Default">
+      <node ref="X404" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
