@@ -1,34 +1,36 @@
 # ZSWatch-Dock
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
+[![PCB](https://github.com/ZSWatch/Dock-HW/actions/workflows/dock.yaml/badge.svg)](https://github.com/ZSWatch/Dock-HW/actions/workflows/watch.yaml)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://zswatch-dock-hw.github.io/)
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [ZSWatch-Dock](#zswatch-dock)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [📖 About](#-about)
-  - [📂 Directory Breakdown](#-directory-breakdown)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Directory Breakdown](#directory-breakdown)
   - [Purchasing](#purchasing)
-  - [👨‍💻 Maintainer](#-maintainer)
+  - [Maintainer](#maintainer)
 
-## 📖 About
+## About
 
 The **ZSWatch-Dock** project provides the hardware design and production files for a docking station tailored to the ZSWatch ecosystem.  
 It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
 
 Key features:
 
-- 🛠️ Open-source hardware design
-- 📦 Automated generation of Gerber, BoM, and documentation via KiBot
-- 🔄 Workflow stages (DRAFT → PRELIMINARY → CHECKED → RELEASED) for structured releases
-- 📝 Clear documentation and changelog to track progress
-- 🌍 Designed with collaboration and transparency in mind
+- Open-source hardware design
+- Automated generation of Gerber, BoM, and documentation via KiBot
+- Workflow stages (DRAFT → PRELIMINARY → CHECKED → RELEASED) for structured releases
+- Clear documentation and changelog to track progress
+- Designed with collaboration and transparency in mind
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
 You can also view this project on [CADLAB.io](https://cadlab.io/project/29657). 
 
-## 📂 Directory Breakdown
+## Directory Breakdown
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
@@ -42,7 +44,7 @@ You can also view this project on [CADLAB.io](https://cadlab.io/project/29657).
 
 TBD
 
-## 👨‍💻 Maintainer
+## Maintainer
 
 - [Daniel Kampert](mailto:danielkameprt@kampis-elektroecke.de)
 - [Jakob Krantz](mailto:mail@jakobkrantz.se)
