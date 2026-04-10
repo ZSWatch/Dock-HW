@@ -19014,7 +19014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401610_c.pdf"
 			(at 184.15 54.61 0)
 			(effects
 				(font
