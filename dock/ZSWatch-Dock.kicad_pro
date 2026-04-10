@@ -467,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "warning",
       "wire_dangling": "error"
@@ -504,6 +505,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -521,6 +523,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -538,6 +541,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -555,6 +559,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -572,6 +577,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -589,6 +595,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.125,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.17,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -606,6 +613,7 @@
         "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -684,7 +692,7 @@
       "svg": "",
       "vrml": "../cad/ZSWatch.wrl"
     },
-    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/templates/KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -817,7 +825,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_GIT.kicad_wks",
+    "page_layout_descr_file": "${KIPRJMOD}/templates/KDT_Template_GIT.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -857,14 +865,14 @@
     "COMPANY": "ZSWatch",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "01b6f71",
+    "GIT_HASH_PCB": "75901a3",
     "GIT_HASH_SCH": "01b6f71",
     "GIT_URL": "https://github.com/ZSWatch/Dock-HW",
     "PROJECT_NAME": "ZSWatch Dock",
     "RELEASE_BODY_2.2.0": "___________________________________\n\nFixed\n\n-   Fix inverted Charge-Switch (#51)\n\n-   Flip Rx and Tx lines for USB UART (#48)\n\n-   Fix wrong reset button (#45)\n\n-   Fix wrong pin header for SWD (#44)\n\n___________________________________\n\nAdded\n\n-   Add new KiCad template (#42)\n\n-   Add 22R series resistors for SWD lines (#52)\n\n-   Add 0R resistors (NA) to bridge the level shifter (#54)\n\n___________________________________\n\nChanged\n\n-   Replace USB connector with edge mounted female USB (#61)\n\n-   Replace level shifter with TXB0102 (#59)\n\n-   Change silkscreen to white (#60)\n\n-   Replace the USB LED with a darker one (#58)\n\n-   Replace ESD diodes with USBLC6-2P6 (#50)",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "18-Sep-2025",
-    "RELEASE_DATE_NUM": "2025-09-18",
+    "RELEASE_DATE": "23-Feb-2026",
+    "RELEASE_DATE_NUM": "2026-02-23",
     "RELEASE_TITLE_2.2.0": "Version 2.2.0 - 2025-09-18",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "",
@@ -908,6 +916,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "RELEASED"
+    "VARIANT": "PRELIMINARY"
   }
 }

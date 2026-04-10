@@ -32,7 +32,7 @@ env:
   # PRELIMINARY: Will generate both schematic and PCB documents, but no ERC/DRC
   # CHECKED: Will generate both schematic and PCB documents, with ERC/DRC
   # RELEASED: Similar to CHECKED, automatically selected when pushing a tag to main
-  kibot_variant: CHECKED
+  kibot_variant: PRELIMINARY
 
   # Master branch (main or master). Can be changed for testing
   master_branch: main
@@ -70,13 +70,13 @@ jobs:
       - name: Download updated CHANGELOG
         uses: actions/download-artifact@v4
         with:
-          name: CHANGELOG
+          name: CHANGELOG.md
           path: .
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}
+          name: ${{ env.kibot_variant }}.zip
           path: .
 
       - name: ZIP artifact
@@ -156,6 +156,11 @@ jobs:
           path: ~/cache_3d
           key: cache_3d
 
+      - name: Replace .wrl with .step in PCB file
+        shell: bash
+        run: |
+          sed -i 's/\.wrl/.step/g' ${{ env.kibot_input_dir }}/${{ env.kicad_board }}.kicad_pcb
+
       - name: Determine VERSION argument and override variant if tag
         shell: bash
         run: |
@@ -225,22 +230,8 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
         with:
-          name: Log-${{ env.kibot_variant }}
+          name: Log-${{ env.kibot_variant }}.zip
           path: log
-
-      - name: Upload artifacts (results)
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.kibot_variant }}
-          path: production
-          if-no-files-found: ignore
-
-      - name: Upload updated CHANGELOG
-        if: ${{ github.ref_type == 'tag' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: CHANGELOG
-          path: ${{ env.kibot_input_dir }}/CHANGELOG.md
 
       - name: Clean up
         shell: bash
@@ -251,6 +242,20 @@ jobs:
           find . -type f -iname \*.kicad_pro-bak -delete
           rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
           rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
+
+      - name: Upload artifacts (results)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.kibot_variant }}.zip
+          path: production
+          if-no-files-found: ignore
+
+      - name: Upload updated CHANGELOG
+        if: ${{ github.ref_type == 'tag' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: CHANGELOG.md
+          path: ${{ env.kibot_input_dir }}/CHANGELOG.md
 
       - name: Pull latest changes
         shell: bash
@@ -286,4 +291,39 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ github.ref_name }}
-          commit_message: Push outputs from CI/CD (${{ env.DATE }})
+          commit_message: Push outputs from CI/CD ($(date +'%Y-%m-%d'))
+
+  deploy:
+    needs: generate_outputs
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    if: github.ref_type == 'tag'
+    steps:
+      - name: Determine variant
+        shell: bash
+        run: |
+          if [[ "${{ github.ref_type }}" == "tag" ]]; then
+            echo "kibot_variant=RELEASED" >> "${GITHUB_ENV}"
+          else
+            echo "kibot_variant=${{ env.kibot_variant }}" >> "${GITHUB_ENV}"
+          fi
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.kibot_variant }}.zip
+          path: production
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: production/${{ env.kibot_output_dir }}-${{ env.kibot_variant }}
+          overwrite: true
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
