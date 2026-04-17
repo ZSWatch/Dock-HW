@@ -1,3 +1,7 @@
+> [!IMPORTANT]  
+> This is a prototype right now, not fully tested. Do not order.
+> Please use https://github.com/ZSWatch/Watch-DevKit-HW until this PCB is finalized.
+
 View this project on [CADLAB.io](https://cadlab.io/project/29657). 
 
 # ZSWatch-Dock
