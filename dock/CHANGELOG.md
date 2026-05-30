@@ -2,20 +2,20 @@
 
 ## [Unreleased]
 
-### Fixed
+**Fixed:**
 
 -	Fix inverted Charge-Switch (#51)
 -	Fix wrong reset button (#45)
 -	Fix wrong pin header for SWD (#44)
 -	Fix swapped UART and SWD pins for USB (#48)
 
-### Added
+**Added:**
 
 -	Add new KiCad template (#42)
 -	Add 22R series resistors for SWD lines (#52)
 -	Add 0R resistors (NA) to bridge the level shifter (#54)
 
-### Changed
+**Changed:**
 
 -	Replace USB connector with edge mounted female USB (#61)
 -	Replace level shifter with TXB0102 (#59)
@@ -25,26 +25,26 @@
 -	Change ZSWatch USB to a single sided and more stable one (#69)
 -	Move Voltage REF connector a little (#72)
 
-## Removed
+**Removed:**
 
 -	Remove box around the version number (#73)
 
 ## [2.2.0] - 2025-09-18
 
-### Fixed
+**Fixed:**
 
 -   Fix inverted Charge-Switch (#51)
 -   Flip Rx and Tx lines for USB UART (#48)
 -   Fix wrong reset button (#45)
 -   Fix wrong pin header for SWD (#44)
 
-### Added
+**Added:**
 
 -   Add new KiCad template (#42)
 -   Add 22R series resistors for SWD lines (#52)
 -   Add 0R resistors (NA) to bridge the level shifter (#54)
 
-### Changed
+**Changed:**
 
 -   Replace USB connector with edge mounted female USB (#61)
 -   Replace level shifter with TXB0102 (#59)

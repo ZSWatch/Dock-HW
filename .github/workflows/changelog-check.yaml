@@ -10,10 +10,9 @@ on:
       - main
       - master
       - dev
-
 env:
   # Input directory with the KiCad project and the KiBot files
-  kibot_input_dir: extension
+  kibot_input_dir: watch
 
 jobs:
   validate-changelog:
