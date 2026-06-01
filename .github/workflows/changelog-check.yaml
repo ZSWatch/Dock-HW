@@ -12,7 +12,7 @@ on:
       - dev
 env:
   # Input directory with the KiCad project and the KiBot files
-  kibot_input_dir: watch
+  kibot_input_dir: dock
 
 jobs:
   validate-changelog:
